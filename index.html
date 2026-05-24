@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="bus" data-mode="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>BusBabu | Kolkata Local Bus Routes</title>
+  <meta name="description" content="Find local bus routes, direct buses, and multi-change journeys across Kolkata.">
+  <meta name="theme-color" content="#1f6f4a">
+  <link rel="icon" type="image/svg+xml" href="/img/busbabu.svg">
+  <link rel="apple-touch-icon" href="/img/busbabu.png">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- We load leaflet from CDN to keep the bundle small, and Vite handles the rest -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+</head>
+<body>
+  <div id="splash-screen" class="splash-screen">
+    <div class="splash-content">
+      <img src="/img/busbabu.svg" alt="BusBabu" class="splash-logo">
+      <div class="loader"></div>
+    </div>
+  </div>
+
+  <div class="app-container">
+    <header class="app-header">
+      <div class="header-content">
+        <div class="branding">
+          <img src="/img/busbabu.svg" alt="BusBabu Logo" class="logo">
+          <div>
+            <div class="kicker">FRAGMENTED DATA, MADE NAVIGABLE</div>
+            <h1>BusBabu</h1>
+            <p class="tagline">Kolkata Routes, Simplified</p>
+          </div>
+        </div>
+        <p class="header-desc">
+          Pick where you are and where you're going. It finds direct buses, one-change routes, and two-change routes across the private & government network &mdash; then draws the journey on the map.
+        </p>
+      </div>
+      
+      <div class="header-meta">
+        <div class="meta-row"><span class="meta-lbl">DATASET</span> <span id="meta-routes">--</span> ROUTES</div>
+        <div class="meta-row"><span class="meta-lbl"></span> <span id="meta-stops">--</span> STOPS</div>
+        <div class="meta-row"><span class="meta-lbl">SRC</span> <a href="https://www.kolbusopedia.com/" target="_blank" rel="noopener noreferrer" class="meta-link">KOLBUSOPEDIA</a></div>
+        
+        <div class="settings">
+          <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme">
+            <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="theme-icon"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <section class="search-section card glass">
+        <div class="input-group">
+          <label for="from-input">Start Journey From</label>
+          <div class="input-wrapper">
+            <input type="text" id="from-input" placeholder="e.g. Howrah Station" autocomplete="off">
+            <button id="locate-me" class="locate-btn" title="Use Current Location">
+              <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg>
+            </button>
+            <div id="from-autocomplete" class="autocomplete-dropdown hidden"></div>
+          </div>
+        </div>
+
+        <button id="swap-btn" class="swap-btn" aria-label="Swap Locations">
+          <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 3 21 3 21 8"></polyline><line x1="4" y1="14" x2="21" y2="3"></line><polyline points="8 21 3 21 3 16"></polyline><line x1="20" y1="10" x2="3" y2="21"></line></svg>
+        </button>
+
+        <div class="input-group">
+          <label for="to-input">Where To?</label>
+          <div class="input-wrapper">
+            <input type="text" id="to-input" placeholder="e.g. Gariahat" autocomplete="off">
+            <div id="to-autocomplete" class="autocomplete-dropdown hidden"></div>
+          </div>
+        </div>
+
+        <button id="search-btn" class="primary-btn">Find Routes</button>
+      </section>
+
+      <section class="results-layout">
+        <div class="results-panel">
+          <div class="panel-header">
+            <h2>Available Journeys</h2>
+            <div id="route-stats" class="badge hidden"></div>
+          </div>
+          <div id="results-container">
+            <div class="empty-state">
+              <div class="empty-icon">🚌</div>
+              <h3>Where are you heading?</h3>
+              <p>Enter your start and destination to find the best routes.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-panel">
+          <div id="map-container"></div>
+          <div id="map-note" class="map-note">Tap on a route to view its path on the map</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p>&copy; 2026 BusBabu. All rights reserved.</p>
+      <p>Developed with ❤️ by <a href="https://github.com/helplessThor" target="_blank" rel="noopener noreferrer" class="footer-link">Kuntal Paul (@helplessThor)</a>.</p>
+    </footer>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
