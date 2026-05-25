@@ -36,6 +36,15 @@ async function init() {
   document.getElementById('meta-routes').textContent = router.routes.length;
   document.getElementById('meta-stops').textContent = router.stops.length;
   
+  // Fetch visitor count
+  fetch('https://api.counterapi.dev/v1/busbabu/visits/up')
+    .then(res => res.json())
+    .then(data => {
+      const countEl = document.getElementById('visitor-count');
+      if (countEl && data.count) countEl.textContent = data.count.toLocaleString();
+    })
+    .catch(err => console.error('Failed to load visitor count:', err));
+  
   // Randomly select theme: Bus or Taxi
   const randomTheme = Math.random() > 0.5 ? 'bus' : 'taxi';
   setTheme(randomTheme);
