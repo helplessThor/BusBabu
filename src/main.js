@@ -136,8 +136,13 @@ function setupAutocomplete(input, box) {
   
   function render(q) {
     q = q.toLowerCase().trim();
-    items = q ? router.stopNames.filter(s => s.toLowerCase().includes(q)).slice(0, 20)
-              : router.stopNames.slice(0, 20);
+    if (q) {
+      const starts = router.stopNames.filter(s => s.toLowerCase().startsWith(q));
+      const includes = router.stopNames.filter(s => !s.toLowerCase().startsWith(q) && s.toLowerCase().includes(q));
+      items = [...starts, ...includes].slice(0, 20);
+    } else {
+      items = router.stopNames.slice(0, 20);
+    }
               
     if (!items.length) { close(); return; }
     

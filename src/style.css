@@ -529,6 +529,11 @@ html[data-theme="taxi"][data-mode="light"] .primary-btn {
 .ac-name {
   font-weight: 600;
   color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  margin-right: 12px;
 }
 
 .ac-meta {
