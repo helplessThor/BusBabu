@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:data": "python data/build.py",
     "preview": "vite preview"
   },
   "devDependencies": {
