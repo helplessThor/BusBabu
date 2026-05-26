@@ -55,6 +55,12 @@ export class BusRouter {
     return this.routes[r].stops.indexOf(s);
   }
 
+  routePriority(r) {
+    if (this.routes[r].kind === 'metro') return -2;
+    if (this.routes[r].kind === 'auto') return -1;
+    return 0;
+  }
+
   seg(r, a, b) {
     const i = this.idx(r, a);
     const j = this.idx(r, b);
@@ -102,9 +108,9 @@ export class BusRouter {
     // direct
     start.filter(r => end.has(r))
          .sort((a, b) => {
-           const aMetro = this.routes[a].kind === 'metro' ? -1 : 0;
-           const bMetro = this.routes[b].kind === 'metro' ? -1 : 0;
-           if (aMetro !== bMetro) return aMetro - bMetro;
+           const pA = this.routePriority(a);
+           const pB = this.routePriority(b);
+           if (pA !== pB) return pA - pB;
            return Math.abs(this.idx(a, o) - this.idx(a, d)) - Math.abs(this.idx(b, o) - this.idx(b, d));
          })
          .forEach(r => res.direct.push({
@@ -127,9 +133,9 @@ export class BusRouter {
     });
     
     c1.sort((a, b) => {
-      const aMetro = (this.routes[a.r1].kind === 'metro' ? -1 : 0) + (this.routes[a.r2].kind === 'metro' ? -1 : 0);
-      const bMetro = (this.routes[b.r1].kind === 'metro' ? -1 : 0) + (this.routes[b.r2].kind === 'metro' ? -1 : 0);
-      if (aMetro !== bMetro) return aMetro - bMetro;
+      const pA = this.routePriority(a.r1) + this.routePriority(a.r2);
+      const pB = this.routePriority(b.r1) + this.routePriority(b.r2);
+      if (pA !== pB) return pA - pB;
       return a.cost - b.cost;
     }).slice(0, 10).forEach(x => {
       res.one.push({ 
@@ -168,9 +174,9 @@ export class BusRouter {
       });
       
       c2.sort((a, b) => {
-        const aMetro = (this.routes[a.r1].kind === 'metro' ? -1 : 0) + (this.routes[a.r2].kind === 'metro' ? -1 : 0) + (this.routes[a.r3].kind === 'metro' ? -1 : 0);
-        const bMetro = (this.routes[b.r1].kind === 'metro' ? -1 : 0) + (this.routes[b.r2].kind === 'metro' ? -1 : 0) + (this.routes[b.r3].kind === 'metro' ? -1 : 0);
-        if (aMetro !== bMetro) return aMetro - bMetro;
+        const pA = this.routePriority(a.r1) + this.routePriority(a.r2) + this.routePriority(a.r3);
+        const pB = this.routePriority(b.r1) + this.routePriority(b.r2) + this.routePriority(b.r3);
+        if (pA !== pB) return pA - pB;
         return a.cost - b.cost;
       }).slice(0, 6).forEach(x => {
         res.two.push({ 
