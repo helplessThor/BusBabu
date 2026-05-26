@@ -127,8 +127,8 @@ export class BusRouter {
     });
     
     c1.sort((a, b) => {
-      const aMetro = (this.routes[a.r1].kind === 'metro' || this.routes[a.r2].kind === 'metro') ? -1 : 0;
-      const bMetro = (this.routes[b.r1].kind === 'metro' || this.routes[b.r2].kind === 'metro') ? -1 : 0;
+      const aMetro = (this.routes[a.r1].kind === 'metro' ? -1 : 0) + (this.routes[a.r2].kind === 'metro' ? -1 : 0);
+      const bMetro = (this.routes[b.r1].kind === 'metro' ? -1 : 0) + (this.routes[b.r2].kind === 'metro' ? -1 : 0);
       if (aMetro !== bMetro) return aMetro - bMetro;
       return a.cost - b.cost;
     }).slice(0, 10).forEach(x => {
@@ -168,8 +168,8 @@ export class BusRouter {
       });
       
       c2.sort((a, b) => {
-        const aMetro = (this.routes[a.r1].kind === 'metro' || this.routes[a.r2].kind === 'metro' || this.routes[a.r3].kind === 'metro') ? -1 : 0;
-        const bMetro = (this.routes[b.r1].kind === 'metro' || this.routes[b.r2].kind === 'metro' || this.routes[b.r3].kind === 'metro') ? -1 : 0;
+        const aMetro = (this.routes[a.r1].kind === 'metro' ? -1 : 0) + (this.routes[a.r2].kind === 'metro' ? -1 : 0) + (this.routes[a.r3].kind === 'metro' ? -1 : 0);
+        const bMetro = (this.routes[b.r1].kind === 'metro' ? -1 : 0) + (this.routes[b.r2].kind === 'metro' ? -1 : 0) + (this.routes[b.r3].kind === 'metro' ? -1 : 0);
         if (aMetro !== bMetro) return aMetro - bMetro;
         return a.cost - b.cost;
       }).slice(0, 6).forEach(x => {
