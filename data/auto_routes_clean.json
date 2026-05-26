@@ -1,0 +1,6149 @@
+[
+  {
+    "code": "Auto: Howrah Maidan - Salkia Chowrasta",
+    "origin": "Howrah Maidan",
+    "dest": "Salkia Chowrasta",
+    "vias": [
+      "G.T Road",
+      "Down Arabinda Road",
+      "Bandhaghat",
+      "Salkia School",
+      "Road",
+      "Howrah Road",
+      "appc",
+      "Bankim Setu",
+      "Howrah Court",
+      "M.G Road Howrah Station to Salkia Chowrasta via Moulana Abul Kalam Azad Road",
+      "Ghasbagan Tram Depot",
+      "GT Road",
+      "Down-Arabinda Road",
+      "Bandhaghat",
+      "Salkia School Road",
+      "Howrah Road",
+      "Howrah Station Howrah Station to Donbosco Via Up-Moulana Abul Kalam Azad Road",
+      "Ghas Bagan Tram Depot",
+      "Pilkhana",
+      "GT Road (N)",
+      "Donbosco School Road",
+      "Down-Girish Ghosh Road",
+      "J N Mukherjee Road",
+      "Salkia School Road",
+      "Howah Rd",
+      "Howrah Station"
+    ],
+    "stops": [
+      "Howrah Maidan",
+      "G.T Road",
+      "Down Arabinda Road",
+      "Bandhaghat",
+      "Salkia School",
+      "Road",
+      "Howrah Road",
+      "appc",
+      "Bankim Setu",
+      "Howrah Court",
+      "M.G Road Howrah Station to Salkia Chowrasta via Moulana Abul Kalam Azad Road",
+      "Ghasbagan Tram Depot",
+      "GT Road",
+      "Down-Arabinda Road",
+      "Bandhaghat",
+      "Salkia School Road",
+      "Howrah Road",
+      "Howrah Station Howrah Station to Donbosco Via Up-Moulana Abul Kalam Azad Road",
+      "Ghas Bagan Tram Depot",
+      "Pilkhana",
+      "GT Road (N)",
+      "Donbosco School Road",
+      "Down-Girish Ghosh Road",
+      "J N Mukherjee Road",
+      "Salkia School Road",
+      "Howah Rd",
+      "Howrah Station",
+      "Salkia Chowrasta"
+    ]
+  },
+  {
+    "code": "Auto: Belgachia - Salkia Chowras ta",
+    "origin": "Belgachia",
+    "dest": "Salkia Chowras ta",
+    "vias": [
+      "Up-Beneras Road",
+      "Down-Beneras Rd"
+    ],
+    "stops": [
+      "Belgachia",
+      "Up-Beneras Road",
+      "Down-Beneras Rd",
+      "Salkia Chowras ta"
+    ]
+  },
+  {
+    "code": "Auto: Bamangahchi - Bandhaghat",
+    "origin": "Bamangahchi",
+    "dest": "Bandhaghat",
+    "vias": [
+      "Up Arabinda Rd",
+      "Beneras Road",
+      "Jhil Rd",
+      "\"B\"Rd",
+      "\"C\"Rd",
+      "Jhil Rd",
+      "Beneras Rd",
+      "Arabinda Rd"
+    ],
+    "stops": [
+      "Bamangahchi",
+      "Up Arabinda Rd",
+      "Beneras Road",
+      "Jhil Rd",
+      "\"B\"Rd",
+      "\"C\"Rd",
+      "Jhil Rd",
+      "Beneras Rd",
+      "Arabinda Rd",
+      "Bandhaghat"
+    ]
+  },
+  {
+    "code": "Auto: Belgachia - Kadamtala",
+    "origin": "Belgachia",
+    "dest": "Kadamtala",
+    "vias": [
+      "Up-Natabar Pal Rd",
+      "Makardah Rd",
+      "Down-Makardah Rd",
+      "Natabar Pal Rd"
+    ],
+    "stops": [
+      "Belgachia",
+      "Up-Natabar Pal Rd",
+      "Makardah Rd",
+      "Down-Makardah Rd",
+      "Natabar Pal Rd",
+      "Kadamtala"
+    ]
+  },
+  {
+    "code": "Auto: Parijat Cinema - Bally Khal",
+    "origin": "Parijat Cinema",
+    "dest": "Bally Khal",
+    "vias": [
+      "Up-GT Rd (N) Down-G T Rd (N)",
+      "Belur Bazar",
+      "Lala Babu Saha Rd",
+      "Girish Ghosh Rd",
+      "J N Mukherjee Rd",
+      "Arabinda Rd",
+      "Chowrasta"
+    ],
+    "stops": [
+      "Parijat Cinema",
+      "Up-GT Rd (N) Down-G T Rd (N)",
+      "Belur Bazar",
+      "Lala Babu Saha Rd",
+      "Girish Ghosh Rd",
+      "J N Mukherjee Rd",
+      "Arabinda Rd",
+      "Chowrasta",
+      "Bally Khal"
+    ]
+  },
+  {
+    "code": "Auto: Howrah Station - Sibpur Tram Depot",
+    "origin": "Howrah Station",
+    "dest": "Sibpur Tram Depot",
+    "vias": [
+      "Up- Foreshore Rd",
+      "G C Roy Chowshury Rd (Gurucharan Rd) Down-GT Road (N)",
+      "Bankim Setu"
+    ],
+    "stops": [
+      "Howrah Station",
+      "Up- Foreshore Rd",
+      "G C Roy Chowshury Rd (Gurucharan Rd) Down-GT Road (N)",
+      "Bankim Setu",
+      "Sibpur Tram Depot"
+    ]
+  },
+  {
+    "code": "Auto: Belur Station - Nischinda/Chandmari Up- Chandm ari Rd, Down-Chandmari Rd Bhattanagar Daspara,",
+    "origin": "Belur Station",
+    "dest": "Nischinda/Chandmari Up- Chandm ari Rd, Down-Chandmari Rd Bhattanagar Daspara,",
+    "vias": [],
+    "stops": [
+      "Belur Station",
+      "Nischinda/Chandmari Up- Chandm ari Rd, Down-Chandmari Rd Bhattanagar Daspara,"
+    ]
+  },
+  {
+    "code": "Auto: Chalkpara - Liluah Station",
+    "origin": "Chalkpara",
+    "dest": "Liluah Station",
+    "vias": [
+      "Rabindra Sarani",
+      "Mirpara to Bhattanagar"
+    ],
+    "stops": [
+      "Chalkpara",
+      "Rabindra Sarani",
+      "Mirpara to Bhattanagar",
+      "Liluah Station"
+    ]
+  },
+  {
+    "code": "Auto: Bakultala Bus Stand - Santragachi Station",
+    "origin": "Bakultala Bus Stand",
+    "dest": "Santragachi Station",
+    "vias": [
+      "Dakshin Baksara"
+    ],
+    "stops": [
+      "Bakultala Bus Stand",
+      "Dakshin Baksara",
+      "Santragachi Station"
+    ]
+  },
+  {
+    "code": "Auto: Shibpur Ferry Ghat - lchapur Khudiram Statue",
+    "origin": "Shibpur Ferry Ghat",
+    "dest": "lchapur Khudiram Statue",
+    "vias": [
+      "Kazipara",
+      "Mandirtala",
+      "Chatterjeehat",
+      "Benepole"
+    ],
+    "stops": [
+      "Shibpur Ferry Ghat",
+      "Kazipara",
+      "Mandirtala",
+      "Chatterjeehat",
+      "Benepole",
+      "lchapur Khudiram Statue"
+    ]
+  },
+  {
+    "code": "Auto: Nazirganz Ferry Ghat - Tikiapara Bus stand",
+    "origin": "Nazirganz Ferry Ghat",
+    "dest": "Tikiapara Bus stand",
+    "vias": [
+      "Andul Rd",
+      "Carry Rd",
+      "Sarat Chaterjee Rd",
+      "Drainage Canal Rd"
+    ],
+    "stops": [
+      "Nazirganz Ferry Ghat",
+      "Andul Rd",
+      "Carry Rd",
+      "Sarat Chaterjee Rd",
+      "Drainage Canal Rd",
+      "Tikiapara Bus stand"
+    ]
+  },
+  {
+    "code": "Auto: Liluah Station - Ghusuri HIT Park",
+    "origin": "Liluah Station",
+    "dest": "Ghusuri HIT Park",
+    "vias": [
+      "Don Bosco",
+      "Ghusuri Rd"
+    ],
+    "stops": [
+      "Liluah Station",
+      "Don Bosco",
+      "Ghusuri Rd",
+      "Ghusuri HIT Park"
+    ]
+  },
+  {
+    "code": "Auto: Mouri Mill gate - Ramrajatala Station",
+    "origin": "Mouri Mill gate",
+    "dest": "Ramrajatala Station",
+    "vias": [
+      "Paila",
+      "Unsani",
+      "Garpa",
+      "Jagacha Ramatala"
+    ],
+    "stops": [
+      "Mouri Mill gate",
+      "Paila",
+      "Unsani",
+      "Garpa",
+      "Jagacha Ramatala",
+      "Ramrajatala Station"
+    ]
+  },
+  {
+    "code": "Auto: Ramtala Station - Baltikuri",
+    "origin": "Ramtala Station",
+    "dest": "Baltikuri",
+    "vias": [
+      "Jagacha",
+      "Dharsa"
+    ],
+    "stops": [
+      "Ramtala Station",
+      "Jagacha",
+      "Dharsa",
+      "Baltikuri"
+    ]
+  },
+  {
+    "code": "Auto: Santraga chi Railway Colony - Benepole",
+    "origin": "Santraga chi Railway Colony",
+    "dest": "Benepole",
+    "vias": [
+      "H.E.I gate",
+      "Santragachi Station Buxarah"
+    ],
+    "stops": [
+      "Santraga chi Railway Colony",
+      "H.E.I gate",
+      "Santragachi Station Buxarah",
+      "Benepole"
+    ]
+  },
+  {
+    "code": "Auto: Liluah Station (East) - Belur Launch Ghat",
+    "origin": "Liluah Station (East)",
+    "dest": "Belur Launch Ghat",
+    "vias": [],
+    "stops": [
+      "Liluah Station (East)",
+      "Belur Launch Ghat"
+    ]
+  },
+  {
+    "code": "Auto: Dhakuria Bridge - Kasba",
+    "origin": "Dhakuria Bridge",
+    "dest": "Kasba",
+    "vias": [],
+    "stops": [
+      "Dhakuria Bridge",
+      "Kasba"
+    ]
+  },
+  {
+    "code": "Auto: Ruby - Baghaiatin",
+    "origin": "Ruby",
+    "dest": "Baghaiatin",
+    "vias": [],
+    "stops": [
+      "Ruby",
+      "Baghaiatin"
+    ]
+  },
+  {
+    "code": "Auto: Rubv - Kavasthapara",
+    "origin": "Rubv",
+    "dest": "Kavasthapara",
+    "vias": [],
+    "stops": [
+      "Rubv",
+      "Kavasthapara"
+    ]
+  },
+  {
+    "code": "Auto: Ranikuthi - Baghajatin",
+    "origin": "Ranikuthi",
+    "dest": "Baghajatin",
+    "vias": [],
+    "stops": [
+      "Ranikuthi",
+      "Baghajatin"
+    ]
+  },
+  {
+    "code": "Auto: Ranikuthi - Jadavour",
+    "origin": "Ranikuthi",
+    "dest": "Jadavour",
+    "vias": [],
+    "stops": [
+      "Ranikuthi",
+      "Jadavour"
+    ]
+  },
+  {
+    "code": "Auto: 14 No Bus Stand - Chanditala /Charaktala",
+    "origin": "14 No Bus Stand",
+    "dest": "Chanditala /Charaktala",
+    "vias": [],
+    "stops": [
+      "14 No Bus Stand",
+      "Chanditala /Charaktala"
+    ]
+  },
+  {
+    "code": "Auto: Joyshree Park - Behala",
+    "origin": "Joyshree Park",
+    "dest": "Behala",
+    "vias": [],
+    "stops": [
+      "Joyshree Park",
+      "Behala"
+    ]
+  },
+  {
+    "code": "Auto: Jovshree Park - Manton",
+    "origin": "Jovshree Park",
+    "dest": "Manton",
+    "vias": [],
+    "stops": [
+      "Jovshree Park",
+      "Manton"
+    ]
+  },
+  {
+    "code": "Auto: New Alipore - Chanditala Jheelpar",
+    "origin": "New Alipore",
+    "dest": "Chanditala Jheelpar",
+    "vias": [],
+    "stops": [
+      "New Alipore",
+      "Chanditala Jheelpar"
+    ]
+  },
+  {
+    "code": "Auto: 12/ 1, Mahabirtala - Karunamoyee",
+    "origin": "12/ 1, Mahabirtala",
+    "dest": "Karunamoyee",
+    "vias": [],
+    "stops": [
+      "12/ 1, Mahabirtala",
+      "Karunamoyee"
+    ]
+  },
+  {
+    "code": "Auto: Behala Chowrasta, Muchioara - Tollygunge",
+    "origin": "Behala Chowrasta, Muchioara",
+    "dest": "Tollygunge",
+    "vias": [],
+    "stops": [
+      "Behala Chowrasta, Muchioara",
+      "Tollygunge"
+    ]
+  },
+  {
+    "code": "Auto: Behala Tram Deoot - Sarsuna",
+    "origin": "Behala Tram Deoot",
+    "dest": "Sarsuna",
+    "vias": [],
+    "stops": [
+      "Behala Tram Deoot",
+      "Sarsuna"
+    ]
+  },
+  {
+    "code": "Auto: Panchanantala - Parnashree Park",
+    "origin": "Panchanantala",
+    "dest": "Parnashree Park",
+    "vias": [],
+    "stops": [
+      "Panchanantala",
+      "Parnashree Park"
+    ]
+  },
+  {
+    "code": "Auto: Jadavour P.S - Ruby",
+    "origin": "Jadavour P.S",
+    "dest": "Ruby",
+    "vias": [],
+    "stops": [
+      "Jadavour P.S",
+      "Ruby"
+    ]
+  },
+  {
+    "code": "Auto: Ramlal Bazar - Jadavpur Station",
+    "origin": "Ramlal Bazar",
+    "dest": "Jadavpur Station",
+    "vias": [],
+    "stops": [
+      "Ramlal Bazar",
+      "Jadavpur Station"
+    ]
+  },
+  {
+    "code": "Auto: Thakurpukur Bazar - Kalagachia",
+    "origin": "Thakurpukur Bazar",
+    "dest": "Kalagachia",
+    "vias": [],
+    "stops": [
+      "Thakurpukur Bazar",
+      "Kalagachia"
+    ]
+  },
+  {
+    "code": "Auto: Kabardanga - Tollygunge Tram Depot",
+    "origin": "Kabardanga",
+    "dest": "Tollygunge Tram Depot",
+    "vias": [],
+    "stops": [
+      "Kabardanga",
+      "Tollygunge Tram Depot"
+    ]
+  },
+  {
+    "code": "Auto: Behala Chowras ta - Tollygunge Tram Deoot",
+    "origin": "Behala Chowras ta",
+    "dest": "Tollygunge Tram Deoot",
+    "vias": [],
+    "stops": [
+      "Behala Chowras ta",
+      "Tollygunge Tram Deoot"
+    ]
+  },
+  {
+    "code": "Auto: Thakurpukur Bazar - Anandanagar",
+    "origin": "Thakurpukur Bazar",
+    "dest": "Anandanagar",
+    "vias": [],
+    "stops": [
+      "Thakurpukur Bazar",
+      "Anandanagar"
+    ]
+  },
+  {
+    "code": "Auto: Sakherbazar - Sikhar Sangha",
+    "origin": "Sakherbazar",
+    "dest": "Sikhar Sangha",
+    "vias": [],
+    "stops": [
+      "Sakherbazar",
+      "Sikhar Sangha"
+    ]
+  },
+  {
+    "code": "Auto: Sakherbazar - Tollygunge Tram Depot",
+    "origin": "Sakherbazar",
+    "dest": "Tollygunge Tram Depot",
+    "vias": [],
+    "stops": [
+      "Sakherbazar",
+      "Tollygunge Tram Depot"
+    ]
+  },
+  {
+    "code": "Auto: Kabardanda - Nepalgunge",
+    "origin": "Kabardanda",
+    "dest": "Nepalgunge",
+    "vias": [],
+    "stops": [
+      "Kabardanda",
+      "Nepalgunge"
+    ]
+  },
+  {
+    "code": "Auto: 3A Bus Stand - Taratala",
+    "origin": "3A Bus Stand",
+    "dest": "Taratala",
+    "vias": [],
+    "stops": [
+      "3A Bus Stand",
+      "Taratala"
+    ]
+  },
+  {
+    "code": "Auto: Thakurpukur 3A Bus stand - Kabardanga",
+    "origin": "Thakurpukur 3A Bus stand",
+    "dest": "Kabardanga",
+    "vias": [],
+    "stops": [
+      "Thakurpukur 3A Bus stand",
+      "Kabardanga"
+    ]
+  },
+  {
+    "code": "Auto: Silpara - Chandraoalli",
+    "origin": "Silpara",
+    "dest": "Chandraoalli",
+    "vias": [],
+    "stops": [
+      "Silpara",
+      "Chandraoalli"
+    ]
+  },
+  {
+    "code": "Auto: Joka - Taratala",
+    "origin": "Joka",
+    "dest": "Taratala",
+    "vias": [],
+    "stops": [
+      "Joka",
+      "Taratala"
+    ]
+  },
+  {
+    "code": "Auto: Behala Chowrasta - Sarsuna",
+    "origin": "Behala Chowrasta",
+    "dest": "Sarsuna",
+    "vias": [],
+    "stops": [
+      "Behala Chowrasta",
+      "Sarsuna"
+    ]
+  },
+  {
+    "code": "Auto: Behala Chowrasta - Devi Nagar (BaP-notal",
+    "origin": "Behala Chowrasta",
+    "dest": "Devi Nagar (BaP-notal",
+    "vias": [],
+    "stops": [
+      "Behala Chowrasta",
+      "Devi Nagar (BaP-notal"
+    ]
+  },
+  {
+    "code": "Auto: Tollygunge Tram Depot - Garia",
+    "origin": "Tollygunge Tram Depot",
+    "dest": "Garia",
+    "vias": [],
+    "stops": [
+      "Tollygunge Tram Depot",
+      "Garia"
+    ]
+  },
+  {
+    "code": "Auto: Garia - Hazra",
+    "origin": "Garia",
+    "dest": "Hazra",
+    "vias": [],
+    "stops": [
+      "Garia",
+      "Hazra"
+    ]
+  },
+  {
+    "code": "Auto: Bansdroni Chakdaha - Oachtala",
+    "origin": "Bansdroni Chakdaha",
+    "dest": "Oachtala",
+    "vias": [
+      "Jayasree"
+    ],
+    "stops": [
+      "Bansdroni Chakdaha",
+      "Jayasree",
+      "Oachtala"
+    ]
+  },
+  {
+    "code": "Auto: Bansdroni Lock Gate - Rania",
+    "origin": "Bansdroni Lock Gate",
+    "dest": "Rania",
+    "vias": [
+      "Natun Bazar"
+    ],
+    "stops": [
+      "Bansdroni Lock Gate",
+      "Natun Bazar",
+      "Rania"
+    ]
+  },
+  {
+    "code": "Auto: Bansdroni - Deshbandhu Park",
+    "origin": "Bansdroni",
+    "dest": "Deshbandhu Park",
+    "vias": [
+      "Vidyasagar Park",
+      "Saradamani Park"
+    ],
+    "stops": [
+      "Bansdroni",
+      "Vidyasagar Park",
+      "Saradamani Park",
+      "Deshbandhu Park"
+    ]
+  },
+  {
+    "code": "Auto: Bansdroni - Rania Sitala Park",
+    "origin": "Bansdroni",
+    "dest": "Rania Sitala Park",
+    "vias": [
+      "Vivekananda Park Behala P.S to Parnashree/ Behala P.S to"
+    ],
+    "stops": [
+      "Bansdroni",
+      "Vivekananda Park Behala P.S to Parnashree/ Behala P.S to",
+      "Rania Sitala Park"
+    ]
+  },
+  {
+    "code": "Auto: Rabindranagar / Behala Parnashre e - Zinzira Bazar",
+    "origin": "Rabindranagar / Behala Parnashre e",
+    "dest": "Zinzira Bazar",
+    "vias": [],
+    "stops": [
+      "Rabindranagar / Behala Parnashre e",
+      "Zinzira Bazar"
+    ]
+  },
+  {
+    "code": "Auto: Behala Tram Depot - Chak Kendua/ Joy Jala/ Sen Pally",
+    "origin": "Behala Tram Depot",
+    "dest": "Chak Kendua/ Joy Jala/ Sen Pally",
+    "vias": [],
+    "stops": [
+      "Behala Tram Depot",
+      "Chak Kendua/ Joy Jala/ Sen Pally"
+    ]
+  },
+  {
+    "code": "Auto: Chandra Pally - Siloara",
+    "origin": "Chandra Pally",
+    "dest": "Siloara",
+    "vias": [],
+    "stops": [
+      "Chandra Pally",
+      "Siloara"
+    ]
+  },
+  {
+    "code": "Auto: Chowrasta - Dakghar",
+    "origin": "Chowrasta",
+    "dest": "Dakghar",
+    "vias": [],
+    "stops": [
+      "Chowrasta",
+      "Dakghar"
+    ]
+  },
+  {
+    "code": "Auto: Diamond park - Taratala",
+    "origin": "Diamond park",
+    "dest": "Taratala",
+    "vias": [],
+    "stops": [
+      "Diamond park",
+      "Taratala"
+    ]
+  },
+  {
+    "code": "Auto: Gachtala - Gitanagar",
+    "origin": "Gachtala",
+    "dest": "Gitanagar",
+    "vias": [
+      "Sonali Park"
+    ],
+    "stops": [
+      "Gachtala",
+      "Sonali Park",
+      "Gitanagar"
+    ]
+  },
+  {
+    "code": "Auto: Garia - Neoalgunge",
+    "origin": "Garia",
+    "dest": "Neoalgunge",
+    "vias": [
+      "Natunhat"
+    ],
+    "stops": [
+      "Garia",
+      "Natunhat",
+      "Neoalgunge"
+    ]
+  },
+  {
+    "code": "Auto: Gitanagara - Gachtala",
+    "origin": "Gitanagara",
+    "dest": "Gachtala",
+    "vias": [
+      "Dinesh Nagar"
+    ],
+    "stops": [
+      "Gitanagara",
+      "Dinesh Nagar",
+      "Gachtala"
+    ]
+  },
+  {
+    "code": "Auto: Jadavpur P.S - Gooalnae:ar",
+    "origin": "Jadavpur P.S",
+    "dest": "Gooalnae:ar",
+    "vias": [],
+    "stops": [
+      "Jadavpur P.S",
+      "Gooalnae:ar"
+    ]
+  },
+  {
+    "code": "Auto: Jadavpur P.S - Mukundapur",
+    "origin": "Jadavpur P.S",
+    "dest": "Mukundapur",
+    "vias": [],
+    "stops": [
+      "Jadavpur P.S",
+      "Mukundapur"
+    ]
+  },
+  {
+    "code": "Auto: Jadavpur Tsn - Garia Station",
+    "origin": "Jadavpur Tsn",
+    "dest": "Garia Station",
+    "vias": [],
+    "stops": [
+      "Jadavpur Tsn",
+      "Garia Station"
+    ]
+  },
+  {
+    "code": "Auto: Jadavpur - Garia",
+    "origin": "Jadavpur",
+    "dest": "Garia",
+    "vias": [],
+    "stops": [
+      "Jadavpur",
+      "Garia"
+    ]
+  },
+  {
+    "code": "Auto: Jadavpur - Tolly Metro",
+    "origin": "Jadavpur",
+    "dest": "Tolly Metro",
+    "vias": [],
+    "stops": [
+      "Jadavpur",
+      "Tolly Metro"
+    ]
+  },
+  {
+    "code": "Auto: Jadavpur P.S - Radha Housing",
+    "origin": "Jadavpur P.S",
+    "dest": "Radha Housing",
+    "vias": [],
+    "stops": [
+      "Jadavpur P.S",
+      "Radha Housing"
+    ]
+  },
+  {
+    "code": "Auto: Kalibazar - Garia",
+    "origin": "Kalibazar",
+    "dest": "Garia",
+    "vias": [
+      "Milansangha"
+    ],
+    "stops": [
+      "Kalibazar",
+      "Milansangha",
+      "Garia"
+    ]
+  },
+  {
+    "code": "Auto: Khidderpore - Metiabruz Mollagate to Taratala",
+    "origin": "Khidderpore",
+    "dest": "Metiabruz Mollagate to Taratala",
+    "vias": [],
+    "stops": [
+      "Khidderpore",
+      "Metiabruz Mollagate to Taratala"
+    ]
+  },
+  {
+    "code": "Auto: Rajabagan - Metiabruz",
+    "origin": "Rajabagan",
+    "dest": "Metiabruz",
+    "vias": [],
+    "stops": [
+      "Rajabagan",
+      "Metiabruz"
+    ]
+  },
+  {
+    "code": "Auto: Purba Anandapally - Gachhatala",
+    "origin": "Purba Anandapally",
+    "dest": "Gachhatala",
+    "vias": [
+      "Kudghat"
+    ],
+    "stops": [
+      "Purba Anandapally",
+      "Kudghat",
+      "Gachhatala"
+    ]
+  },
+  {
+    "code": "Auto: Ramnagar - Akrafatak",
+    "origin": "Ramnagar",
+    "dest": "Akrafatak",
+    "vias": [],
+    "stops": [
+      "Ramnagar",
+      "Akrafatak"
+    ]
+  },
+  {
+    "code": "Auto: River Side - Sailo Sree",
+    "origin": "River Side",
+    "dest": "Sailo Sree",
+    "vias": [],
+    "stops": [
+      "River Side",
+      "Sailo Sree"
+    ]
+  },
+  {
+    "code": "Auto: Ruby General Hospital - Garia Station",
+    "origin": "Ruby General Hospital",
+    "dest": "Garia Station",
+    "vias": [
+      "Patuli"
+    ],
+    "stops": [
+      "Ruby General Hospital",
+      "Patuli",
+      "Garia Station"
+    ]
+  },
+  {
+    "code": "Auto: Rubv - Chowbag a",
+    "origin": "Rubv",
+    "dest": "Chowbag a",
+    "vias": [],
+    "stops": [
+      "Rubv",
+      "Chowbag a"
+    ]
+  },
+  {
+    "code": "Auto: Sarsuna College - Behala T.D",
+    "origin": "Sarsuna College",
+    "dest": "Behala T.D",
+    "vias": [],
+    "stops": [
+      "Sarsuna College",
+      "Behala T.D"
+    ]
+  },
+  {
+    "code": "Auto: Sarsuna - Taratala",
+    "origin": "Sarsuna",
+    "dest": "Taratala",
+    "vias": [],
+    "stops": [
+      "Sarsuna",
+      "Taratala"
+    ]
+  },
+  {
+    "code": "Auto: Taratala - Santoshpur, Ramnagar",
+    "origin": "Taratala",
+    "dest": "Santoshpur, Ramnagar",
+    "vias": [],
+    "stops": [
+      "Taratala",
+      "Santoshpur, Ramnagar"
+    ]
+  },
+  {
+    "code": "Auto: Thakurpukur - Taratala",
+    "origin": "Thakurpukur",
+    "dest": "Taratala",
+    "vias": [],
+    "stops": [
+      "Thakurpukur",
+      "Taratala"
+    ]
+  },
+  {
+    "code": "Auto: Jadavour - Navabad",
+    "origin": "Jadavour",
+    "dest": "Navabad",
+    "vias": [],
+    "stops": [
+      "Jadavour",
+      "Navabad"
+    ]
+  },
+  {
+    "code": "Auto: Joka Khalpole - Taratala so",
+    "origin": "Joka Khalpole",
+    "dest": "Taratala so",
+    "vias": [],
+    "stops": [
+      "Joka Khalpole",
+      "Taratala so"
+    ]
+  },
+  {
+    "code": "Auto: Ramnagar - Badartala",
+    "origin": "Ramnagar",
+    "dest": "Badartala",
+    "vias": [],
+    "stops": [
+      "Ramnagar",
+      "Badartala"
+    ]
+  },
+  {
+    "code": "Auto: Bele:achia Metro - Ultadanga",
+    "origin": "Bele:achia Metro",
+    "dest": "Ultadanga",
+    "vias": [],
+    "stops": [
+      "Bele:achia Metro",
+      "Ultadanga"
+    ]
+  },
+  {
+    "code": "Auto: Baguiati - Ultadanga",
+    "origin": "Baguiati",
+    "dest": "Ultadanga",
+    "vias": [],
+    "stops": [
+      "Baguiati",
+      "Ultadanga"
+    ]
+  },
+  {
+    "code": "Auto: Shanti Nagar - Chhav Nabhi",
+    "origin": "Shanti Nagar",
+    "dest": "Chhav Nabhi",
+    "vias": [],
+    "stops": [
+      "Shanti Nagar",
+      "Chhav Nabhi"
+    ]
+  },
+  {
+    "code": "Auto: Beliaghata Bypass - Bikash Bhawan",
+    "origin": "Beliaghata Bypass",
+    "dest": "Bikash Bhawan",
+    "vias": [],
+    "stops": [
+      "Beliaghata Bypass",
+      "Bikash Bhawan"
+    ]
+  },
+  {
+    "code": "Auto: Rajarhat - Baguiati",
+    "origin": "Rajarhat",
+    "dest": "Baguiati",
+    "vias": [],
+    "stops": [
+      "Rajarhat",
+      "Baguiati"
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga Station - Salt Lake (Karunamovee)",
+    "origin": "Ultadanga Station",
+    "dest": "Salt Lake (Karunamovee)",
+    "vias": [],
+    "stops": [
+      "Ultadanga Station",
+      "Salt Lake (Karunamovee)"
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga - Salt Lake (near Bank of Baroda)",
+    "origin": "Ultadanga",
+    "dest": "Salt Lake (near Bank of Baroda)",
+    "vias": [],
+    "stops": [
+      "Ultadanga",
+      "Salt Lake (near Bank of Baroda)"
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga Station - Salt Lake Tank No.",
+    "origin": "Ultadanga Station",
+    "dest": "Salt Lake Tank No.",
+    "vias": [],
+    "stops": [
+      "Ultadanga Station",
+      "Salt Lake Tank No."
+    ]
+  },
+  {
+    "code": "Auto: Phool Bagan - Salt Lake Tank No.",
+    "origin": "Phool Bagan",
+    "dest": "Salt Lake Tank No.",
+    "vias": [],
+    "stops": [
+      "Phool Bagan",
+      "Salt Lake Tank No."
+    ]
+  },
+  {
+    "code": "Auto: Phool Bagan - Salt Lake Tank No. New Town Eco Park (Gate No. l) to Jagatpur via",
+    "origin": "Phool Bagan",
+    "dest": "Salt Lake Tank No. New Town Eco Park (Gate No. l) to Jagatpur via",
+    "vias": [],
+    "stops": [
+      "Phool Bagan",
+      "Salt Lake Tank No. New Town Eco Park (Gate No. l) to Jagatpur via"
+    ]
+  },
+  {
+    "code": "Auto: Gouranga Nagar Newtown - Krishnapur VJP 82",
+    "origin": "Gouranga Nagar Newtown",
+    "dest": "Krishnapur VJP 82",
+    "vias": [
+      "Jagatour"
+    ],
+    "stops": [
+      "Gouranga Nagar Newtown",
+      "Jagatour",
+      "Krishnapur VJP 82"
+    ]
+  },
+  {
+    "code": "Auto: Chinar Park - Rajarhat",
+    "origin": "Chinar Park",
+    "dest": "Rajarhat",
+    "vias": [
+      "Raigachi 70"
+    ],
+    "stops": [
+      "Chinar Park",
+      "Raigachi 70",
+      "Rajarhat"
+    ]
+  },
+  {
+    "code": "Auto: Bangur Avenue, VIP - Phool Bagan",
+    "origin": "Bangur Avenue, VIP",
+    "dest": "Phool Bagan",
+    "vias": [
+      "Lake 118 Town",
+      "Ultadanga",
+      "Kankurgachi"
+    ],
+    "stops": [
+      "Bangur Avenue, VIP",
+      "Lake 118 Town",
+      "Ultadanga",
+      "Kankurgachi",
+      "Phool Bagan"
+    ]
+  },
+  {
+    "code": "Auto: Narkelbagan - City Center-II",
+    "origin": "Narkelbagan",
+    "dest": "City Center-II",
+    "vias": [
+      "Eco Park Gate No. 2",
+      "Nawabour"
+    ],
+    "stops": [
+      "Narkelbagan",
+      "Eco Park Gate No. 2",
+      "Nawabour",
+      "City Center-II"
+    ]
+  },
+  {
+    "code": "Auto: Hudco - Sector V",
+    "origin": "Hudco",
+    "dest": "Sector V",
+    "vias": [
+      "Baisakhi",
+      "Island No. 8",
+      "Karunamovce"
+    ],
+    "stops": [
+      "Hudco",
+      "Baisakhi",
+      "Island No. 8",
+      "Karunamovce",
+      "Sector V"
+    ]
+  },
+  {
+    "code": "Auto: Ulladanga Station lo Salt Lake Sector V via Karunamovee Pride Hotel - Art Gallery",
+    "origin": "Ulladanga Station lo Salt Lake Sector V via Karunamovee Pride Hotel",
+    "dest": "Art Gallery",
+    "vias": [
+      "Narkelbagan"
+    ],
+    "stops": [
+      "Ulladanga Station lo Salt Lake Sector V via Karunamovee Pride Hotel",
+      "Narkelbagan",
+      "Art Gallery"
+    ]
+  },
+  {
+    "code": "Auto: Newtown P.S, Hazra Kali Mandir, Tata Medical 170 Hospital, Karigar Bhawan (Sikharpur Junior High School) Vedic Village - Hazra Tala Mandir",
+    "origin": "Newtown P.S, Hazra Kali Mandir, Tata Medical 170 Hospital, Karigar Bhawan (Sikharpur Junior High School) Vedic Village",
+    "dest": "Hazra Tala Mandir",
+    "vias": [
+      "Chandimata Bagu"
+    ],
+    "stops": [
+      "Newtown P.S, Hazra Kali Mandir, Tata Medical 170 Hospital, Karigar Bhawan (Sikharpur Junior High School) Vedic Village",
+      "Chandimata Bagu",
+      "Hazra Tala Mandir"
+    ]
+  },
+  {
+    "code": "Auto: Raiarhat - Highland.",
+    "origin": "Raiarhat",
+    "dest": "Highland.",
+    "vias": [],
+    "stops": [
+      "Raiarhat",
+      "Highland."
+    ]
+  },
+  {
+    "code": "Auto: Karigari Bhavan - Saourji Pallonii More",
+    "origin": "Karigari Bhavan",
+    "dest": "Saourji Pallonii More",
+    "vias": [],
+    "stops": [
+      "Karigari Bhavan",
+      "Saourji Pallonii More"
+    ]
+  },
+  {
+    "code": "Auto: Raiarhat - Kaikhali",
+    "origin": "Raiarhat",
+    "dest": "Kaikhali",
+    "vias": [],
+    "stops": [
+      "Raiarhat",
+      "Kaikhali"
+    ]
+  },
+  {
+    "code": "Auto: New Town - Jagatpur",
+    "origin": "New Town",
+    "dest": "Jagatpur",
+    "vias": [],
+    "stops": [
+      "New Town",
+      "Jagatpur"
+    ]
+  },
+  {
+    "code": "Auto: Sai Babar Mandir - Karunamoyee",
+    "origin": "Sai Babar Mandir",
+    "dest": "Karunamoyee",
+    "vias": [
+      "Bikash Shaban."
+    ],
+    "stops": [
+      "Sai Babar Mandir",
+      "Bikash Shaban.",
+      "Karunamoyee"
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga Station - Salt Lake Tank No.4",
+    "origin": "Ultadanga Station",
+    "dest": "Salt Lake Tank No.4",
+    "vias": [],
+    "stops": [
+      "Ultadanga Station",
+      "Salt Lake Tank No.4"
+    ]
+  },
+  {
+    "code": "Auto: Lake Town - Ultadanga",
+    "origin": "Lake Town",
+    "dest": "Ultadanga",
+    "vias": [],
+    "stops": [
+      "Lake Town",
+      "Ultadanga"
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga Station - Airport Gate No. 1",
+    "origin": "Ultadanga Station",
+    "dest": "Airport Gate No. 1",
+    "vias": [],
+    "stops": [
+      "Ultadanga Station",
+      "Airport Gate No. 1"
+    ]
+  },
+  {
+    "code": "Auto: Karunamovee - DLF Building",
+    "origin": "Karunamovee",
+    "dest": "DLF Building",
+    "vias": [],
+    "stops": [
+      "Karunamovee",
+      "DLF Building"
+    ]
+  },
+  {
+    "code": "Auto: Karunamovee - SDF Building",
+    "origin": "Karunamovee",
+    "dest": "SDF Building",
+    "vias": [],
+    "stops": [
+      "Karunamovee",
+      "SDF Building"
+    ]
+  },
+  {
+    "code": "Auto: Chingrighata - SDF Building",
+    "origin": "Chingrighata",
+    "dest": "SDF Building",
+    "vias": [
+      "Nicco Park."
+    ],
+    "stops": [
+      "Chingrighata",
+      "Nicco Park.",
+      "SDF Building"
+    ]
+  },
+  {
+    "code": "Auto: Axis-Mall - Agartala.",
+    "origin": "Axis-Mall",
+    "dest": "Agartala.",
+    "vias": [],
+    "stops": [
+      "Axis-Mall",
+      "Agartala."
+    ]
+  },
+  {
+    "code": "Auto: Karunamo vee - Chitpur Station.",
+    "origin": "Karunamo vee",
+    "dest": "Chitpur Station.",
+    "vias": [],
+    "stops": [
+      "Karunamo vee",
+      "Chitpur Station."
+    ]
+  },
+  {
+    "code": "Auto: Atghara - DLF-2. 182",
+    "origin": "Atghara",
+    "dest": "DLF-2. 182",
+    "vias": [],
+    "stops": [
+      "Atghara",
+      "DLF-2. 182"
+    ]
+  },
+  {
+    "code": "Auto: Haldiram - Citv Centre-II.",
+    "origin": "Haldiram",
+    "dest": "Citv Centre-II.",
+    "vias": [],
+    "stops": [
+      "Haldiram",
+      "Citv Centre-II."
+    ]
+  },
+  {
+    "code": "Auto: Eco Park Gate No. - Raiarhat.",
+    "origin": "Eco Park Gate No.",
+    "dest": "Raiarhat.",
+    "vias": [],
+    "stops": [
+      "Eco Park Gate No.",
+      "Raiarhat."
+    ]
+  },
+  {
+    "code": "Auto: Airport Gate No. - Baguihati.",
+    "origin": "Airport Gate No.",
+    "dest": "Baguihati.",
+    "vias": [],
+    "stops": [
+      "Airport Gate No.",
+      "Baguihati."
+    ]
+  },
+  {
+    "code": "Auto: Kestoour - Mahisbathan",
+    "origin": "Kestoour",
+    "dest": "Mahisbathan",
+    "vias": [],
+    "stops": [
+      "Kestoour",
+      "Mahisbathan"
+    ]
+  },
+  {
+    "code": "Auto: Sathgachi - Baguihati",
+    "origin": "Sathgachi",
+    "dest": "Baguihati",
+    "vias": [],
+    "stops": [
+      "Sathgachi",
+      "Baguihati"
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga - Salt Lake Sector V",
+    "origin": "Ultadanga",
+    "dest": "Salt Lake Sector V",
+    "vias": [
+      "Chingrihata"
+    ],
+    "stops": [
+      "Ultadanga",
+      "Chingrihata",
+      "Salt Lake Sector V"
+    ]
+  },
+  {
+    "code": "Auto: Kalabaria - Alia University",
+    "origin": "Kalabaria",
+    "dest": "Alia University",
+    "vias": [],
+    "stops": [
+      "Kalabaria",
+      "Alia University"
+    ]
+  },
+  {
+    "code": "Auto: New Town Bus Stand - Greenfield",
+    "origin": "New Town Bus Stand",
+    "dest": "Greenfield",
+    "vias": [],
+    "stops": [
+      "New Town Bus Stand",
+      "Greenfield"
+    ]
+  },
+  {
+    "code": "Auto: New Town - Karunamoyee.",
+    "origin": "New Town",
+    "dest": "Karunamoyee.",
+    "vias": [],
+    "stops": [
+      "New Town",
+      "Karunamoyee."
+    ]
+  },
+  {
+    "code": "Auto: Jagatour - Najrul Park",
+    "origin": "Jagatour",
+    "dest": "Najrul Park",
+    "vias": [],
+    "stops": [
+      "Jagatour",
+      "Najrul Park"
+    ]
+  },
+  {
+    "code": "Auto: Shantima v Nagar - Kestopur",
+    "origin": "Shantima v Nagar",
+    "dest": "Kestopur",
+    "vias": [],
+    "stops": [
+      "Shantima v Nagar",
+      "Kestopur"
+    ]
+  },
+  {
+    "code": "Auto: Jagatour - Jatragachi",
+    "origin": "Jagatour",
+    "dest": "Jatragachi",
+    "vias": [],
+    "stops": [
+      "Jagatour",
+      "Jatragachi"
+    ]
+  },
+  {
+    "code": "Auto: BaP-11ihati - Jagatpur.",
+    "origin": "BaP-11ihati",
+    "dest": "Jagatpur.",
+    "vias": [],
+    "stops": [
+      "BaP-11ihati",
+      "Jagatpur."
+    ]
+  },
+  {
+    "code": "Auto: AirPort Gate No. - Raiarhat.",
+    "origin": "AirPort Gate No.",
+    "dest": "Raiarhat.",
+    "vias": [],
+    "stops": [
+      "AirPort Gate No.",
+      "Raiarhat."
+    ]
+  },
+  {
+    "code": "Auto: Baguiati - Jatragachi. 170",
+    "origin": "Baguiati",
+    "dest": "Jatragachi. 170",
+    "vias": [],
+    "stops": [
+      "Baguiati",
+      "Jatragachi. 170"
+    ]
+  },
+  {
+    "code": "Auto: Hatgacha - Bidhannag ar Station.",
+    "origin": "Hatgacha",
+    "dest": "Bidhannag ar Station.",
+    "vias": [],
+    "stops": [
+      "Hatgacha",
+      "Bidhannag ar Station."
+    ]
+  },
+  {
+    "code": "Auto: Krishnaour - VIP Thakdari 71",
+    "origin": "Krishnaour",
+    "dest": "VIP Thakdari 71",
+    "vias": [],
+    "stops": [
+      "Krishnaour",
+      "VIP Thakdari 71"
+    ]
+  },
+  {
+    "code": "Auto: Baguiati - Hatiara.",
+    "origin": "Baguiati",
+    "dest": "Hatiara.",
+    "vias": [],
+    "stops": [
+      "Baguiati",
+      "Hatiara."
+    ]
+  },
+  {
+    "code": "Auto: Jal Tank No. - Ultadanga Station.",
+    "origin": "Jal Tank No.",
+    "dest": "Ultadanga Station.",
+    "vias": [],
+    "stops": [
+      "Jal Tank No.",
+      "Ultadanga Station."
+    ]
+  },
+  {
+    "code": "Auto: HUDCO - Salt lake.",
+    "origin": "HUDCO",
+    "dest": "Salt lake.",
+    "vias": [],
+    "stops": [
+      "HUDCO",
+      "Salt lake."
+    ]
+  },
+  {
+    "code": "Auto: New Town - Eco Space",
+    "origin": "New Town",
+    "dest": "Eco Space",
+    "vias": [
+      "Narkel Bagan",
+      "Unitech",
+      "DLF Gate-II Sapurii Paloonii"
+    ],
+    "stops": [
+      "New Town",
+      "Narkel Bagan",
+      "Unitech",
+      "DLF Gate-II Sapurii Paloonii",
+      "Eco Space"
+    ]
+  },
+  {
+    "code": "Auto: New Town - Hazra Kali Mandir",
+    "origin": "New Town",
+    "dest": "Hazra Kali Mandir",
+    "vias": [
+      "Narkcl Bagan",
+      "Unitech."
+    ],
+    "stops": [
+      "New Town",
+      "Narkcl Bagan",
+      "Unitech.",
+      "Hazra Kali Mandir"
+    ]
+  },
+  {
+    "code": "Auto: Kankurgachi More - Karunama yee",
+    "origin": "Kankurgachi More",
+    "dest": "Karunama yee",
+    "vias": [
+      "Bengal Chemical."
+    ],
+    "stops": [
+      "Kankurgachi More",
+      "Bengal Chemical.",
+      "Karunama yee"
+    ]
+  },
+  {
+    "code": "Auto: Karunamovee - Sector V, College More",
+    "origin": "Karunamovee",
+    "dest": "Sector V, College More",
+    "vias": [],
+    "stops": [
+      "Karunamovee",
+      "Sector V, College More"
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga - Karunamoyee",
+    "origin": "Ultadanga",
+    "dest": "Karunamoyee",
+    "vias": [
+      "BD Block",
+      "No. Bus Stand."
+    ],
+    "stops": [
+      "Ultadanga",
+      "BD Block",
+      "No. Bus Stand.",
+      "Karunamoyee"
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga - City Center-I (Bhikharam).",
+    "origin": "Ultadanga",
+    "dest": "City Center-I (Bhikharam).",
+    "vias": [],
+    "stops": [
+      "Ultadanga",
+      "City Center-I (Bhikharam)."
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga - City Center-I (Bata Morel.",
+    "origin": "Ultadanga",
+    "dest": "City Center-I (Bata Morel.",
+    "vias": [],
+    "stops": [
+      "Ultadanga",
+      "City Center-I (Bata Morel."
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga - City Center-I (CA Island).",
+    "origin": "Ultadanga",
+    "dest": "City Center-I (CA Island).",
+    "vias": [],
+    "stops": [
+      "Ultadanga",
+      "City Center-I (CA Island)."
+    ]
+  },
+  {
+    "code": "Auto: Ultadang a - Karunamov ee",
+    "origin": "Ultadang a",
+    "dest": "Karunamov ee",
+    "vias": [
+      "CA Island."
+    ],
+    "stops": [
+      "Ultadang a",
+      "CA Island.",
+      "Karunamov ee"
+    ]
+  },
+  {
+    "code": "Auto: Ultadnga - J K Saha Bridge.",
+    "origin": "Ultadnga",
+    "dest": "J K Saha Bridge.",
+    "vias": [],
+    "stops": [
+      "Ultadnga",
+      "J K Saha Bridge."
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga - Karunamoyee Housing Gate No. 1",
+    "origin": "Ultadanga",
+    "dest": "Karunamoyee Housing Gate No. 1",
+    "vias": [],
+    "stops": [
+      "Ultadanga",
+      "Karunamoyee Housing Gate No. 1"
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga - Bikas Shaban Tank No.",
+    "origin": "Ultadanga",
+    "dest": "Bikas Shaban Tank No.",
+    "vias": [],
+    "stops": [
+      "Ultadanga",
+      "Bikas Shaban Tank No."
+    ]
+  },
+  {
+    "code": "Auto: Ultadang a - CGO Complex",
+    "origin": "Ultadang a",
+    "dest": "CGO Complex",
+    "vias": [],
+    "stops": [
+      "Ultadang a",
+      "CGO Complex"
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga - SDF Building",
+    "origin": "Ultadanga",
+    "dest": "SDF Building",
+    "vias": [
+      "No. Bus Stand."
+    ],
+    "stops": [
+      "Ultadanga",
+      "No. Bus Stand.",
+      "SDF Building"
+    ]
+  },
+  {
+    "code": "Auto: Baishakhi Foot Bridge - Karunmnoyee.",
+    "origin": "Baishakhi Foot Bridge",
+    "dest": "Karunmnoyee.",
+    "vias": [],
+    "stops": [
+      "Baishakhi Foot Bridge",
+      "Karunmnoyee."
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga - Tank No.",
+    "origin": "Ultadanga",
+    "dest": "Tank No.",
+    "vias": [],
+    "stops": [
+      "Ultadanga",
+      "Tank No."
+    ]
+  },
+  {
+    "code": "Auto: Baishakhi - Sector V",
+    "origin": "Baishakhi",
+    "dest": "Sector V",
+    "vias": [
+      "Karunamoyee"
+    ],
+    "stops": [
+      "Baishakhi",
+      "Karunamoyee",
+      "Sector V"
+    ]
+  },
+  {
+    "code": "Auto: Lake Town Fool Bridge (Salt Lake Side) - Sector V.",
+    "origin": "Lake Town Fool Bridge (Salt Lake Side)",
+    "dest": "Sector V.",
+    "vias": [],
+    "stops": [
+      "Lake Town Fool Bridge (Salt Lake Side)",
+      "Sector V."
+    ]
+  },
+  {
+    "code": "Auto: Airport Gate No. 2 - Madhyamgram",
+    "origin": "Airport Gate No. 2",
+    "dest": "Madhyamgram",
+    "vias": [],
+    "stops": [
+      "Airport Gate No. 2",
+      "Madhyamgram"
+    ]
+  },
+  {
+    "code": "Auto: Baiar Para - Birati Railway Station",
+    "origin": "Baiar Para",
+    "dest": "Birati Railway Station",
+    "vias": [],
+    "stops": [
+      "Baiar Para",
+      "Birati Railway Station"
+    ]
+  },
+  {
+    "code": "Auto: Michael Nagar - Bishore Para.",
+    "origin": "Michael Nagar",
+    "dest": "Bishore Para.",
+    "vias": [],
+    "stops": [
+      "Michael Nagar",
+      "Bishore Para."
+    ]
+  },
+  {
+    "code": "Auto: Birati More - Birati Station",
+    "origin": "Birati More",
+    "dest": "Birati Station",
+    "vias": [],
+    "stops": [
+      "Birati More",
+      "Birati Station"
+    ]
+  },
+  {
+    "code": "Auto: Ahiritola Launch Ghat - Beadon Street, A.P.C. Road Crossing",
+    "origin": "Ahiritola Launch Ghat",
+    "dest": "Beadon Street, A.P.C. Road Crossing",
+    "vias": [
+      "Beadon Street."
+    ],
+    "stops": [
+      "Ahiritola Launch Ghat",
+      "Beadon Street.",
+      "Beadon Street, A.P.C. Road Crossing"
+    ]
+  },
+  {
+    "code": "Auto: Ahiritola Launch Ghat - Ultadanga Station",
+    "origin": "Ahiritola Launch Ghat",
+    "dest": "Ultadanga Station",
+    "vias": [
+      "Ahiritola Street",
+      "B.K.. Pal Avenue",
+      "Aurobindo Setu."
+    ],
+    "stops": [
+      "Ahiritola Launch Ghat",
+      "Ahiritola Street",
+      "B.K.. Pal Avenue",
+      "Aurobindo Setu.",
+      "Ultadanga Station"
+    ]
+  },
+  {
+    "code": "Auto: Ahiritola - Maniktala (Bidhan Sarani A.P.C. Road Crossing).",
+    "origin": "Ahiritola",
+    "dest": "Maniktala (Bidhan Sarani A.P.C. Road Crossing).",
+    "vias": [],
+    "stops": [
+      "Ahiritola",
+      "Maniktala (Bidhan Sarani A.P.C. Road Crossing)."
+    ]
+  },
+  {
+    "code": "Auto: Alipore Judge Court - Ballygunge Station",
+    "origin": "Alipore Judge Court",
+    "dest": "Ballygunge Station",
+    "vias": [
+      "Gopal Nagar",
+      "Kalighat Bridge",
+      "Hazra S.P. Mukherjee Road",
+      "R. B. Avenue Gariahat."
+    ],
+    "stops": [
+      "Alipore Judge Court",
+      "Gopal Nagar",
+      "Kalighat Bridge",
+      "Hazra S.P. Mukherjee Road",
+      "R. B. Avenue Gariahat.",
+      "Ballygunge Station"
+    ]
+  },
+  {
+    "code": "Auto: Akra Fatak - Santoshpur",
+    "origin": "Akra Fatak",
+    "dest": "Santoshpur",
+    "vias": [
+      "Santoshpur Road (Ghosh Para)."
+    ],
+    "stops": [
+      "Akra Fatak",
+      "Santoshpur Road (Ghosh Para).",
+      "Santoshpur"
+    ]
+  },
+  {
+    "code": "Auto: Bosepukur (Gariahat) - Behala",
+    "origin": "Bosepukur (Gariahat)",
+    "dest": "Behala",
+    "vias": [
+      "R.B.Ave",
+      "Chetla",
+      "New Alipore",
+      "Taratala"
+    ],
+    "stops": [
+      "Bosepukur (Gariahat)",
+      "R.B.Ave",
+      "Chetla",
+      "New Alipore",
+      "Taratala",
+      "Behala"
+    ]
+  },
+  {
+    "code": "Auto: Ballygunge Bus Stand - Alipore Judge Court",
+    "origin": "Ballygunge Bus Stand",
+    "dest": "Alipore Judge Court",
+    "vias": [
+      "R.B Ave",
+      "Chetla"
+    ],
+    "stops": [
+      "Ballygunge Bus Stand",
+      "R.B Ave",
+      "Chetla",
+      "Alipore Judge Court"
+    ]
+  },
+  {
+    "code": "Auto: Ballygunge Phari - Picnic Garden",
+    "origin": "Ballygunge Phari",
+    "dest": "Picnic Garden",
+    "vias": [
+      "Bonde) Bridge",
+      "Picnic Garden Road"
+    ],
+    "stops": [
+      "Ballygunge Phari",
+      "Bonde) Bridge",
+      "Picnic Garden Road",
+      "Picnic Garden"
+    ]
+  },
+  {
+    "code": "Auto: Ballygunge Phari - Hazra More",
+    "origin": "Ballygunge Phari",
+    "dest": "Hazra More",
+    "vias": [
+      "Hazra Road"
+    ],
+    "stops": [
+      "Ballygunge Phari",
+      "Hazra Road",
+      "Hazra More"
+    ]
+  },
+  {
+    "code": "Auto: Ballygunge Station - Hazra More",
+    "origin": "Ballygunge Station",
+    "dest": "Hazra More",
+    "vias": [
+      "R.B.Ave",
+      "Manohar Pukur Road B.R. Singh Hospital to Dhapa Math Pukur via"
+    ],
+    "stops": [
+      "Ballygunge Station",
+      "R.B.Ave",
+      "Manohar Pukur Road B.R. Singh Hospital to Dhapa Math Pukur via",
+      "Hazra More"
+    ]
+  },
+  {
+    "code": "Auto: B.R. Singh Hospital - Topsia More (Baisali)",
+    "origin": "B.R. Singh Hospital",
+    "dest": "Topsia More (Baisali)",
+    "vias": [
+      "Beliaghata Main Road"
+    ],
+    "stops": [
+      "B.R. Singh Hospital",
+      "Beliaghata Main Road",
+      "Topsia More (Baisali)"
+    ]
+  },
+  {
+    "code": "Auto: & Bus Stand - E.S.l. Hospital (Raja",
+    "origin": "& Bus Stand",
+    "dest": "E.S.l. Hospital (Raja",
+    "vias": [],
+    "stops": [
+      "& Bus Stand",
+      "E.S.l. Hospital (Raja"
+    ]
+  },
+  {
+    "code": "Auto: 8.K. Paul (M.G. Sarani) - M.G. Road",
+    "origin": "8.K. Paul (M.G. Sarani)",
+    "dest": "M.G. Road",
+    "vias": [
+      "Rabimlra Sarani (Crossing) B.R. Singh Hospital to Baman Ghata Bantala"
+    ],
+    "stops": [
+      "8.K. Paul (M.G. Sarani)",
+      "Rabimlra Sarani (Crossing) B.R. Singh Hospital to Baman Ghata Bantala",
+      "M.G. Road"
+    ]
+  },
+  {
+    "code": "Auto: Bagbazar Bata - Baghbazar Launch Ghat",
+    "origin": "Bagbazar Bata",
+    "dest": "Baghbazar Launch Ghat",
+    "vias": [
+      "Bagbazar Street. Bengal Chemical to Kaizar Street via Maniktala"
+    ],
+    "stops": [
+      "Bagbazar Bata",
+      "Bagbazar Street. Bengal Chemical to Kaizar Street via Maniktala",
+      "Baghbazar Launch Ghat"
+    ]
+  },
+  {
+    "code": "Auto: Main Road, Kankurgachi More, C.I.T. Road, 112 Phool 13agan More, Narkel Danga Main Road, Gas Street. Cossipur Bus Stand - Paikpara No. Bus",
+    "origin": "Main Road, Kankurgachi More, C.I.T. Road, 112 Phool 13agan More, Narkel Danga Main Road, Gas Street. Cossipur Bus Stand",
+    "dest": "Paikpara No. Bus",
+    "vias": [],
+    "stops": [
+      "Main Road, Kankurgachi More, C.I.T. Road, 112 Phool 13agan More, Narkel Danga Main Road, Gas Street. Cossipur Bus Stand",
+      "Paikpara No. Bus"
+    ]
+  },
+  {
+    "code": "Auto: Chetla - Gariahat (via Chetla Central Road), R.B. Avenue. 55",
+    "origin": "Chetla",
+    "dest": "Gariahat (via Chetla Central Road), R.B. Avenue. 55",
+    "vias": [],
+    "stops": [
+      "Chetla",
+      "Gariahat (via Chetla Central Road), R.B. Avenue. 55"
+    ]
+  },
+  {
+    "code": "Auto: Chiria More - Oum Oum G.S. Colony.",
+    "origin": "Chiria More",
+    "dest": "Oum Oum G.S. Colony.",
+    "vias": [],
+    "stops": [
+      "Chiria More",
+      "Oum Oum G.S. Colony."
+    ]
+  },
+  {
+    "code": "Auto: Chitrapuri Cinema - Metiabruz",
+    "origin": "Chitrapuri Cinema",
+    "dest": "Metiabruz",
+    "vias": [
+      "C.G.R. 25 Road."
+    ],
+    "stops": [
+      "Chitrapuri Cinema",
+      "C.G.R. 25 Road.",
+      "Metiabruz"
+    ]
+  },
+  {
+    "code": "Auto: Chiria More - Gun Shell Factorv",
+    "origin": "Chiria More",
+    "dest": "Gun Shell Factorv",
+    "vias": [],
+    "stops": [
+      "Chiria More",
+      "Gun Shell Factorv"
+    ]
+  },
+  {
+    "code": "Auto: Oum Oum Station - Chiria More. Oum Oum Station to Gun Shell Factory",
+    "origin": "Oum Oum Station",
+    "dest": "Chiria More. Oum Oum Station to Gun Shell Factory",
+    "vias": [],
+    "stops": [
+      "Oum Oum Station",
+      "Chiria More. Oum Oum Station to Gun Shell Factory"
+    ]
+  },
+  {
+    "code": "Auto: extended - Cossipur Ferry Ghat",
+    "origin": "extended",
+    "dest": "Cossipur Ferry Ghat",
+    "vias": [
+      "Oum Oum Road",
+      "K. C. Road."
+    ],
+    "stops": [
+      "extended",
+      "Oum Oum Road",
+      "K. C. Road.",
+      "Cossipur Ferry Ghat"
+    ]
+  },
+  {
+    "code": "Auto: Desopriya Park - Lake Gardens upto Lords Bakery",
+    "origin": "Desopriya Park",
+    "dest": "Lake Gardens upto Lords Bakery",
+    "vias": [
+      "Dhaka KaJibari Jatin Das Road. Gariahat to Ram Lal Bazar (Haltu) via R. B."
+    ],
+    "stops": [
+      "Desopriya Park",
+      "Dhaka KaJibari Jatin Das Road. Gariahat to Ram Lal Bazar (Haltu) via R. B.",
+      "Lake Gardens upto Lords Bakery"
+    ]
+  },
+  {
+    "code": "Auto: Gariahat - Kasha (Golpark)",
+    "origin": "Gariahat",
+    "dest": "Kasha (Golpark)",
+    "vias": [
+      "R. B. Avenue",
+      "Biian Setu",
+      "R. B. Connector",
+      "Goloark."
+    ],
+    "stops": [
+      "Gariahat",
+      "R. B. Avenue",
+      "Biian Setu",
+      "R. B. Connector",
+      "Goloark.",
+      "Kasha (Golpark)"
+    ]
+  },
+  {
+    "code": "Auto: Goloark - Garia",
+    "origin": "Goloark",
+    "dest": "Garia",
+    "vias": [
+      "S. C. Mallick Road. 550"
+    ],
+    "stops": [
+      "Goloark",
+      "S. C. Mallick Road. 550",
+      "Garia"
+    ]
+  },
+  {
+    "code": "Auto: Gariahat (Bata) - R.B. Avenue (Dena Bank) Turn at Chetla",
+    "origin": "Gariahat (Bata)",
+    "dest": "R.B. Avenue (Dena Bank) Turn at Chetla",
+    "vias": [
+      "R. B.Avenue",
+      "D. Park",
+      "Lake Market",
+      "Chetla upto New Alipur E-Block."
+    ],
+    "stops": [
+      "Gariahat (Bata)",
+      "R. B.Avenue",
+      "D. Park",
+      "Lake Market",
+      "Chetla upto New Alipur E-Block.",
+      "R.B. Avenue (Dena Bank) Turn at Chetla"
+    ]
+  },
+  {
+    "code": "Auto: Gol Park - Tollygunge P.S.",
+    "origin": "Gol Park",
+    "dest": "Tollygunge P.S.",
+    "vias": [
+      "Southern 35 Avenue."
+    ],
+    "stops": [
+      "Gol Park",
+      "Southern 35 Avenue.",
+      "Tollygunge P.S."
+    ]
+  },
+  {
+    "code": "Auto: Hazra - Behala",
+    "origin": "Hazra",
+    "dest": "Behala",
+    "vias": [
+      "Rashbeh ari",
+      "Chetla",
+      "Ali pore",
+      "Tara tala"
+    ],
+    "stops": [
+      "Hazra",
+      "Rashbeh ari",
+      "Chetla",
+      "Ali pore",
+      "Tara tala",
+      "Behala"
+    ]
+  },
+  {
+    "code": "Auto: Hudco - Salt Lake Tank No.",
+    "origin": "Hudco",
+    "dest": "Salt Lake Tank No.",
+    "vias": [
+      "P.N.B"
+    ],
+    "stops": [
+      "Hudco",
+      "P.N.B",
+      "Salt Lake Tank No."
+    ]
+  },
+  {
+    "code": "Auto: Hudco - Salt Lake (Karunamo yee) extended uoto SDF Building",
+    "origin": "Hudco",
+    "dest": "Salt Lake (Karunamo yee) extended uoto SDF Building",
+    "vias": [
+      "P.N.B Hazra (Andool Raj Road Crossing) to Bonde]"
+    ],
+    "stops": [
+      "Hudco",
+      "P.N.B Hazra (Andool Raj Road Crossing) to Bonde]",
+      "Salt Lake (Karunamo yee) extended uoto SDF Building"
+    ]
+  },
+  {
+    "code": "Auto: Gate via Hazra Road,Ballygunge Phari, Bonde! Road. Hazra More - Khidirpur More",
+    "origin": "Gate via Hazra Road,Ballygunge Phari, Bonde! Road. Hazra More",
+    "dest": "Khidirpur More",
+    "vias": [
+      "Gopal Nagar"
+    ],
+    "stops": [
+      "Gate via Hazra Road,Ballygunge Phari, Bonde! Road. Hazra More",
+      "Gopal Nagar",
+      "Khidirpur More"
+    ]
+  },
+  {
+    "code": "Auto: Hazra (Andool Raj Road Crossing) - Ballygunge Phari",
+    "origin": "Hazra (Andool Raj Road Crossing)",
+    "dest": "Ballygunge Phari",
+    "vias": [
+      "Hazra Road Hazra to C.R. Hospital (Park Circus) via"
+    ],
+    "stops": [
+      "Hazra (Andool Raj Road Crossing)",
+      "Hazra Road Hazra to C.R. Hospital (Park Circus) via",
+      "Ballygunge Phari"
+    ]
+  },
+  {
+    "code": "Auto: Jadavpur P.S. - Taratola",
+    "origin": "Jadavpur P.S.",
+    "dest": "Taratola",
+    "vias": [
+      "PA Shah Road",
+      "Tollygunge Phari"
+    ],
+    "stops": [
+      "Jadavpur P.S.",
+      "PA Shah Road",
+      "Tollygunge Phari",
+      "Taratola"
+    ]
+  },
+  {
+    "code": "Auto: Kasba fLalkhuti) - Gariahat",
+    "origin": "Kasba fLalkhuti)",
+    "dest": "Gariahat",
+    "vias": [
+      "Bijan Setu"
+    ],
+    "stops": [
+      "Kasba fLalkhuti)",
+      "Bijan Setu",
+      "Gariahat"
+    ]
+  },
+  {
+    "code": "Auto: Kasba Ruby Xing - Behala Tram Depot",
+    "origin": "Kasba Ruby Xing",
+    "dest": "Behala Tram Depot",
+    "vias": [
+      "180 Chetla New Alipore",
+      "Taratala"
+    ],
+    "stops": [
+      "Kasba Ruby Xing",
+      "180 Chetla New Alipore",
+      "Taratala",
+      "Behala Tram Depot"
+    ]
+  },
+  {
+    "code": "Auto: Kasha Ruby Xing - Hazra",
+    "origin": "Kasha Ruby Xing",
+    "dest": "Hazra",
+    "vias": [
+      "RashBehari 80 Connector",
+      "Monoharpukur Road",
+      "S.P.M. Road. Kasba Ruby Xing to Ballygunge Phari",
+      "turn at"
+    ],
+    "stops": [
+      "Kasha Ruby Xing",
+      "RashBehari 80 Connector",
+      "Monoharpukur Road",
+      "S.P.M. Road. Kasba Ruby Xing to Ballygunge Phari",
+      "turn at",
+      "Hazra"
+    ]
+  },
+  {
+    "code": "Auto: Basanti Devi College, Ramani Chatterjee Road via Gariahat Crossing Kadapara - Mechua Fruit market",
+    "origin": "Basanti Devi College, Ramani Chatterjee Road via Gariahat Crossing Kadapara",
+    "dest": "Mechua Fruit market",
+    "vias": [
+      "Narkel"
+    ],
+    "stops": [
+      "Basanti Devi College, Ramani Chatterjee Road via Gariahat Crossing Kadapara",
+      "Narkel",
+      "Mechua Fruit market"
+    ]
+  },
+  {
+    "code": "Auto: Danga Main Road, Keshab Sen Street, M.M.8.Street. Kimber Street (Park Circus) - Topsia",
+    "origin": "Danga Main Road, Keshab Sen Street, M.M.8.Street. Kimber Street (Park Circus)",
+    "dest": "Topsia",
+    "vias": [
+      "New"
+    ],
+    "stops": [
+      "Danga Main Road, Keshab Sen Street, M.M.8.Street. Kimber Street (Park Circus)",
+      "New",
+      "Topsia"
+    ]
+  },
+  {
+    "code": "Auto: Park Street,Bridge No. 4,P.C.Connector Topsia Road (Sl, Jin Masjid. Kustia - Ramleela Maidan",
+    "origin": "Park Street,Bridge No. 4,P.C.Connector Topsia Road (Sl, Jin Masjid. Kustia",
+    "dest": "Ramleela Maidan",
+    "vias": [
+      "Bonde!"
+    ],
+    "stops": [
+      "Park Street,Bridge No. 4,P.C.Connector Topsia Road (Sl, Jin Masjid. Kustia",
+      "Bonde!",
+      "Ramleela Maidan"
+    ]
+  },
+  {
+    "code": "Auto: Gate,Biresh Guha Road,Darga 65 road,C.R.Hospital Lohapool - Dharmatala",
+    "origin": "Gate,Biresh Guha Road,Darga 65 road,C.R.Hospital Lohapool",
+    "dest": "Dharmatala",
+    "vias": [
+      "Biresh Guha Road"
+    ],
+    "stops": [
+      "Gate,Biresh Guha Road,Darga 65 road,C.R.Hospital Lohapool",
+      "Biresh Guha Road",
+      "Dharmatala"
+    ]
+  },
+  {
+    "code": "Auto: Maniktala (Beadon Street) - Beadon Square",
+    "origin": "Maniktala (Beadon Street)",
+    "dest": "Beadon Square",
+    "vias": [
+      "Azad Hind Bag"
+    ],
+    "stops": [
+      "Maniktala (Beadon Street)",
+      "Azad Hind Bag",
+      "Beadon Square"
+    ]
+  },
+  {
+    "code": "Auto: Maniktala - Anandamayee Tala",
+    "origin": "Maniktala",
+    "dest": "Anandamayee Tala",
+    "vias": [
+      "Beadon Street",
+      "Nimtala Ghat."
+    ],
+    "stops": [
+      "Maniktala",
+      "Beadon Street",
+      "Nimtala Ghat.",
+      "Anandamayee Tala"
+    ]
+  },
+  {
+    "code": "Auto: Metiabruz - Akra Fatak Road",
+    "origin": "Metiabruz",
+    "dest": "Akra Fatak Road",
+    "vias": [
+      "G.R. Road/Gandhi Maidan."
+    ],
+    "stops": [
+      "Metiabruz",
+      "G.R. Road/Gandhi Maidan.",
+      "Akra Fatak Road"
+    ]
+  },
+  {
+    "code": "Auto: Metiabruz P.S. - Raja Bagan Bus Stand",
+    "origin": "Metiabruz P.S.",
+    "dest": "Raja Bagan Bus Stand",
+    "vias": [
+      "110 Dr. A.K. Road",
+      "Garden Reach Road. Metiabruz (G.R.S.E Gate) to Khidirpore"
+    ],
+    "stops": [
+      "Metiabruz P.S.",
+      "110 Dr. A.K. Road",
+      "Garden Reach Road. Metiabruz (G.R.S.E Gate) to Khidirpore",
+      "Raja Bagan Bus Stand"
+    ]
+  },
+  {
+    "code": "Auto: Mudiali - Khidiroore. Orient Row to Dharmatala",
+    "origin": "Mudiali",
+    "dest": "Khidiroore. Orient Row to Dharmatala",
+    "vias": [
+      "Park Street"
+    ],
+    "stops": [
+      "Mudiali",
+      "Park Street",
+      "Khidiroore. Orient Row to Dharmatala"
+    ]
+  },
+  {
+    "code": "Auto: Phool Bagan - Salt Lake Karunamoyee",
+    "origin": "Phool Bagan",
+    "dest": "Salt Lake Karunamoyee",
+    "vias": [
+      "Salt Lake Tank No. 13"
+    ],
+    "stops": [
+      "Phool Bagan",
+      "Salt Lake Tank No. 13",
+      "Salt Lake Karunamoyee"
+    ]
+  },
+  {
+    "code": "Auto: Panchanantala - Park Circus",
+    "origin": "Panchanantala",
+    "dest": "Park Circus",
+    "vias": [
+      "Syed Amir Ali Avenue"
+    ],
+    "stops": [
+      "Panchanantala",
+      "Syed Amir Ali Avenue",
+      "Park Circus"
+    ]
+  },
+  {
+    "code": "Auto: Panchanantala - Bridge No.",
+    "origin": "Panchanantala",
+    "dest": "Bridge No.",
+    "vias": [
+      "Broad Street 20"
+    ],
+    "stops": [
+      "Panchanantala",
+      "Broad Street 20",
+      "Bridge No."
+    ]
+  },
+  {
+    "code": "Auto: Phool Bagan More - CIT Building",
+    "origin": "Phool Bagan More",
+    "dest": "CIT Building",
+    "vias": [
+      "125 Beliaghata Main Road"
+    ],
+    "stops": [
+      "Phool Bagan More",
+      "125 Beliaghata Main Road",
+      "CIT Building"
+    ]
+  },
+  {
+    "code": "Auto: Phool Bagan - Ganesh Talkies",
+    "origin": "Phool Bagan",
+    "dest": "Ganesh Talkies",
+    "vias": [
+      "Maniktala",
+      "Bagmari",
+      "CIT Road"
+    ],
+    "stops": [
+      "Phool Bagan",
+      "Maniktala",
+      "Bagmari",
+      "CIT Road",
+      "Ganesh Talkies"
+    ]
+  },
+  {
+    "code": "Auto: Ramnagar More - Badar Tala",
+    "origin": "Ramnagar More",
+    "dest": "Badar Tala",
+    "vias": [
+      "Kamal 120 Talkies",
+      "Metiabruz P.S."
+    ],
+    "stops": [
+      "Ramnagar More",
+      "Kamal 120 Talkies",
+      "Metiabruz P.S.",
+      "Badar Tala"
+    ]
+  },
+  {
+    "code": "Auto: Ramnagar More - Mudiali",
+    "origin": "Ramnagar More",
+    "dest": "Mudiali",
+    "vias": [
+      "Taratala/ Paharour Road"
+    ],
+    "stops": [
+      "Ramnagar More",
+      "Taratala/ Paharour Road",
+      "Mudiali"
+    ]
+  },
+  {
+    "code": "Auto: Ramnagar More - Santoshpur",
+    "origin": "Ramnagar More",
+    "dest": "Santoshpur",
+    "vias": [],
+    "stops": [
+      "Ramnagar More",
+      "Santoshpur"
+    ]
+  },
+  {
+    "code": "Auto: R.G. Kar Hospital - Dum Dum Road, 30A Bus 110 Stand",
+    "origin": "R.G. Kar Hospital",
+    "dest": "Dum Dum Road, 30A Bus 110 Stand",
+    "vias": [
+      "Belghachia Bridge",
+      "Indra Biswas Road",
+      "Manmath Road",
+      "Northern Avenue"
+    ],
+    "stops": [
+      "R.G. Kar Hospital",
+      "Belghachia Bridge",
+      "Indra Biswas Road",
+      "Manmath Road",
+      "Northern Avenue",
+      "Dum Dum Road, 30A Bus 110 Stand"
+    ]
+  },
+  {
+    "code": "Auto: Rajabazar (Tasbir Mahal) - Pilkhana",
+    "origin": "Rajabazar (Tasbir Mahal)",
+    "dest": "Pilkhana",
+    "vias": [
+      "Canal West Road"
+    ],
+    "stops": [
+      "Rajabazar (Tasbir Mahal)",
+      "Canal West Road",
+      "Pilkhana"
+    ]
+  },
+  {
+    "code": "Auto: Fern Road - Behala Tram Depot",
+    "origin": "Fern Road",
+    "dest": "Behala Tram Depot",
+    "vias": [
+      "Rashbehari Avenue",
+      "Chetla",
+      "Alipore",
+      "Taratala"
+    ],
+    "stops": [
+      "Fern Road",
+      "Rashbehari Avenue",
+      "Chetla",
+      "Alipore",
+      "Taratala",
+      "Behala Tram Depot"
+    ]
+  },
+  {
+    "code": "Auto: Rashbehari Avenue - Tollygunge Tram Depot",
+    "origin": "Rashbehari Avenue",
+    "dest": "Tollygunge Tram Depot",
+    "vias": [
+      "D.P.S. Road",
+      "S.P.Mukheriee Road"
+    ],
+    "stops": [
+      "Rashbehari Avenue",
+      "D.P.S. Road",
+      "S.P.Mukheriee Road",
+      "Tollygunge Tram Depot"
+    ]
+  },
+  {
+    "code": "Auto: Rashbehari Avenue and Pratapaditya Road Crossing - Chetla (Dalminya Park)",
+    "origin": "Rashbehari Avenue and Pratapaditya Road Crossing",
+    "dest": "Chetla (Dalminya Park)",
+    "vias": [],
+    "stops": [
+      "Rashbehari Avenue and Pratapaditya Road Crossing",
+      "Chetla (Dalminya Park)"
+    ]
+  },
+  {
+    "code": "Auto: Ramnagar More - Metiabruz Kanchi Sarak",
+    "origin": "Ramnagar More",
+    "dest": "Metiabruz Kanchi Sarak",
+    "vias": [],
+    "stops": [
+      "Ramnagar More",
+      "Metiabruz Kanchi Sarak"
+    ]
+  },
+  {
+    "code": "Auto: S.P. Mukherjee Road - Cornfield Road",
+    "origin": "S.P. Mukherjee Road",
+    "dest": "Cornfield Road",
+    "vias": [
+      "S.P. Road",
+      "R. B. Avenue."
+    ],
+    "stops": [
+      "S.P. Mukherjee Road",
+      "S.P. Road",
+      "R. B. Avenue.",
+      "Cornfield Road"
+    ]
+  },
+  {
+    "code": "Auto: Sahapur - Tollygunge Phari",
+    "origin": "Sahapur",
+    "dest": "Tollygunge Phari",
+    "vias": [
+      "Sahapur Road",
+      "T.C. Road. Sovabazar Launch Ghat to Ultadnaga Station"
+    ],
+    "stops": [
+      "Sahapur",
+      "Sahapur Road",
+      "T.C. Road. Sovabazar Launch Ghat to Ultadnaga Station",
+      "Tollygunge Phari"
+    ]
+  },
+  {
+    "code": "Auto: Sealdah Court Complex - C.I.T. Building",
+    "origin": "Sealdah Court Complex",
+    "dest": "C.I.T. Building",
+    "vias": [
+      "B. M. Road."
+    ],
+    "stops": [
+      "Sealdah Court Complex",
+      "B. M. Road.",
+      "C.I.T. Building"
+    ]
+  },
+  {
+    "code": "Auto: Sealdah (Chhabi Ghar) - Barabazar Howrah Bridge aooroach road.",
+    "origin": "Sealdah (Chhabi Ghar)",
+    "dest": "Barabazar Howrah Bridge aooroach road.",
+    "vias": [],
+    "stops": [
+      "Sealdah (Chhabi Ghar)",
+      "Barabazar Howrah Bridge aooroach road."
+    ]
+  },
+  {
+    "code": "Auto: Tollygung e Phari - Behala Tram Depot",
+    "origin": "Tollygung e Phari",
+    "dest": "Behala Tram Depot",
+    "vias": [
+      "D.C. Road",
+      "S.P. Road",
+      "D.H.Road"
+    ],
+    "stops": [
+      "Tollygung e Phari",
+      "D.C. Road",
+      "S.P. Road",
+      "D.H.Road",
+      "Behala Tram Depot"
+    ]
+  },
+  {
+    "code": "Auto: Tollygunge Phari - Jadavpur P.S.",
+    "origin": "Tollygunge Phari",
+    "dest": "Jadavpur P.S.",
+    "vias": [
+      "P. Saha Road"
+    ],
+    "stops": [
+      "Tollygunge Phari",
+      "P. Saha Road",
+      "Jadavpur P.S."
+    ]
+  },
+  {
+    "code": "Auto: Tiljala - Topsia",
+    "origin": "Tiljala",
+    "dest": "Topsia",
+    "vias": [
+      "Bridge No."
+    ],
+    "stops": [
+      "Tiljala",
+      "Bridge No.",
+      "Topsia"
+    ]
+  },
+  {
+    "code": "Auto: Taratala - Ramnagar Crossing",
+    "origin": "Taratala",
+    "dest": "Ramnagar Crossing",
+    "vias": [
+      "Taratala",
+      "80 New Taratala Road"
+    ],
+    "stops": [
+      "Taratala",
+      "Taratala",
+      "80 New Taratala Road",
+      "Ramnagar Crossing"
+    ]
+  },
+  {
+    "code": "Auto: Taratala - Mollar Gate",
+    "origin": "Taratala",
+    "dest": "Mollar Gate",
+    "vias": [
+      "Taratala Road",
+      "Budge Budge Road"
+    ],
+    "stops": [
+      "Taratala",
+      "Taratala Road",
+      "Budge Budge Road",
+      "Mollar Gate"
+    ]
+  },
+  {
+    "code": "Auto: R. G. Kar Hospital - Beliaghata I.D. Hospital",
+    "origin": "R. G. Kar Hospital",
+    "dest": "Beliaghata I.D. Hospital",
+    "vias": [
+      "Raja Dinendra Street",
+      "M anicktala P.S. Kankurgachi",
+      "Phoolbagan Ultadnaga Station (P",
+      "T Quarters) to Jora"
+    ],
+    "stops": [
+      "R. G. Kar Hospital",
+      "Raja Dinendra Street",
+      "M anicktala P.S. Kankurgachi",
+      "Phoolbagan Ultadnaga Station (P",
+      "T Quarters) to Jora",
+      "Beliaghata I.D. Hospital"
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga - Sova Bazar",
+    "origin": "Ultadanga",
+    "dest": "Sova Bazar",
+    "vias": [
+      "Aurobindo Sarani"
+    ],
+    "stops": [
+      "Ultadanga",
+      "Aurobindo Sarani",
+      "Sova Bazar"
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga Station - Baguihati",
+    "origin": "Ultadanga Station",
+    "dest": "Baguihati",
+    "vias": [
+      "V.l.P Road"
+    ],
+    "stops": [
+      "Ultadanga Station",
+      "V.l.P Road",
+      "Baguihati"
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga Station - Salt Lake (Karunamo yee)",
+    "origin": "Ultadanga Station",
+    "dest": "Salt Lake (Karunamo yee)",
+    "vias": [
+      "P.N.B"
+    ],
+    "stops": [
+      "Ultadanga Station",
+      "P.N.B",
+      "Salt Lake (Karunamo yee)"
+    ]
+  },
+  {
+    "code": "Auto: Ultadanga Station - Lake Town",
+    "origin": "Ultadanga Station",
+    "dest": "Lake Town",
+    "vias": [
+      "VIP Crossing"
+    ],
+    "stops": [
+      "Ultadanga Station",
+      "VIP Crossing",
+      "Lake Town"
+    ]
+  },
+  {
+    "code": "Auto: Belgachia Metro - VIP Crossing Park Circus to Bose Pukur",
+    "origin": "Belgachia Metro",
+    "dest": "VIP Crossing Park Circus to Bose Pukur",
+    "vias": [
+      "Gariahat"
+    ],
+    "stops": [
+      "Belgachia Metro",
+      "Gariahat",
+      "VIP Crossing Park Circus to Bose Pukur"
+    ]
+  },
+  {
+    "code": "Auto: Southern Avenue/S.P.M. Road Crossing - Garia",
+    "origin": "Southern Avenue/S.P.M. Road Crossing",
+    "dest": "Garia",
+    "vias": [
+      "Tollygung e Tram Depot"
+    ],
+    "stops": [
+      "Southern Avenue/S.P.M. Road Crossing",
+      "Tollygung e Tram Depot",
+      "Garia"
+    ]
+  },
+  {
+    "code": "Auto: Southern Avenue/S.P.M. Road - Tollygunge Tram Depot",
+    "origin": "Southern Avenue/S.P.M. Road",
+    "dest": "Tollygunge Tram Depot",
+    "vias": [],
+    "stops": [
+      "Southern Avenue/S.P.M. Road",
+      "Tollygunge Tram Depot"
+    ]
+  },
+  {
+    "code": "Auto: Bose Pukur - Gariahat",
+    "origin": "Bose Pukur",
+    "dest": "Gariahat",
+    "vias": [
+      "Biian Setu Bag Bazar Street",
+      "Rabindra Sarani Crossing"
+    ],
+    "stops": [
+      "Bose Pukur",
+      "Biian Setu Bag Bazar Street",
+      "Rabindra Sarani Crossing",
+      "Gariahat"
+    ]
+  },
+  {
+    "code": "Auto: Main Gate of Sports Authority of India (Oppsite Paribesh Bhavan) - Karunamayee",
+    "origin": "Main Gate of Sports Authority of India (Oppsite Paribesh Bhavan)",
+    "dest": "Karunamayee",
+    "vias": [
+      "Broadway"
+    ],
+    "stops": [
+      "Main Gate of Sports Authority of India (Oppsite Paribesh Bhavan)",
+      "Broadway",
+      "Karunamayee"
+    ]
+  },
+  {
+    "code": "Auto: Kankurgachi More - I<arunamayee",
+    "origin": "Kankurgachi More",
+    "dest": "I<arunamayee",
+    "vias": [
+      "Bengal Chemical",
+      "Poura Bhavan",
+      "Central Park Lee Road to Bijaygharh College via Padma Pukur Square",
+      "Motor Vehicle",
+      "Deshpriyo Park"
+    ],
+    "stops": [
+      "Kankurgachi More",
+      "Bengal Chemical",
+      "Poura Bhavan",
+      "Central Park Lee Road to Bijaygharh College via Padma Pukur Square",
+      "Motor Vehicle",
+      "Deshpriyo Park",
+      "I<arunamayee"
+    ]
+  },
+  {
+    "code": "Auto: Phool Bagan - Karunamayee",
+    "origin": "Phool Bagan",
+    "dest": "Karunamayee",
+    "vias": [
+      "Salt Lake Tank No. B. K. Paul Avenue (Opposite Sova Bazar Metro"
+    ],
+    "stops": [
+      "Phool Bagan",
+      "Salt Lake Tank No. B. K. Paul Avenue (Opposite Sova Bazar Metro",
+      "Karunamayee"
+    ]
+  },
+  {
+    "code": "Auto: Station) - Bus Stand (Cossipore)",
+    "origin": "Station)",
+    "dest": "Bus Stand (Cossipore)",
+    "vias": [
+      "105 RajBallav Para",
+      "Girish Mancha",
+      "Cossipore Road. Hazra Road (Khirod Ghosh Market) to No. Bus Stand (Behala) via Alipore Bridge",
+      "Rakhal"
+    ],
+    "stops": [
+      "Station)",
+      "105 RajBallav Para",
+      "Girish Mancha",
+      "Cossipore Road. Hazra Road (Khirod Ghosh Market) to No. Bus Stand (Behala) via Alipore Bridge",
+      "Rakhal",
+      "Bus Stand (Cossipore)"
+    ]
+  },
+  {
+    "code": "Auto: Das Auddy Road, Chetla Road, New Alipore Petrol Pump, Buro Shibtala, Ray Bahadur Road Chetla Park - Khidirpur",
+    "origin": "Das Auddy Road, Chetla Road, New Alipore Petrol Pump, Buro Shibtala, Ray Bahadur Road Chetla Park",
+    "dest": "Khidirpur",
+    "vias": [
+      "Alipore Road"
+    ],
+    "stops": [
+      "Das Auddy Road, Chetla Road, New Alipore Petrol Pump, Buro Shibtala, Ray Bahadur Road Chetla Park",
+      "Alipore Road",
+      "Khidirpur"
+    ]
+  },
+  {
+    "code": "Auto: Khiderpore - Behala No. Bus Stand",
+    "origin": "Khiderpore",
+    "dest": "Behala No. Bus Stand",
+    "vias": [
+      "D.H. Road"
+    ],
+    "stops": [
+      "Khiderpore",
+      "D.H. Road",
+      "Behala No. Bus Stand"
+    ]
+  },
+  {
+    "code": "Auto: Judge Court - Alipore Police Court",
+    "origin": "Judge Court",
+    "dest": "Alipore Police Court",
+    "vias": [
+      "Judge Court"
+    ],
+    "stops": [
+      "Judge Court",
+      "Judge Court",
+      "Alipore Police Court"
+    ]
+  },
+  {
+    "code": "Auto: Chetla Park - Behala Chowrasta",
+    "origin": "Chetla Park",
+    "dest": "Behala Chowrasta",
+    "vias": [
+      "Mani Sanyal Sarani",
+      "Durgapur Bridge",
+      "Tollygunge Circular Road",
+      "James Long Sarani."
+    ],
+    "stops": [
+      "Chetla Park",
+      "Mani Sanyal Sarani",
+      "Durgapur Bridge",
+      "Tollygunge Circular Road",
+      "James Long Sarani.",
+      "Behala Chowrasta"
+    ]
+  },
+  {
+    "code": "Auto: Ruby General Hospital - Jadavpore Police Station",
+    "origin": "Ruby General Hospital",
+    "dest": "Jadavpore Police Station",
+    "vias": [
+      "Kasba Connector",
+      "Bijan Setu",
+      "Fern Road",
+      "Golpark",
+      "Dhakuria Bridge."
+    ],
+    "stops": [
+      "Ruby General Hospital",
+      "Kasba Connector",
+      "Bijan Setu",
+      "Fern Road",
+      "Golpark",
+      "Dhakuria Bridge.",
+      "Jadavpore Police Station"
+    ]
+  },
+  {
+    "code": "Auto: Chingrighata Police Phari - Chitta Ranjan Hospital",
+    "origin": "Chingrighata Police Phari",
+    "dest": "Chitta Ranjan Hospital",
+    "vias": [
+      "Pagladanga Road",
+      "Hanuman Mandir",
+      "Canal South Road"
+    ],
+    "stops": [
+      "Chingrighata Police Phari",
+      "Pagladanga Road",
+      "Hanuman Mandir",
+      "Canal South Road",
+      "Chitta Ranjan Hospital"
+    ]
+  },
+  {
+    "code": "Auto: Garia Station - Goalpark",
+    "origin": "Garia Station",
+    "dest": "Goalpark",
+    "vias": [
+      "Patuli Upanagari",
+      "Dhalai Bridge Tagore Park to Park Circus Tram Depot via"
+    ],
+    "stops": [
+      "Garia Station",
+      "Patuli Upanagari",
+      "Dhalai Bridge Tagore Park to Park Circus Tram Depot via",
+      "Goalpark"
+    ]
+  },
+  {
+    "code": "Auto: Picnic Granden Road, Bonde! Road,Ballygunge 95 Phari Beckbae:an. Triangular Park - Sakher Bazar (Behala)",
+    "origin": "Picnic Granden Road, Bonde! Road,Ballygunge 95 Phari Beckbae:an. Triangular Park",
+    "dest": "Sakher Bazar (Behala)",
+    "vias": [
+      "Southern Avenue",
+      "Menoka Cinema",
+      "Tollygunge"
+    ],
+    "stops": [
+      "Picnic Granden Road, Bonde! Road,Ballygunge 95 Phari Beckbae:an. Triangular Park",
+      "Southern Avenue",
+      "Menoka Cinema",
+      "Tollygunge",
+      "Sakher Bazar (Behala)"
+    ]
+  },
+  {
+    "code": "Auto: Metiabruz P.S. - Sailasri Cinema",
+    "origin": "Metiabruz P.S.",
+    "dest": "Sailasri Cinema",
+    "vias": [
+      "Kachchi 80 Sarak",
+      "Paharour Road. Deshapriya Park to Tollygunge Tram Depot via"
+    ],
+    "stops": [
+      "Metiabruz P.S.",
+      "Kachchi 80 Sarak",
+      "Paharour Road. Deshapriya Park to Tollygunge Tram Depot via",
+      "Sailasri Cinema"
+    ]
+  },
+  {
+    "code": "Auto: Ruby General Hosoital - Garia Rail Station. Haltu (Kayasta Para) to Behala Tram Depot via",
+    "origin": "Ruby General Hosoital",
+    "dest": "Garia Rail Station. Haltu (Kayasta Para) to Behala Tram Depot via",
+    "vias": [],
+    "stops": [
+      "Ruby General Hosoital",
+      "Garia Rail Station. Haltu (Kayasta Para) to Behala Tram Depot via"
+    ]
+  },
+  {
+    "code": "Auto: Bijon Setu, Fern Road, Goalpark, Southern Avenue, Pratapadi tya Road.,Chetla.,New Alopore, Taratala. Ruby General Hospotal - Jadavpur P.S. via",
+    "origin": "Bijon Setu, Fern Road, Goalpark, Southern Avenue, Pratapadi tya Road.,Chetla.,New Alopore, Taratala. Ruby General Hospotal",
+    "dest": "Jadavpur P.S. via",
+    "vias": [],
+    "stops": [
+      "Bijon Setu, Fern Road, Goalpark, Southern Avenue, Pratapadi tya Road.,Chetla.,New Alopore, Taratala. Ruby General Hospotal",
+      "Jadavpur P.S. via"
+    ]
+  },
+  {
+    "code": "Auto: Rajdanga Bazar - Alieya Cinema",
+    "origin": "Rajdanga Bazar",
+    "dest": "Alieya Cinema",
+    "vias": [
+      "Rathtalla",
+      "B.B. Chatterjee Road",
+      "Bion Setu. CIT Padma Pukur (Entally) to Saatgachi"
+    ],
+    "stops": [
+      "Rajdanga Bazar",
+      "Rathtalla",
+      "B.B. Chatterjee Road",
+      "Bion Setu. CIT Padma Pukur (Entally) to Saatgachi",
+      "Alieya Cinema"
+    ]
+  },
+  {
+    "code": "Auto: Topsia - Deys Medical",
+    "origin": "Topsia",
+    "dest": "Deys Medical",
+    "vias": [
+      "Chella",
+      "New Alipore",
+      "Southern Avenue."
+    ],
+    "stops": [
+      "Topsia",
+      "Chella",
+      "New Alipore",
+      "Southern Avenue.",
+      "Deys Medical"
+    ]
+  },
+  {
+    "code": "Auto: Taratala - Mouchak (Golpark)",
+    "origin": "Taratala",
+    "dest": "Mouchak (Golpark)",
+    "vias": [
+      "Chetla",
+      "Alooore",
+      "Southern Avenue. Ruby General Hospital to Cancer Hospital"
+    ],
+    "stops": [
+      "Taratala",
+      "Chetla",
+      "Alooore",
+      "Southern Avenue. Ruby General Hospital to Cancer Hospital",
+      "Mouchak (Golpark)"
+    ]
+  },
+  {
+    "code": "Auto: (Thakur Pukur) via Bijan Setu, Fern Road Golpark, Southern Avenue, Tollygunge Phari, Karunamovee. Menoka Cinema - Behala Tram Depot",
+    "origin": "(Thakur Pukur) via Bijan Setu, Fern Road Golpark, Southern Avenue, Tollygunge Phari, Karunamovee. Menoka Cinema",
+    "dest": "Behala Tram Depot",
+    "vias": [
+      "D.P"
+    ],
+    "stops": [
+      "(Thakur Pukur) via Bijan Setu, Fern Road Golpark, Southern Avenue, Tollygunge Phari, Karunamovee. Menoka Cinema",
+      "D.P",
+      "Behala Tram Depot"
+    ]
+  },
+  {
+    "code": "Auto: Sashmal Road, Tollygunge Circular Road, Alipore, Taratala, D. H. Road. Kolkata Station - Karunamoyee",
+    "origin": "Sashmal Road, Tollygunge Circular Road, Alipore, Taratala, D. H. Road. Kolkata Station",
+    "dest": "Karunamoyee",
+    "vias": [
+      "R.G.Kar"
+    ],
+    "stops": [
+      "Sashmal Road, Tollygunge Circular Road, Alipore, Taratala, D. H. Road. Kolkata Station",
+      "R.G.Kar",
+      "Karunamoyee"
+    ]
+  },
+  {
+    "code": "Auto: Hospital, Gajnabi Setu, Canal East Road,. No. Bus Stand, Ultadanga Bridge Underpass, PNB Salt Lake. Milk Colony - Sinthee More",
+    "origin": "Hospital, Gajnabi Setu, Canal East Road,. No. Bus Stand, Ultadanga Bridge Underpass, PNB Salt Lake. Milk Colony",
+    "dest": "Sinthee More",
+    "vias": [
+      "Dutta Bagan"
+    ],
+    "stops": [
+      "Hospital, Gajnabi Setu, Canal East Road,. No. Bus Stand, Ultadanga Bridge Underpass, PNB Salt Lake. Milk Colony",
+      "Dutta Bagan",
+      "Sinthee More"
+    ]
+  },
+  {
+    "code": "Auto: Paik Para 1st Row, Birpara More, 80 B. K. Pal Lane, Seven Tanks, South Sinthee. Chetla Park - Tollygunge Tram Depot",
+    "origin": "Paik Para 1st Row, Birpara More, 80 B. K. Pal Lane, Seven Tanks, South Sinthee. Chetla Park",
+    "dest": "Tollygunge Tram Depot",
+    "vias": [
+      "Chetla Central Road",
+      "R.B. Avenue",
+      "S.P. Mukherjee Road",
+      "D.P.S.Road."
+    ],
+    "stops": [
+      "Paik Para 1st Row, Birpara More, 80 B. K. Pal Lane, Seven Tanks, South Sinthee. Chetla Park",
+      "Chetla Central Road",
+      "R.B. Avenue",
+      "S.P. Mukherjee Road",
+      "D.P.S.Road.",
+      "Tollygunge Tram Depot"
+    ]
+  },
+  {
+    "code": "Auto: Tollygunge Tram Depot - 3A Bus Stand",
+    "origin": "Tollygunge Tram Depot",
+    "dest": "3A Bus Stand",
+    "vias": [
+      "M. G. Road",
+      "Kabardanga",
+      "Cancer Hosoital."
+    ],
+    "stops": [
+      "Tollygunge Tram Depot",
+      "M. G. Road",
+      "Kabardanga",
+      "Cancer Hosoital.",
+      "3A Bus Stand"
+    ]
+  },
+  {
+    "code": "Auto: Menoka Cinema - Bengal Lamp",
+    "origin": "Menoka Cinema",
+    "dest": "Bengal Lamp",
+    "vias": [
+      "Southern Avenue-Lake Garden Ply Over",
+      "P.A. Saha Road Menoka Cinema to Alipore Zoo Garden via"
+    ],
+    "stops": [
+      "Menoka Cinema",
+      "Southern Avenue-Lake Garden Ply Over",
+      "P.A. Saha Road Menoka Cinema to Alipore Zoo Garden via",
+      "Bengal Lamp"
+    ]
+  },
+  {
+    "code": "Auto: Southern Avenue, R.B. Crossing, Moni Sanyal Sarani, Rakhal Das Auddy Road, Gopal Nagar, Judge Court, Bhabani Bhavan. Ruby - Chowbhaga",
+    "origin": "Southern Avenue, R.B. Crossing, Moni Sanyal Sarani, Rakhal Das Auddy Road, Gopal Nagar, Judge Court, Bhabani Bhavan. Ruby",
+    "dest": "Chowbhaga",
+    "vias": [
+      "Anandapur Road-"
+    ],
+    "stops": [
+      "Southern Avenue, R.B. Crossing, Moni Sanyal Sarani, Rakhal Das Auddy Road, Gopal Nagar, Judge Court, Bhabani Bhavan. Ruby",
+      "Anandapur Road-",
+      "Chowbhaga"
+    ]
+  },
+  {
+    "code": "Auto: Anandapur High Road & Chowbh aga Canal 150 Side Road Ultadanga Tram Depot - Alochaya Cinema via",
+    "origin": "Anandapur High Road & Chowbh aga Canal 150 Side Road Ultadanga Tram Depot",
+    "dest": "Alochaya Cinema via",
+    "vias": [],
+    "stops": [
+      "Anandapur High Road & Chowbh aga Canal 150 Side Road Ultadanga Tram Depot",
+      "Alochaya Cinema via"
+    ]
+  },
+  {
+    "code": "Auto: Garden Reach State General Hospital - Jhin Jhira Bazar VIP Bazar to Kalighat Fire Brigade Station via",
+    "origin": "Garden Reach State General Hospital",
+    "dest": "Jhin Jhira Bazar VIP Bazar to Kalighat Fire Brigade Station via",
+    "vias": [],
+    "stops": [
+      "Garden Reach State General Hospital",
+      "Jhin Jhira Bazar VIP Bazar to Kalighat Fire Brigade Station via"
+    ]
+  },
+  {
+    "code": "Auto: Baghajatin Station - Khudirab ad",
+    "origin": "Baghajatin Station",
+    "dest": "Khudirab ad",
+    "vias": [
+      "Singhabari"
+    ],
+    "stops": [
+      "Baghajatin Station",
+      "Singhabari",
+      "Khudirab ad"
+    ]
+  },
+  {
+    "code": "Auto: Rabindra Sa,rabor (Tollygunge Tram Depot) - Karunamoyee Bridge",
+    "origin": "Rabindra Sa,rabor (Tollygunge Tram Depot)",
+    "dest": "Karunamoyee Bridge",
+    "vias": [
+      "Kathpole",
+      "Chetla Road",
+      "Mahabirtala",
+      "Bhatikhana-B L Sah Road Rabindra Sarobar(Toll ygunge Tram Depot) to Behala Tram Depot via Kathpole",
+      "New Alipore-P"
+    ],
+    "stops": [
+      "Rabindra Sa,rabor (Tollygunge Tram Depot)",
+      "Kathpole",
+      "Chetla Road",
+      "Mahabirtala",
+      "Bhatikhana-B L Sah Road Rabindra Sarobar(Toll ygunge Tram Depot) to Behala Tram Depot via Kathpole",
+      "New Alipore-P",
+      "Karunamoyee Bridge"
+    ]
+  },
+  {
+    "code": "Auto: Garia No. Bus Stand - Baghajatin Highland Park",
+    "origin": "Garia No. Bus Stand",
+    "dest": "Baghajatin Highland Park",
+    "vias": [
+      "Patuli Thana"
+    ],
+    "stops": [
+      "Garia No. Bus Stand",
+      "Patuli Thana",
+      "Baghajatin Highland Park"
+    ]
+  },
+  {
+    "code": "Auto: Baishali - Beliaghata I. D. Hospital",
+    "origin": "Baishali",
+    "dest": "Beliaghata I. D. Hospital",
+    "vias": [
+      "P.K.Road",
+      "B.C. Dey Road",
+      "Rashmoni Bagan Lane",
+      "Canal South Rd",
+      "Beliaghata Main Rd."
+    ],
+    "stops": [
+      "Baishali",
+      "P.K.Road",
+      "B.C. Dey Road",
+      "Rashmoni Bagan Lane",
+      "Canal South Rd",
+      "Beliaghata Main Rd.",
+      "Beliaghata I. D. Hospital"
+    ]
+  },
+  {
+    "code": "Auto: Dhapa Mathpukur - Topsia More",
+    "origin": "Dhapa Mathpukur",
+    "dest": "Topsia More",
+    "vias": [
+      "China Town",
+      "Matheswartala Road",
+      "Bandar More",
+      "Dhapa Mathpukur"
+    ],
+    "stops": [
+      "Dhapa Mathpukur",
+      "China Town",
+      "Matheswartala Road",
+      "Bandar More",
+      "Dhapa Mathpukur",
+      "Topsia More"
+    ]
+  },
+  {
+    "code": "Auto: Sardarpara - Nazrul Metro",
+    "origin": "Sardarpara",
+    "dest": "Nazrul Metro",
+    "vias": [
+      "Balak Sangha",
+      "Badamtala",
+      "Navinsangha",
+      "Milanchakra Club",
+      "Ghostola",
+      "Subhashpally",
+      "Mitali Sangha",
+      "Vivekbharati School Metro Station"
+    ],
+    "stops": [
+      "Sardarpara",
+      "Balak Sangha",
+      "Badamtala",
+      "Navinsangha",
+      "Milanchakra Club",
+      "Ghostola",
+      "Subhashpally",
+      "Mitali Sangha",
+      "Vivekbharati School Metro Station",
+      "Nazrul Metro"
+    ]
+  },
+  {
+    "code": "Auto: Parnasree Padmapukur (Milan Tirtha) - Majerhat Station",
+    "origin": "Parnasree Padmapukur (Milan Tirtha)",
+    "dest": "Majerhat Station",
+    "vias": [
+      "Parnasree Palli road",
+      "RIC more",
+      "Upen Banerjee Road",
+      "road Beside State Transport garage",
+      "Taratola Road",
+      "DH Road",
+      "Helen Kellar Sarani to Majerhat Station Behala MV Office (Behala Airport) to Taratola via Airport Road",
+      "Upen Banerjee Road beside State Transport Garage",
+      "Taratola Road",
+      "Taratola crossing"
+    ],
+    "stops": [
+      "Parnasree Padmapukur (Milan Tirtha)",
+      "Parnasree Palli road",
+      "RIC more",
+      "Upen Banerjee Road",
+      "road Beside State Transport garage",
+      "Taratola Road",
+      "DH Road",
+      "Helen Kellar Sarani to Majerhat Station Behala MV Office (Behala Airport) to Taratola via Airport Road",
+      "Upen Banerjee Road beside State Transport Garage",
+      "Taratola Road",
+      "Taratola crossing",
+      "Majerhat Station"
+    ]
+  },
+  {
+    "code": "Auto: B. T. College - Lalpole",
+    "origin": "B. T. College",
+    "dest": "Lalpole",
+    "vias": [
+      "Kantakhal."
+    ],
+    "stops": [
+      "B. T. College",
+      "Kantakhal.",
+      "Lalpole"
+    ]
+  },
+  {
+    "code": "Auto: Dakshineswar - Sastitala",
+    "origin": "Dakshineswar",
+    "dest": "Sastitala",
+    "vias": [],
+    "stops": [
+      "Dakshineswar",
+      "Sastitala"
+    ]
+  },
+  {
+    "code": "Auto: Banneriee Para - Dakshineswar",
+    "origin": "Banneriee Para",
+    "dest": "Dakshineswar",
+    "vias": [],
+    "stops": [
+      "Banneriee Para",
+      "Dakshineswar"
+    ]
+  },
+  {
+    "code": "Auto: Ananya Hall (Baranagarl - Panchanantala",
+    "origin": "Ananya Hall (Baranagarl",
+    "dest": "Panchanantala",
+    "vias": [],
+    "stops": [
+      "Ananya Hall (Baranagarl",
+      "Panchanantala"
+    ]
+  },
+  {
+    "code": "Auto: Dunlop - Noapara Metro",
+    "origin": "Dunlop",
+    "dest": "Noapara Metro",
+    "vias": [],
+    "stops": [
+      "Dunlop",
+      "Noapara Metro"
+    ]
+  },
+  {
+    "code": "Auto: Noapara Metro - Banhooghly",
+    "origin": "Noapara Metro",
+    "dest": "Banhooghly",
+    "vias": [],
+    "stops": [
+      "Noapara Metro",
+      "Banhooghly"
+    ]
+  },
+  {
+    "code": "Auto: Banhooghl y - Dakshinesw ar BSF Camp",
+    "origin": "Banhooghl y",
+    "dest": "Dakshinesw ar BSF Camp",
+    "vias": [],
+    "stops": [
+      "Banhooghl y",
+      "Dakshinesw ar BSF Camp"
+    ]
+  },
+  {
+    "code": "Auto: Dunlop - Bally",
+    "origin": "Dunlop",
+    "dest": "Bally",
+    "vias": [],
+    "stops": [
+      "Dunlop",
+      "Bally"
+    ]
+  },
+  {
+    "code": "Auto: Dunlop - Satinsen",
+    "origin": "Dunlop",
+    "dest": "Satinsen",
+    "vias": [],
+    "stops": [
+      "Dunlop",
+      "Satinsen"
+    ]
+  },
+  {
+    "code": "Auto: Dunlop Anmol - Belgharia Station",
+    "origin": "Dunlop Anmol",
+    "dest": "Belgharia Station",
+    "vias": [],
+    "stops": [
+      "Dunlop Anmol",
+      "Belgharia Station"
+    ]
+  },
+  {
+    "code": "Auto: Belgharia Station - Birati Station",
+    "origin": "Belgharia Station",
+    "dest": "Birati Station",
+    "vias": [],
+    "stops": [
+      "Belgharia Station",
+      "Birati Station"
+    ]
+  },
+  {
+    "code": "Auto: Belgharia Station - Rathtala",
+    "origin": "Belgharia Station",
+    "dest": "Rathtala",
+    "vias": [],
+    "stops": [
+      "Belgharia Station",
+      "Rathtala"
+    ]
+  },
+  {
+    "code": "Auto: Ramkrishna Park - Promodnagar",
+    "origin": "Ramkrishna Park",
+    "dest": "Promodnagar",
+    "vias": [],
+    "stops": [
+      "Ramkrishna Park",
+      "Promodnagar"
+    ]
+  },
+  {
+    "code": "Auto: Kheyaghat - Ariadaha",
+    "origin": "Kheyaghat",
+    "dest": "Ariadaha",
+    "vias": [],
+    "stops": [
+      "Kheyaghat",
+      "Ariadaha"
+    ]
+  },
+  {
+    "code": "Auto: I Ananya Cinema (Baranagar) - Panchanantala",
+    "origin": "I Ananya Cinema (Baranagar)",
+    "dest": "Panchanantala",
+    "vias": [],
+    "stops": [
+      "I Ananya Cinema (Baranagar)",
+      "Panchanantala"
+    ]
+  },
+  {
+    "code": "Auto: Sinthi More - Kuthighat",
+    "origin": "Sinthi More",
+    "dest": "Kuthighat",
+    "vias": [],
+    "stops": [
+      "Sinthi More",
+      "Kuthighat"
+    ]
+  },
+  {
+    "code": "Auto: Sinthi More (4B Bus stand) - Dunlop",
+    "origin": "Sinthi More (4B Bus stand)",
+    "dest": "Dunlop",
+    "vias": [],
+    "stops": [
+      "Sinthi More (4B Bus stand)",
+      "Dunlop"
+    ]
+  },
+  {
+    "code": "Auto: Tobin Road - Promodnagar",
+    "origin": "Tobin Road",
+    "dest": "Promodnagar",
+    "vias": [],
+    "stops": [
+      "Tobin Road",
+      "Promodnagar"
+    ]
+  },
+  {
+    "code": "Auto: Sinthi More - DumDum Station",
+    "origin": "Sinthi More",
+    "dest": "DumDum Station",
+    "vias": [],
+    "stops": [
+      "Sinthi More",
+      "DumDum Station"
+    ]
+  },
+  {
+    "code": "Auto: Baranagar Police Station - Kalabagan",
+    "origin": "Baranagar Police Station",
+    "dest": "Kalabagan",
+    "vias": [],
+    "stops": [
+      "Baranagar Police Station",
+      "Kalabagan"
+    ]
+  },
+  {
+    "code": "Auto: Tobin Road - kancher Mandir",
+    "origin": "Tobin Road",
+    "dest": "kancher Mandir",
+    "vias": [],
+    "stops": [
+      "Tobin Road",
+      "kancher Mandir"
+    ]
+  },
+  {
+    "code": "Auto: Rathtala - Ariadaha Kheyaghat",
+    "origin": "Rathtala",
+    "dest": "Ariadaha Kheyaghat",
+    "vias": [],
+    "stops": [
+      "Rathtala",
+      "Ariadaha Kheyaghat"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpore Chiriamore - Dunlop",
+    "origin": "Barrackpore Chiriamore",
+    "dest": "Dunlop",
+    "vias": [],
+    "stops": [
+      "Barrackpore Chiriamore",
+      "Dunlop"
+    ]
+  },
+  {
+    "code": "Auto: Kamarhati - Sinthi More",
+    "origin": "Kamarhati",
+    "dest": "Sinthi More",
+    "vias": [],
+    "stops": [
+      "Kamarhati",
+      "Sinthi More"
+    ]
+  },
+  {
+    "code": "Auto: Khardaha Station - Shyamsundar Ghat",
+    "origin": "Khardaha Station",
+    "dest": "Shyamsundar Ghat",
+    "vias": [],
+    "stops": [
+      "Khardaha Station",
+      "Shyamsundar Ghat"
+    ]
+  },
+  {
+    "code": "Auto: Titagarh Bazar - Lakshmighat",
+    "origin": "Titagarh Bazar",
+    "dest": "Lakshmighat",
+    "vias": [],
+    "stops": [
+      "Titagarh Bazar",
+      "Lakshmighat"
+    ]
+  },
+  {
+    "code": "Auto: Titagarh Station - Khas Bagan",
+    "origin": "Titagarh Station",
+    "dest": "Khas Bagan",
+    "vias": [],
+    "stops": [
+      "Titagarh Station",
+      "Khas Bagan"
+    ]
+  },
+  {
+    "code": "Auto: 2 Poisa Ghat - Barrackpore Railway Station",
+    "origin": "2 Poisa Ghat",
+    "dest": "Barrackpore Railway Station",
+    "vias": [],
+    "stops": [
+      "2 Poisa Ghat",
+      "Barrackpore Railway Station"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpore Station - Nilganj, Kalyani Exoresswav",
+    "origin": "Barrackpore Station",
+    "dest": "Nilganj, Kalyani Exoresswav",
+    "vias": [],
+    "stops": [
+      "Barrackpore Station",
+      "Nilganj, Kalyani Exoresswav"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpore Station - Shyamnagar Chowrangee",
+    "origin": "Barrackpore Station",
+    "dest": "Shyamnagar Chowrangee",
+    "vias": [],
+    "stops": [
+      "Barrackpore Station",
+      "Shyamnagar Chowrangee"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpore Station - Dunlop",
+    "origin": "Barrackpore Station",
+    "dest": "Dunlop",
+    "vias": [],
+    "stops": [
+      "Barrackpore Station",
+      "Dunlop"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpore Station - Badal Ration Shop",
+    "origin": "Barrackpore Station",
+    "dest": "Badal Ration Shop",
+    "vias": [],
+    "stops": [
+      "Barrackpore Station",
+      "Badal Ration Shop"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpore Railway Gate No. - Bheri Gate",
+    "origin": "Barrackpore Railway Gate No.",
+    "dest": "Bheri Gate",
+    "vias": [],
+    "stops": [
+      "Barrackpore Railway Gate No.",
+      "Bheri Gate"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpore Railway Gate No. - Patulia Panchayat Office",
+    "origin": "Barrackpore Railway Gate No.",
+    "dest": "Patulia Panchayat Office",
+    "vias": [],
+    "stops": [
+      "Barrackpore Railway Gate No.",
+      "Patulia Panchayat Office"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpor e Station - Chai Bazar",
+    "origin": "Barrackpor e Station",
+    "dest": "Chai Bazar",
+    "vias": [
+      "Palta Station"
+    ],
+    "stops": [
+      "Barrackpor e Station",
+      "Palta Station",
+      "Chai Bazar"
+    ]
+  },
+  {
+    "code": "Auto: Kankinara Bazar - Patulia Panchavat Office",
+    "origin": "Kankinara Bazar",
+    "dest": "Patulia Panchavat Office",
+    "vias": [],
+    "stops": [
+      "Kankinara Bazar",
+      "Patulia Panchavat Office"
+    ]
+  },
+  {
+    "code": "Auto: Shyamnagar Station - Basudevpur",
+    "origin": "Shyamnagar Station",
+    "dest": "Basudevpur",
+    "vias": [],
+    "stops": [
+      "Shyamnagar Station",
+      "Basudevpur"
+    ]
+  },
+  {
+    "code": "Auto: Debitala Ghat - High Road",
+    "origin": "Debitala Ghat",
+    "dest": "High Road",
+    "vias": [
+      "Doltala"
+    ],
+    "stops": [
+      "Debitala Ghat",
+      "Doltala",
+      "High Road"
+    ]
+  },
+  {
+    "code": "Auto: Ichapur Store Bazar - Barrackpore Court",
+    "origin": "Ichapur Store Bazar",
+    "dest": "Barrackpore Court",
+    "vias": [
+      "Nawabgunj Ferrvghat"
+    ],
+    "stops": [
+      "Ichapur Store Bazar",
+      "Nawabgunj Ferrvghat",
+      "Barrackpore Court"
+    ]
+  },
+  {
+    "code": "Auto: Dumdum Station - Lake Town VIP road",
+    "origin": "Dumdum Station",
+    "dest": "Lake Town VIP road",
+    "vias": [],
+    "stops": [
+      "Dumdum Station",
+      "Lake Town VIP road"
+    ]
+  },
+  {
+    "code": "Auto: B.T. College - Muragacha",
+    "origin": "B.T. College",
+    "dest": "Muragacha",
+    "vias": [],
+    "stops": [
+      "B.T. College",
+      "Muragacha"
+    ]
+  },
+  {
+    "code": "Auto: Mavhspota - Sodepur Station",
+    "origin": "Mavhspota",
+    "dest": "Sodepur Station",
+    "vias": [],
+    "stops": [
+      "Mavhspota",
+      "Sodepur Station"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur - Dunlop",
+    "origin": "Sodepur",
+    "dest": "Dunlop",
+    "vias": [],
+    "stops": [
+      "Sodepur",
+      "Dunlop"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur - Barrackpore Chiriamore",
+    "origin": "Sodepur",
+    "dest": "Barrackpore Chiriamore",
+    "vias": [],
+    "stops": [
+      "Sodepur",
+      "Barrackpore Chiriamore"
+    ]
+  },
+  {
+    "code": "Auto: Dumdum 30A Bus Stand - R.G.Kar Hospital.",
+    "origin": "Dumdum 30A Bus Stand",
+    "dest": "R.G.Kar Hospital.",
+    "vias": [],
+    "stops": [
+      "Dumdum 30A Bus Stand",
+      "R.G.Kar Hospital."
+    ]
+  },
+  {
+    "code": "Auto: BaroMandir Bottala - Sodepur Station",
+    "origin": "BaroMandir Bottala",
+    "dest": "Sodepur Station",
+    "vias": [],
+    "stops": [
+      "BaroMandir Bottala",
+      "Sodepur Station"
+    ]
+  },
+  {
+    "code": "Auto: B.T.College - Kalvani More",
+    "origin": "B.T.College",
+    "dest": "Kalvani More",
+    "vias": [],
+    "stops": [
+      "B.T.College",
+      "Kalvani More"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpore - Kundu Bari",
+    "origin": "Barrackpore",
+    "dest": "Kundu Bari",
+    "vias": [],
+    "stops": [
+      "Barrackpore",
+      "Kundu Bari"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpore Station - Chalbazar Kundubari",
+    "origin": "Barrackpore Station",
+    "dest": "Chalbazar Kundubari",
+    "vias": [],
+    "stops": [
+      "Barrackpore Station",
+      "Chalbazar Kundubari"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpore - Paisar Ghat.",
+    "origin": "Barrackpore",
+    "dest": "Paisar Ghat.",
+    "vias": [],
+    "stops": [
+      "Barrackpore",
+      "Paisar Ghat."
+    ]
+  },
+  {
+    "code": "Auto: Sahalayan Bhattachajee Hospital - Noa Para Tematha.",
+    "origin": "Sahalayan Bhattachajee Hospital",
+    "dest": "Noa Para Tematha.",
+    "vias": [],
+    "stops": [
+      "Sahalayan Bhattachajee Hospital",
+      "Noa Para Tematha."
+    ]
+  },
+  {
+    "code": "Auto: Noapara - Dumdum Station",
+    "origin": "Noapara",
+    "dest": "Dumdum Station",
+    "vias": [],
+    "stops": [
+      "Noapara",
+      "Dumdum Station"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur More - Ramchandrapur",
+    "origin": "Sodepur More",
+    "dest": "Ramchandrapur",
+    "vias": [],
+    "stops": [
+      "Sodepur More",
+      "Ramchandrapur"
+    ]
+  },
+  {
+    "code": "Auto: Sodeour Giria Church - Rahara Bus Stand",
+    "origin": "Sodeour Giria Church",
+    "dest": "Rahara Bus Stand",
+    "vias": [],
+    "stops": [
+      "Sodeour Giria Church",
+      "Rahara Bus Stand"
+    ]
+  },
+  {
+    "code": "Auto: L-9 Bus Stand - Advaoith Mandir",
+    "origin": "L-9 Bus Stand",
+    "dest": "Advaoith Mandir",
+    "vias": [],
+    "stops": [
+      "L-9 Bus Stand",
+      "Advaoith Mandir"
+    ]
+  },
+  {
+    "code": "Auto: Dunlop - Noapara",
+    "origin": "Dunlop",
+    "dest": "Noapara",
+    "vias": [
+      "Metro Station"
+    ],
+    "stops": [
+      "Dunlop",
+      "Metro Station",
+      "Noapara"
+    ]
+  },
+  {
+    "code": "Auto: Santinagar - BanLala",
+    "origin": "Santinagar",
+    "dest": "BanLala",
+    "vias": [
+      "Khasmahal"
+    ],
+    "stops": [
+      "Santinagar",
+      "Khasmahal",
+      "BanLala"
+    ]
+  },
+  {
+    "code": "Auto: Mani-khola - Gobra",
+    "origin": "Mani-khola",
+    "dest": "Gobra",
+    "vias": [],
+    "stops": [
+      "Mani-khola",
+      "Gobra"
+    ]
+  },
+  {
+    "code": "Auto: Shvamnagar Station - Kankinara Bazar",
+    "origin": "Shvamnagar Station",
+    "dest": "Kankinara Bazar",
+    "vias": [],
+    "stops": [
+      "Shvamnagar Station",
+      "Kankinara Bazar"
+    ]
+  },
+  {
+    "code": "Auto: Shvamnagar - Jagaddal Ghat",
+    "origin": "Shvamnagar",
+    "dest": "Jagaddal Ghat",
+    "vias": [],
+    "stops": [
+      "Shvamnagar",
+      "Jagaddal Ghat"
+    ]
+  },
+  {
+    "code": "Auto: Kankinara Bazar - Jagaddal Ghat",
+    "origin": "Kankinara Bazar",
+    "dest": "Jagaddal Ghat",
+    "vias": [],
+    "stops": [
+      "Kankinara Bazar",
+      "Jagaddal Ghat"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpore Station - Dhobi Ghat",
+    "origin": "Barrackpore Station",
+    "dest": "Dhobi Ghat",
+    "vias": [],
+    "stops": [
+      "Barrackpore Station",
+      "Dhobi Ghat"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpore Station - Nilganj",
+    "origin": "Barrackpore Station",
+    "dest": "Nilganj",
+    "vias": [],
+    "stops": [
+      "Barrackpore Station",
+      "Nilganj"
+    ]
+  },
+  {
+    "code": "Auto: Railway Gate No. - Patulia",
+    "origin": "Railway Gate No.",
+    "dest": "Patulia",
+    "vias": [],
+    "stops": [
+      "Railway Gate No.",
+      "Patulia"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpore Court - Store Bazar",
+    "origin": "Barrackpore Court",
+    "dest": "Store Bazar",
+    "vias": [],
+    "stops": [
+      "Barrackpore Court",
+      "Store Bazar"
+    ]
+  },
+  {
+    "code": "Auto: Khardaha Station - Bandipur",
+    "origin": "Khardaha Station",
+    "dest": "Bandipur",
+    "vias": [
+      "Rahara Bazar"
+    ],
+    "stops": [
+      "Khardaha Station",
+      "Rahara Bazar",
+      "Bandipur"
+    ]
+  },
+  {
+    "code": "Auto: Morolpara - Saheb Bagan",
+    "origin": "Morolpara",
+    "dest": "Saheb Bagan",
+    "vias": [],
+    "stops": [
+      "Morolpara",
+      "Saheb Bagan"
+    ]
+  },
+  {
+    "code": "Auto: Khardaha Station Road - Shyamsundarghat",
+    "origin": "Khardaha Station Road",
+    "dest": "Shyamsundarghat",
+    "vias": [
+      "B.T. Road"
+    ],
+    "stops": [
+      "Khardaha Station Road",
+      "B.T. Road",
+      "Shyamsundarghat"
+    ]
+  },
+  {
+    "code": "Auto: Kamarhati - Dunlop",
+    "origin": "Kamarhati",
+    "dest": "Dunlop",
+    "vias": [],
+    "stops": [
+      "Kamarhati",
+      "Dunlop"
+    ]
+  },
+  {
+    "code": "Auto: Kamarhati - Agarpara Station",
+    "origin": "Kamarhati",
+    "dest": "Agarpara Station",
+    "vias": [],
+    "stops": [
+      "Kamarhati",
+      "Agarpara Station"
+    ]
+  },
+  {
+    "code": "Auto: Kamarhati - India Foil Piturighat",
+    "origin": "Kamarhati",
+    "dest": "India Foil Piturighat",
+    "vias": [],
+    "stops": [
+      "Kamarhati",
+      "India Foil Piturighat"
+    ]
+  },
+  {
+    "code": "Auto: Kamarhati Sagar Dutta Hospital - Sashtitala More",
+    "origin": "Kamarhati Sagar Dutta Hospital",
+    "dest": "Sashtitala More",
+    "vias": [],
+    "stops": [
+      "Kamarhati Sagar Dutta Hospital",
+      "Sashtitala More"
+    ]
+  },
+  {
+    "code": "Auto: Sashtitala More - Dakshineswar",
+    "origin": "Sashtitala More",
+    "dest": "Dakshineswar",
+    "vias": [],
+    "stops": [
+      "Sashtitala More",
+      "Dakshineswar"
+    ]
+  },
+  {
+    "code": "Auto: Beltala Math - Agarpara Station",
+    "origin": "Beltala Math",
+    "dest": "Agarpara Station",
+    "vias": [],
+    "stops": [
+      "Beltala Math",
+      "Agarpara Station"
+    ]
+  },
+  {
+    "code": "Auto: Kamarhati More - New Basti",
+    "origin": "Kamarhati More",
+    "dest": "New Basti",
+    "vias": [],
+    "stops": [
+      "Kamarhati More",
+      "New Basti"
+    ]
+  },
+  {
+    "code": "Auto: Sagar Dutta Hospital - Belgharia Station",
+    "origin": "Sagar Dutta Hospital",
+    "dest": "Belgharia Station",
+    "vias": [],
+    "stops": [
+      "Sagar Dutta Hospital",
+      "Belgharia Station"
+    ]
+  },
+  {
+    "code": "Auto: Durganagar Station - Maierhat",
+    "origin": "Durganagar Station",
+    "dest": "Maierhat",
+    "vias": [],
+    "stops": [
+      "Durganagar Station",
+      "Maierhat"
+    ]
+  },
+  {
+    "code": "Auto: Belgharia - Birati",
+    "origin": "Belgharia",
+    "dest": "Birati",
+    "vias": [],
+    "stops": [
+      "Belgharia",
+      "Birati"
+    ]
+  },
+  {
+    "code": "Auto: Belgharia - Dunlop",
+    "origin": "Belgharia",
+    "dest": "Dunlop",
+    "vias": [],
+    "stops": [
+      "Belgharia",
+      "Dunlop"
+    ]
+  },
+  {
+    "code": "Auto: Kamarhati - Barrackpore Chiriamore",
+    "origin": "Kamarhati",
+    "dest": "Barrackpore Chiriamore",
+    "vias": [],
+    "stops": [
+      "Kamarhati",
+      "Barrackpore Chiriamore"
+    ]
+  },
+  {
+    "code": "Auto: Kamarhati - Agarpara Battala",
+    "origin": "Kamarhati",
+    "dest": "Agarpara Battala",
+    "vias": [],
+    "stops": [
+      "Kamarhati",
+      "Agarpara Battala"
+    ]
+  },
+  {
+    "code": "Auto: Sashtitala - Bus Stand",
+    "origin": "Sashtitala",
+    "dest": "Bus Stand",
+    "vias": [],
+    "stops": [
+      "Sashtitala",
+      "Bus Stand"
+    ]
+  },
+  {
+    "code": "Auto: Rathtala - Dakshineswar",
+    "origin": "Rathtala",
+    "dest": "Dakshineswar",
+    "vias": [],
+    "stops": [
+      "Rathtala",
+      "Dakshineswar"
+    ]
+  },
+  {
+    "code": "Auto: Rathtala - Barrackoore Chiriamore",
+    "origin": "Rathtala",
+    "dest": "Barrackoore Chiriamore",
+    "vias": [],
+    "stops": [
+      "Rathtala",
+      "Barrackoore Chiriamore"
+    ]
+  },
+  {
+    "code": "Auto: Agarpara Tetultala - Barrackpore Chiriamore",
+    "origin": "Agarpara Tetultala",
+    "dest": "Barrackpore Chiriamore",
+    "vias": [],
+    "stops": [
+      "Agarpara Tetultala",
+      "Barrackpore Chiriamore"
+    ]
+  },
+  {
+    "code": "Auto: Agarpara Station - Old Post Office",
+    "origin": "Agarpara Station",
+    "dest": "Old Post Office",
+    "vias": [],
+    "stops": [
+      "Agarpara Station",
+      "Old Post Office"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur More - Dunlop",
+    "origin": "Sodepur More",
+    "dest": "Dunlop",
+    "vias": [],
+    "stops": [
+      "Sodepur More",
+      "Dunlop"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur More - Barrackpore Chiriamore 97",
+    "origin": "Sodepur More",
+    "dest": "Barrackpore Chiriamore 97",
+    "vias": [],
+    "stops": [
+      "Sodepur More",
+      "Barrackpore Chiriamore 97"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur More,B.T.Road - Madhyamgram 918 Chowmatha",
+    "origin": "Sodepur More,B.T.Road",
+    "dest": "Madhyamgram 918 Chowmatha",
+    "vias": [],
+    "stops": [
+      "Sodepur More,B.T.Road",
+      "Madhyamgram 918 Chowmatha"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur Station - Panihati Kheyaghat 43",
+    "origin": "Sodepur Station",
+    "dest": "Panihati Kheyaghat 43",
+    "vias": [],
+    "stops": [
+      "Sodepur Station",
+      "Panihati Kheyaghat 43"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur Station - Sreepally 22",
+    "origin": "Sodepur Station",
+    "dest": "Sreepally 22",
+    "vias": [],
+    "stops": [
+      "Sodepur Station",
+      "Sreepally 22"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur Station - Mallickpara",
+    "origin": "Sodepur Station",
+    "dest": "Mallickpara",
+    "vias": [],
+    "stops": [
+      "Sodepur Station",
+      "Mallickpara"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur Station - Kalayangarh 102",
+    "origin": "Sodepur Station",
+    "dest": "Kalayangarh 102",
+    "vias": [],
+    "stops": [
+      "Sodepur Station",
+      "Kalayangarh 102"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur Station - Musalmanpara 31",
+    "origin": "Sodepur Station",
+    "dest": "Musalmanpara 31",
+    "vias": [],
+    "stops": [
+      "Sodepur Station",
+      "Musalmanpara 31"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur Station - Bankimpally 18",
+    "origin": "Sodepur Station",
+    "dest": "Bankimpally 18",
+    "vias": [],
+    "stops": [
+      "Sodepur Station",
+      "Bankimpally 18"
+    ]
+  },
+  {
+    "code": "Auto: Shyamghat - Khardah Station",
+    "origin": "Shyamghat",
+    "dest": "Khardah Station",
+    "vias": [],
+    "stops": [
+      "Shyamghat",
+      "Khardah Station"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpore Station - Barasat 205 Barrackpore Station to Shvamnagar",
+    "origin": "Barrackpore Station",
+    "dest": "Barasat 205 Barrackpore Station to Shvamnagar",
+    "vias": [],
+    "stops": [
+      "Barrackpore Station",
+      "Barasat 205 Barrackpore Station to Shvamnagar"
+    ]
+  },
+  {
+    "code": "Auto: Sinthi More - 30A Bus Stand 60",
+    "origin": "Sinthi More",
+    "dest": "30A Bus Stand 60",
+    "vias": [],
+    "stops": [
+      "Sinthi More",
+      "30A Bus Stand 60"
+    ]
+  },
+  {
+    "code": "Auto: Satitala Rathtala - Barrackpore",
+    "origin": "Satitala Rathtala",
+    "dest": "Barrackpore",
+    "vias": [],
+    "stops": [
+      "Satitala Rathtala",
+      "Barrackpore"
+    ]
+  },
+  {
+    "code": "Auto: Kamarhati Pitulia Ghat - Barrackpore",
+    "origin": "Kamarhati Pitulia Ghat",
+    "dest": "Barrackpore",
+    "vias": [],
+    "stops": [
+      "Kamarhati Pitulia Ghat",
+      "Barrackpore"
+    ]
+  },
+  {
+    "code": "Auto: Dunlop - Barrackpor e Chiriamore",
+    "origin": "Dunlop",
+    "dest": "Barrackpor e Chiriamore",
+    "vias": [],
+    "stops": [
+      "Dunlop",
+      "Barrackpor e Chiriamore"
+    ]
+  },
+  {
+    "code": "Auto: Bonhooghly B.T Road More - Dakshineswar",
+    "origin": "Bonhooghly B.T Road More",
+    "dest": "Dakshineswar",
+    "vias": [],
+    "stops": [
+      "Bonhooghly B.T Road More",
+      "Dakshineswar"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpore Station - Nilgani Bazar",
+    "origin": "Barrackpore Station",
+    "dest": "Nilgani Bazar",
+    "vias": [],
+    "stops": [
+      "Barrackpore Station",
+      "Nilgani Bazar"
+    ]
+  },
+  {
+    "code": "Auto: Tobin Road - 34C Bus Stand",
+    "origin": "Tobin Road",
+    "dest": "34C Bus Stand",
+    "vias": [],
+    "stops": [
+      "Tobin Road",
+      "34C Bus Stand"
+    ]
+  },
+  {
+    "code": "Auto: Belgharia Station - Birati Station Paik Para",
+    "origin": "Belgharia Station",
+    "dest": "Birati Station Paik Para",
+    "vias": [],
+    "stops": [
+      "Belgharia Station",
+      "Birati Station Paik Para"
+    ]
+  },
+  {
+    "code": "Auto: Naihati Station - Hukumchand Jute Mill 69",
+    "origin": "Naihati Station",
+    "dest": "Hukumchand Jute Mill 69",
+    "vias": [],
+    "stops": [
+      "Naihati Station",
+      "Hukumchand Jute Mill 69"
+    ]
+  },
+  {
+    "code": "Auto: Sodpur Station - Patharpur Bazar",
+    "origin": "Sodpur Station",
+    "dest": "Patharpur Bazar",
+    "vias": [],
+    "stops": [
+      "Sodpur Station",
+      "Patharpur Bazar"
+    ]
+  },
+  {
+    "code": "Auto: New Barrackoore Station - Lelingarh 63",
+    "origin": "New Barrackoore Station",
+    "dest": "Lelingarh 63",
+    "vias": [],
+    "stops": [
+      "New Barrackoore Station",
+      "Lelingarh 63"
+    ]
+  },
+  {
+    "code": "Auto: Gorurahat - Gorabazar",
+    "origin": "Gorurahat",
+    "dest": "Gorabazar",
+    "vias": [],
+    "stops": [
+      "Gorurahat",
+      "Gorabazar"
+    ]
+  },
+  {
+    "code": "Auto: Piolighat - A12:aroara Station",
+    "origin": "Piolighat",
+    "dest": "A12:aroara Station",
+    "vias": [],
+    "stops": [
+      "Piolighat",
+      "A12:aroara Station"
+    ]
+  },
+  {
+    "code": "Auto: New Barrackoore - Bilkanda Boardghat 28",
+    "origin": "New Barrackoore",
+    "dest": "Bilkanda Boardghat 28",
+    "vias": [],
+    "stops": [
+      "New Barrackoore",
+      "Bilkanda Boardghat 28"
+    ]
+  },
+  {
+    "code": "Auto: New Barrackoore Station - 8.T.College 43",
+    "origin": "New Barrackoore Station",
+    "dest": "8.T.College 43",
+    "vias": [],
+    "stops": [
+      "New Barrackoore Station",
+      "8.T.College 43"
+    ]
+  },
+  {
+    "code": "Auto: Majipara Gazipirh at - Kanchraoara 20",
+    "origin": "Majipara Gazipirh at",
+    "dest": "Kanchraoara 20",
+    "vias": [],
+    "stops": [
+      "Majipara Gazipirh at",
+      "Kanchraoara 20"
+    ]
+  },
+  {
+    "code": "Auto: Tobin Road - Kamarhati",
+    "origin": "Tobin Road",
+    "dest": "Kamarhati",
+    "vias": [],
+    "stops": [
+      "Tobin Road",
+      "Kamarhati"
+    ]
+  },
+  {
+    "code": "Auto: Sa.rat Colony - Birati Station",
+    "origin": "Sa.rat Colony",
+    "dest": "Birati Station",
+    "vias": [],
+    "stops": [
+      "Sa.rat Colony",
+      "Birati Station"
+    ]
+  },
+  {
+    "code": "Auto: Agarpara Station - Kadamt ala 42",
+    "origin": "Agarpara Station",
+    "dest": "Kadamt ala 42",
+    "vias": [],
+    "stops": [
+      "Agarpara Station",
+      "Kadamt ala 42"
+    ]
+  },
+  {
+    "code": "Auto: Khardaha Station - Shvamghat",
+    "origin": "Khardaha Station",
+    "dest": "Shvamghat",
+    "vias": [],
+    "stops": [
+      "Khardaha Station",
+      "Shvamghat"
+    ]
+  },
+  {
+    "code": "Auto: Bandipur Monda! Para - Saheb Bagan",
+    "origin": "Bandipur Monda! Para",
+    "dest": "Saheb Bagan",
+    "vias": [],
+    "stops": [
+      "Bandipur Monda! Para",
+      "Saheb Bagan"
+    ]
+  },
+  {
+    "code": "Auto: Rail Gate No. - Birati at Jessore Road",
+    "origin": "Rail Gate No.",
+    "dest": "Birati at Jessore Road",
+    "vias": [],
+    "stops": [
+      "Rail Gate No.",
+      "Birati at Jessore Road"
+    ]
+  },
+  {
+    "code": "Auto: Rail Gate No. - Birati Station",
+    "origin": "Rail Gate No.",
+    "dest": "Birati Station",
+    "vias": [],
+    "stops": [
+      "Rail Gate No.",
+      "Birati Station"
+    ]
+  },
+  {
+    "code": "Auto: Mallickpara - Sodeour Station",
+    "origin": "Mallickpara",
+    "dest": "Sodeour Station",
+    "vias": [],
+    "stops": [
+      "Mallickpara",
+      "Sodeour Station"
+    ]
+  },
+  {
+    "code": "Auto: Titagarh - Dunlop 257",
+    "origin": "Titagarh",
+    "dest": "Dunlop 257",
+    "vias": [],
+    "stops": [
+      "Titagarh",
+      "Dunlop 257"
+    ]
+  },
+  {
+    "code": "Auto: Bus Stand No. - Sinthi More",
+    "origin": "Bus Stand No.",
+    "dest": "Sinthi More",
+    "vias": [],
+    "stops": [
+      "Bus Stand No.",
+      "Sinthi More"
+    ]
+  },
+  {
+    "code": "Auto: Belgharia - Bally Khal",
+    "origin": "Belgharia",
+    "dest": "Bally Khal",
+    "vias": [],
+    "stops": [
+      "Belgharia",
+      "Bally Khal"
+    ]
+  },
+  {
+    "code": "Auto: Belgachia - Barnmur",
+    "origin": "Belgachia",
+    "dest": "Barnmur",
+    "vias": [],
+    "stops": [
+      "Belgachia",
+      "Barnmur"
+    ]
+  },
+  {
+    "code": "Auto: Dumdum Cantonment Health Centre - Mathkalhal",
+    "origin": "Dumdum Cantonment Health Centre",
+    "dest": "Mathkalhal",
+    "vias": [],
+    "stops": [
+      "Dumdum Cantonment Health Centre",
+      "Mathkalhal"
+    ]
+  },
+  {
+    "code": "Auto: Kanchraoara Station - Jagulia 64",
+    "origin": "Kanchraoara Station",
+    "dest": "Jagulia 64",
+    "vias": [],
+    "stops": [
+      "Kanchraoara Station",
+      "Jagulia 64"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur Station - Kalitala",
+    "origin": "Sodepur Station",
+    "dest": "Kalitala",
+    "vias": [],
+    "stops": [
+      "Sodepur Station",
+      "Kalitala"
+    ]
+  },
+  {
+    "code": "Auto: Nimta Paikpara - Muragacha",
+    "origin": "Nimta Paikpara",
+    "dest": "Muragacha",
+    "vias": [],
+    "stops": [
+      "Nimta Paikpara",
+      "Muragacha"
+    ]
+  },
+  {
+    "code": "Auto: B.T. Road at Bonhooghly More - Dakshineswar",
+    "origin": "B.T. Road at Bonhooghly More",
+    "dest": "Dakshineswar",
+    "vias": [],
+    "stops": [
+      "B.T. Road at Bonhooghly More",
+      "Dakshineswar"
+    ]
+  },
+  {
+    "code": "Auto: Shyamnagar - Goalghar Park 42",
+    "origin": "Shyamnagar",
+    "dest": "Goalghar Park 42",
+    "vias": [],
+    "stops": [
+      "Shyamnagar",
+      "Goalghar Park 42"
+    ]
+  },
+  {
+    "code": "Auto: Basudebpur - Shvamnagar",
+    "origin": "Basudebpur",
+    "dest": "Shvamnagar",
+    "vias": [],
+    "stops": [
+      "Basudebpur",
+      "Shvamnagar"
+    ]
+  },
+  {
+    "code": "Auto: Rail Gate No. - Barrackpore",
+    "origin": "Rail Gate No.",
+    "dest": "Barrackpore",
+    "vias": [],
+    "stops": [
+      "Rail Gate No.",
+      "Barrackpore"
+    ]
+  },
+  {
+    "code": "Auto: Garubhanga - Ghosal Bhaban",
+    "origin": "Garubhanga",
+    "dest": "Ghosal Bhaban",
+    "vias": [],
+    "stops": [
+      "Garubhanga",
+      "Ghosal Bhaban"
+    ]
+  },
+  {
+    "code": "Auto: New Barrackoore - Nabaiiban",
+    "origin": "New Barrackoore",
+    "dest": "Nabaiiban",
+    "vias": [],
+    "stops": [
+      "New Barrackoore",
+      "Nabaiiban"
+    ]
+  },
+  {
+    "code": "Auto: Shvamnagar - Jagaddal",
+    "origin": "Shvamnagar",
+    "dest": "Jagaddal",
+    "vias": [],
+    "stops": [
+      "Shvamnagar",
+      "Jagaddal"
+    ]
+  },
+  {
+    "code": "Auto: Jagatdal - Monda! Para",
+    "origin": "Jagatdal",
+    "dest": "Monda! Para",
+    "vias": [],
+    "stops": [
+      "Jagatdal",
+      "Monda! Para"
+    ]
+  },
+  {
+    "code": "Auto: Agaroara Station - Dunlop 49",
+    "origin": "Agaroara Station",
+    "dest": "Dunlop 49",
+    "vias": [],
+    "stops": [
+      "Agaroara Station",
+      "Dunlop 49"
+    ]
+  },
+  {
+    "code": "Auto: Belgharia Station - D.P.Nagar 183",
+    "origin": "Belgharia Station",
+    "dest": "D.P.Nagar 183",
+    "vias": [],
+    "stops": [
+      "Belgharia Station",
+      "D.P.Nagar 183"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur Railway Station - Sukchar 27",
+    "origin": "Sodepur Railway Station",
+    "dest": "Sukchar 27",
+    "vias": [],
+    "stops": [
+      "Sodepur Railway Station",
+      "Sukchar 27"
+    ]
+  },
+  {
+    "code": "Auto: Mohi.oola - Sodeour Railway Station",
+    "origin": "Mohi.oola",
+    "dest": "Sodeour Railway Station",
+    "vias": [],
+    "stops": [
+      "Mohi.oola",
+      "Sodeour Railway Station"
+    ]
+  },
+  {
+    "code": "Auto: Agarpara Station - Saktiour Das Para",
+    "origin": "Agarpara Station",
+    "dest": "Saktiour Das Para",
+    "vias": [],
+    "stops": [
+      "Agarpara Station",
+      "Saktiour Das Para"
+    ]
+  },
+  {
+    "code": "Auto: Jagatdal Station - Jagaddal Perry Ghat",
+    "origin": "Jagatdal Station",
+    "dest": "Jagaddal Perry Ghat",
+    "vias": [],
+    "stops": [
+      "Jagatdal Station",
+      "Jagaddal Perry Ghat"
+    ]
+  },
+  {
+    "code": "Auto: Kankinara - Jagadda l",
+    "origin": "Kankinara",
+    "dest": "Jagadda l",
+    "vias": [],
+    "stops": [
+      "Kankinara",
+      "Jagadda l"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur Station - Sajirhat",
+    "origin": "Sodepur Station",
+    "dest": "Sajirhat",
+    "vias": [],
+    "stops": [
+      "Sodepur Station",
+      "Sajirhat"
+    ]
+  },
+  {
+    "code": "Auto: Rathtala - Panpur 26",
+    "origin": "Rathtala",
+    "dest": "Panpur 26",
+    "vias": [],
+    "stops": [
+      "Rathtala",
+      "Panpur 26"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur B.T. Road - Barasat",
+    "origin": "Sodepur B.T. Road",
+    "dest": "Barasat",
+    "vias": [],
+    "stops": [
+      "Sodepur B.T. Road",
+      "Barasat"
+    ]
+  },
+  {
+    "code": "Auto: Belgharia - D.P.Nagar",
+    "origin": "Belgharia",
+    "dest": "D.P.Nagar",
+    "vias": [],
+    "stops": [
+      "Belgharia",
+      "D.P.Nagar"
+    ]
+  },
+  {
+    "code": "Auto: Shyamnagar - Monda! Para 45",
+    "origin": "Shyamnagar",
+    "dest": "Monda! Para 45",
+    "vias": [],
+    "stops": [
+      "Shyamnagar",
+      "Monda! Para 45"
+    ]
+  },
+  {
+    "code": "Auto: Kanchrapara - Bagmore 92",
+    "origin": "Kanchrapara",
+    "dest": "Bagmore 92",
+    "vias": [],
+    "stops": [
+      "Kanchrapara",
+      "Bagmore 92"
+    ]
+  },
+  {
+    "code": "Auto: 230 Bus Stand - Agarpara Station 73",
+    "origin": "230 Bus Stand",
+    "dest": "Agarpara Station 73",
+    "vias": [],
+    "stops": [
+      "230 Bus Stand",
+      "Agarpara Station 73"
+    ]
+  },
+  {
+    "code": "Auto: Health Institution - Gouribari 42",
+    "origin": "Health Institution",
+    "dest": "Gouribari 42",
+    "vias": [],
+    "stops": [
+      "Health Institution",
+      "Gouribari 42"
+    ]
+  },
+  {
+    "code": "Auto: L-9 B.T. Road - Ferrv Ghat",
+    "origin": "L-9 B.T. Road",
+    "dest": "Ferrv Ghat",
+    "vias": [],
+    "stops": [
+      "L-9 B.T. Road",
+      "Ferrv Ghat"
+    ]
+  },
+  {
+    "code": "Auto: Sinthi More - Kamarhati 306",
+    "origin": "Sinthi More",
+    "dest": "Kamarhati 306",
+    "vias": [],
+    "stops": [
+      "Sinthi More",
+      "Kamarhati 306"
+    ]
+  },
+  {
+    "code": "Auto: Bhatpar a Garpar - Sodepur Station",
+    "origin": "Bhatpar a Garpar",
+    "dest": "Sodepur Station",
+    "vias": [],
+    "stops": [
+      "Bhatpar a Garpar",
+      "Sodepur Station"
+    ]
+  },
+  {
+    "code": "Auto: Shvamnagar - Goalghar",
+    "origin": "Shvamnagar",
+    "dest": "Goalghar",
+    "vias": [],
+    "stops": [
+      "Shvamnagar",
+      "Goalghar"
+    ]
+  },
+  {
+    "code": "Auto: Khardaha Station - Patulia",
+    "origin": "Khardaha Station",
+    "dest": "Patulia",
+    "vias": [],
+    "stops": [
+      "Khardaha Station",
+      "Patulia"
+    ]
+  },
+  {
+    "code": "Auto: Gaiiour Hat - Kanchrapara Station",
+    "origin": "Gaiiour Hat",
+    "dest": "Kanchrapara Station",
+    "vias": [],
+    "stops": [
+      "Gaiiour Hat",
+      "Kanchrapara Station"
+    ]
+  },
+  {
+    "code": "Auto: Paikpara - Sodeour Railway Station",
+    "origin": "Paikpara",
+    "dest": "Sodeour Railway Station",
+    "vias": [],
+    "stops": [
+      "Paikpara",
+      "Sodeour Railway Station"
+    ]
+  },
+  {
+    "code": "Auto: B.T. College - Sajirhat 22",
+    "origin": "B.T. College",
+    "dest": "Sajirhat 22",
+    "vias": [],
+    "stops": [
+      "B.T. College",
+      "Sajirhat 22"
+    ]
+  },
+  {
+    "code": "Auto: Naihati - Aryasamaj 63",
+    "origin": "Naihati",
+    "dest": "Aryasamaj 63",
+    "vias": [],
+    "stops": [
+      "Naihati",
+      "Aryasamaj 63"
+    ]
+  },
+  {
+    "code": "Auto: Oum Dum Cantonment Health Institute - 30 Shivtala",
+    "origin": "Oum Dum Cantonment Health Institute",
+    "dest": "30 Shivtala",
+    "vias": [],
+    "stops": [
+      "Oum Dum Cantonment Health Institute",
+      "30 Shivtala"
+    ]
+  },
+  {
+    "code": "Auto: Patulia Panchavat - Barrackpore Gate No.4",
+    "origin": "Patulia Panchavat",
+    "dest": "Barrackpore Gate No.4",
+    "vias": [],
+    "stops": [
+      "Patulia Panchavat",
+      "Barrackpore Gate No.4"
+    ]
+  },
+  {
+    "code": "Auto: Kendu - Gounagar",
+    "origin": "Kendu",
+    "dest": "Gounagar",
+    "vias": [],
+    "stops": [
+      "Kendu",
+      "Gounagar"
+    ]
+  },
+  {
+    "code": "Auto: Rathtala - Ariadaha 49",
+    "origin": "Rathtala",
+    "dest": "Ariadaha 49",
+    "vias": [],
+    "stops": [
+      "Rathtala",
+      "Ariadaha 49"
+    ]
+  },
+  {
+    "code": "Auto: Ariadaha Kheyaghat - Dunlop Anmol",
+    "origin": "Ariadaha Kheyaghat",
+    "dest": "Dunlop Anmol",
+    "vias": [],
+    "stops": [
+      "Ariadaha Kheyaghat",
+      "Dunlop Anmol"
+    ]
+  },
+  {
+    "code": "Auto: Paikpara Bus Stand - Muragacha",
+    "origin": "Paikpara Bus Stand",
+    "dest": "Muragacha",
+    "vias": [],
+    "stops": [
+      "Paikpara Bus Stand",
+      "Muragacha"
+    ]
+  },
+  {
+    "code": "Auto: Shyamnagar - Barrackpore",
+    "origin": "Shyamnagar",
+    "dest": "Barrackpore",
+    "vias": [],
+    "stops": [
+      "Shyamnagar",
+      "Barrackpore"
+    ]
+  },
+  {
+    "code": "Auto: Barrackoore Station - Palta Station",
+    "origin": "Barrackoore Station",
+    "dest": "Palta Station",
+    "vias": [],
+    "stops": [
+      "Barrackoore Station",
+      "Palta Station"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur Traffic More - Madhyamgram 210",
+    "origin": "Sodepur Traffic More",
+    "dest": "Madhyamgram 210",
+    "vias": [],
+    "stops": [
+      "Sodepur Traffic More",
+      "Madhyamgram 210"
+    ]
+  },
+  {
+    "code": "Auto: Barrackpore High Road Junction - Naihati 64 Station",
+    "origin": "Barrackpore High Road Junction",
+    "dest": "Naihati 64 Station",
+    "vias": [],
+    "stops": [
+      "Barrackpore High Road Junction",
+      "Naihati 64 Station"
+    ]
+  },
+  {
+    "code": "Auto: Health - Mathkol, Oum Oum Cantonment. so",
+    "origin": "Health",
+    "dest": "Mathkol, Oum Oum Cantonment. so",
+    "vias": [],
+    "stops": [
+      "Health",
+      "Mathkol, Oum Oum Cantonment. so"
+    ]
+  },
+  {
+    "code": "Auto: BRMM Bus stand - Tentultala Bus Stand",
+    "origin": "BRMM Bus stand",
+    "dest": "Tentultala Bus Stand",
+    "vias": [],
+    "stops": [
+      "BRMM Bus stand",
+      "Tentultala Bus Stand"
+    ]
+  },
+  {
+    "code": "Auto: Patulia Bandipur - Titagrah Bus Stand",
+    "origin": "Patulia Bandipur",
+    "dest": "Titagrah Bus Stand",
+    "vias": [],
+    "stops": [
+      "Patulia Bandipur",
+      "Titagrah Bus Stand"
+    ]
+  },
+  {
+    "code": "Auto: Kankinara Rathtala - Panpur",
+    "origin": "Kankinara Rathtala",
+    "dest": "Panpur",
+    "vias": [],
+    "stops": [
+      "Kankinara Rathtala",
+      "Panpur"
+    ]
+  },
+  {
+    "code": "Auto: Halisahar - Boldayghata. 25",
+    "origin": "Halisahar",
+    "dest": "Boldayghata. 25",
+    "vias": [],
+    "stops": [
+      "Halisahar",
+      "Boldayghata. 25"
+    ]
+  },
+  {
+    "code": "Auto: Talouku r - Dunlop",
+    "origin": "Talouku r",
+    "dest": "Dunlop",
+    "vias": [],
+    "stops": [
+      "Talouku r",
+      "Dunlop"
+    ]
+  },
+  {
+    "code": "Auto: Titagarh Station - Kharbhanga",
+    "origin": "Titagarh Station",
+    "dest": "Kharbhanga",
+    "vias": [],
+    "stops": [
+      "Titagarh Station",
+      "Kharbhanga"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur Station - Dunlop 33",
+    "origin": "Sodepur Station",
+    "dest": "Dunlop 33",
+    "vias": [],
+    "stops": [
+      "Sodepur Station",
+      "Dunlop 33"
+    ]
+  },
+  {
+    "code": "Auto: Lalkuthi - 13anITT.Ir Avenue.",
+    "origin": "Lalkuthi",
+    "dest": "13anITT.Ir Avenue.",
+    "vias": [],
+    "stops": [
+      "Lalkuthi",
+      "13anITT.Ir Avenue."
+    ]
+  },
+  {
+    "code": "Auto: Lake Town - Clive House",
+    "origin": "Lake Town",
+    "dest": "Clive House",
+    "vias": [
+      "Nagerbazar",
+      "Bangur Avenue",
+      "Shvamnagar",
+      "Rodkol"
+    ],
+    "stops": [
+      "Lake Town",
+      "Nagerbazar",
+      "Bangur Avenue",
+      "Shvamnagar",
+      "Rodkol",
+      "Clive House"
+    ]
+  },
+  {
+    "code": "Auto: Lake Town - Dum Oum Station",
+    "origin": "Lake Town",
+    "dest": "Dum Oum Station",
+    "vias": [],
+    "stops": [
+      "Lake Town",
+      "Dum Oum Station"
+    ]
+  },
+  {
+    "code": "Auto: Airoort No. Gate - Cantonment",
+    "origin": "Airoort No. Gate",
+    "dest": "Cantonment",
+    "vias": [],
+    "stops": [
+      "Airoort No. Gate",
+      "Cantonment"
+    ]
+  },
+  {
+    "code": "Auto: Airport No. Gate - Durganag ar 35",
+    "origin": "Airport No. Gate",
+    "dest": "Durganag ar 35",
+    "vias": [],
+    "stops": [
+      "Airport No. Gate",
+      "Durganag ar 35"
+    ]
+  },
+  {
+    "code": "Auto: Airport No. Gate - Gorabazar 50",
+    "origin": "Airport No. Gate",
+    "dest": "Gorabazar 50",
+    "vias": [],
+    "stops": [
+      "Airport No. Gate",
+      "Gorabazar 50"
+    ]
+  },
+  {
+    "code": "Auto: Airport No. Gate - Barasat",
+    "origin": "Airport No. Gate",
+    "dest": "Barasat",
+    "vias": [],
+    "stops": [
+      "Airport No. Gate",
+      "Barasat"
+    ]
+  },
+  {
+    "code": "Auto: Airport No. Gate - Sapuioara",
+    "origin": "Airport No. Gate",
+    "dest": "Sapuioara",
+    "vias": [],
+    "stops": [
+      "Airport No. Gate",
+      "Sapuioara"
+    ]
+  },
+  {
+    "code": "Auto: Airport No. Gate - Ghola Kazipara ' Airport No. Gate to Nagerbazar 64 Dakshineswar to Belur",
+    "origin": "Airport No. Gate",
+    "dest": "Ghola Kazipara ' Airport No. Gate to Nagerbazar 64 Dakshineswar to Belur",
+    "vias": [
+      "Vivekananda Bridge"
+    ],
+    "stops": [
+      "Airport No. Gate",
+      "Vivekananda Bridge",
+      "Ghola Kazipara ' Airport No. Gate to Nagerbazar 64 Dakshineswar to Belur"
+    ]
+  },
+  {
+    "code": "Auto: Noapara - Mathkhal",
+    "origin": "Noapara",
+    "dest": "Mathkhal",
+    "vias": [
+      "Pramodnagar Bazar"
+    ],
+    "stops": [
+      "Noapara",
+      "Pramodnagar Bazar",
+      "Mathkhal"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur Station - Namajpara",
+    "origin": "Sodepur Station",
+    "dest": "Namajpara",
+    "vias": [
+      "Natagarh",
+      "Parthapore"
+    ],
+    "stops": [
+      "Sodepur Station",
+      "Natagarh",
+      "Parthapore",
+      "Namajpara"
+    ]
+  },
+  {
+    "code": "Auto: Agarpara Station - Uttarpally",
+    "origin": "Agarpara Station",
+    "dest": "Uttarpally",
+    "vias": [
+      "East Station Road",
+      "Azad Hind Nagar"
+    ],
+    "stops": [
+      "Agarpara Station",
+      "East Station Road",
+      "Azad Hind Nagar",
+      "Uttarpally"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur Station - Ghola High School",
+    "origin": "Sodepur Station",
+    "dest": "Ghola High School",
+    "vias": [
+      "Amrabati More",
+      "HB Town",
+      "Ghola Bus Stand"
+    ],
+    "stops": [
+      "Sodepur Station",
+      "Amrabati More",
+      "HB Town",
+      "Ghola Bus Stand",
+      "Ghola High School"
+    ]
+  },
+  {
+    "code": "Auto: Kamarhati - Badamtala",
+    "origin": "Kamarhati",
+    "dest": "Badamtala",
+    "vias": [
+      "No. Bus Stand New Panchanantalla Power House"
+    ],
+    "stops": [
+      "Kamarhati",
+      "No. Bus Stand New Panchanantalla Power House",
+      "Badamtala"
+    ]
+  },
+  {
+    "code": "Auto: Rathtala - Sinthi More",
+    "origin": "Rathtala",
+    "dest": "Sinthi More",
+    "vias": [
+      "Dunlop",
+      "Baranagar Police Station"
+    ],
+    "stops": [
+      "Rathtala",
+      "Dunlop",
+      "Baranagar Police Station",
+      "Sinthi More"
+    ]
+  },
+  {
+    "code": "Auto: Bagmore - Nayabazar",
+    "origin": "Bagmore",
+    "dest": "Nayabazar",
+    "vias": [
+      "Tetultala More",
+      "Bokultala"
+    ],
+    "stops": [
+      "Bagmore",
+      "Tetultala More",
+      "Bokultala",
+      "Nayabazar"
+    ]
+  },
+  {
+    "code": "Auto: Kanchrapara Station - Halisahar Station",
+    "origin": "Kanchrapara Station",
+    "dest": "Halisahar Station",
+    "vias": [
+      "Bizpur Thana More",
+      "Bhut Bagan"
+    ],
+    "stops": [
+      "Kanchrapara Station",
+      "Bizpur Thana More",
+      "Bhut Bagan",
+      "Halisahar Station"
+    ]
+  },
+  {
+    "code": "Auto: Halisahar - Bagmore",
+    "origin": "Halisahar",
+    "dest": "Bagmore",
+    "vias": [
+      "Nabo Nagar",
+      "Salida Ghata",
+      "Tetu! TaJla"
+    ],
+    "stops": [
+      "Halisahar",
+      "Nabo Nagar",
+      "Salida Ghata",
+      "Tetu! TaJla",
+      "Bagmore"
+    ]
+  },
+  {
+    "code": "Auto: Halisahar - Ramprasad Ghat",
+    "origin": "Halisahar",
+    "dest": "Ramprasad Ghat",
+    "vias": [
+      "Nabonagar",
+      "Bolida Ghata"
+    ],
+    "stops": [
+      "Halisahar",
+      "Nabonagar",
+      "Bolida Ghata",
+      "Ramprasad Ghat"
+    ]
+  },
+  {
+    "code": "Auto: Halisahar - Harimandir",
+    "origin": "Halisahar",
+    "dest": "Harimandir",
+    "vias": [
+      "Balibhara Konamore"
+    ],
+    "stops": [
+      "Halisahar",
+      "Balibhara Konamore",
+      "Harimandir"
+    ]
+  },
+  {
+    "code": "Auto: Halisahar - Banimandir",
+    "origin": "Halisahar",
+    "dest": "Banimandir",
+    "vias": [
+      "Nabonagar Sarkar Bazar Salida Ghata"
+    ],
+    "stops": [
+      "Halisahar",
+      "Nabonagar Sarkar Bazar Salida Ghata",
+      "Banimandir"
+    ]
+  },
+  {
+    "code": "Auto: Naihati - Dugachiya",
+    "origin": "Naihati",
+    "dest": "Dugachiya",
+    "vias": [
+      "Naihati General Hospital"
+    ],
+    "stops": [
+      "Naihati",
+      "Naihati General Hospital",
+      "Dugachiya"
+    ]
+  },
+  {
+    "code": "Auto: Naihati Children Park - Ramchandrapur",
+    "origin": "Naihati Children Park",
+    "dest": "Ramchandrapur",
+    "vias": [
+      "Power I rouse More"
+    ],
+    "stops": [
+      "Naihati Children Park",
+      "Power I rouse More",
+      "Ramchandrapur"
+    ]
+  },
+  {
+    "code": "Auto: Naihati - Kankinar a",
+    "origin": "Naihati",
+    "dest": "Kankinar a",
+    "vias": [
+      "R. B. Road"
+    ],
+    "stops": [
+      "Naihati",
+      "R. B. Road",
+      "Kankinar a"
+    ]
+  },
+  {
+    "code": "Auto: Khardaha - Dunlop",
+    "origin": "Khardaha",
+    "dest": "Dunlop",
+    "vias": [
+      "Sodepur",
+      "Agarpara",
+      "Rathtala"
+    ],
+    "stops": [
+      "Khardaha",
+      "Sodepur",
+      "Agarpara",
+      "Rathtala",
+      "Dunlop"
+    ]
+  },
+  {
+    "code": "Auto: Kankinara Bazar - Keutia",
+    "origin": "Kankinara Bazar",
+    "dest": "Keutia",
+    "vias": [
+      "Kachahri Road",
+      "No. Rail Gate Gora Bazar to Sukur Ali More via SP"
+    ],
+    "stops": [
+      "Kankinara Bazar",
+      "Kachahri Road",
+      "No. Rail Gate Gora Bazar to Sukur Ali More via SP",
+      "Keutia"
+    ]
+  },
+  {
+    "code": "Auto: Kamarhati - Oakshineswar",
+    "origin": "Kamarhati",
+    "dest": "Oakshineswar",
+    "vias": [
+      "Dunlop"
+    ],
+    "stops": [
+      "Kamarhati",
+      "Dunlop",
+      "Oakshineswar"
+    ]
+  },
+  {
+    "code": "Auto: Naihati - High Road (Madral More)",
+    "origin": "Naihati",
+    "dest": "High Road (Madral More)",
+    "vias": [
+      "Madral More"
+    ],
+    "stops": [
+      "Naihati",
+      "Madral More",
+      "High Road (Madral More)"
+    ]
+  },
+  {
+    "code": "Auto: Bidhanpark Nibda - Sinthee More",
+    "origin": "Bidhanpark Nibda",
+    "dest": "Sinthee More",
+    "vias": [
+      "Kalabagan"
+    ],
+    "stops": [
+      "Bidhanpark Nibda",
+      "Kalabagan",
+      "Sinthee More"
+    ]
+  },
+  {
+    "code": "Auto: Agarpara Station - Adarshanagar",
+    "origin": "Agarpara Station",
+    "dest": "Adarshanagar",
+    "vias": [
+      "East Station Road",
+      "Bus Stand"
+    ],
+    "stops": [
+      "Agarpara Station",
+      "East Station Road",
+      "Bus Stand",
+      "Adarshanagar"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur Station - Natagarh",
+    "origin": "Sodepur Station",
+    "dest": "Natagarh",
+    "vias": [
+      "Patherpur Bazar",
+      "Mahendra Nagar Narulla College to Dakshineswar Metro via"
+    ],
+    "stops": [
+      "Sodepur Station",
+      "Patherpur Bazar",
+      "Mahendra Nagar Narulla College to Dakshineswar Metro via",
+      "Natagarh"
+    ]
+  },
+  {
+    "code": "Auto: Nilgang, Midland Hospital, No. Crossing, Delhipara Crossing Prabartak Jute Mill - Barrackpore Chiria More",
+    "origin": "Nilgang, Midland Hospital, No. Crossing, Delhipara Crossing Prabartak Jute Mill",
+    "dest": "Barrackpore Chiria More",
+    "vias": [],
+    "stops": [
+      "Nilgang, Midland Hospital, No. Crossing, Delhipara Crossing Prabartak Jute Mill",
+      "Barrackpore Chiria More"
+    ]
+  },
+  {
+    "code": "Auto: Guru Nanak Dental College - Oakshineswar Metro",
+    "origin": "Guru Nanak Dental College",
+    "dest": "Oakshineswar Metro",
+    "vias": [
+      "Nilgang Road",
+      "L9",
+      "BT Road Crossing"
+    ],
+    "stops": [
+      "Guru Nanak Dental College",
+      "Nilgang Road",
+      "L9",
+      "BT Road Crossing",
+      "Oakshineswar Metro"
+    ]
+  },
+  {
+    "code": "Auto: Rathtala - Dunlop",
+    "origin": "Rathtala",
+    "dest": "Dunlop",
+    "vias": [
+      "8.T Road"
+    ],
+    "stops": [
+      "Rathtala",
+      "8.T Road",
+      "Dunlop"
+    ]
+  },
+  {
+    "code": "Auto: Kamarhati - Bandipur",
+    "origin": "Kamarhati",
+    "dest": "Bandipur",
+    "vias": [
+      "Kamarhati ESI Hospital",
+      "Kamarhati Bara Mashiid Loha Gate to Dakshine swar Metro Stauon via Sagar"
+    ],
+    "stops": [
+      "Kamarhati",
+      "Kamarhati ESI Hospital",
+      "Kamarhati Bara Mashiid Loha Gate to Dakshine swar Metro Stauon via Sagar",
+      "Bandipur"
+    ]
+  },
+  {
+    "code": "Auto: Dutta Ghat Road, Ariadaha Hospital, Shaker Bazar BSF Camp, Hiralal College Belgharia - Noapara Metro Station via",
+    "origin": "Dutta Ghat Road, Ariadaha Hospital, Shaker Bazar BSF Camp, Hiralal College Belgharia",
+    "dest": "Noapara Metro Station via",
+    "vias": [],
+    "stops": [
+      "Dutta Ghat Road, Ariadaha Hospital, Shaker Bazar BSF Camp, Hiralal College Belgharia",
+      "Noapara Metro Station via"
+    ]
+  },
+  {
+    "code": "Auto: Wireless More - Muragacha",
+    "origin": "Wireless More",
+    "dest": "Muragacha",
+    "vias": [
+      "Bandipur",
+      "Kundubari",
+      "Namazpara",
+      "Bus Stand"
+    ],
+    "stops": [
+      "Wireless More",
+      "Bandipur",
+      "Kundubari",
+      "Namazpara",
+      "Bus Stand",
+      "Muragacha"
+    ]
+  },
+  {
+    "code": "Auto: Dumdum Cantonment Station (Subhash Nagar) - Motish Roy Setu",
+    "origin": "Dumdum Cantonment Station (Subhash Nagar)",
+    "dest": "Motish Roy Setu",
+    "vias": [
+      "Subhash Nagar"
+    ],
+    "stops": [
+      "Dumdum Cantonment Station (Subhash Nagar)",
+      "Subhash Nagar",
+      "Motish Roy Setu"
+    ]
+  },
+  {
+    "code": "Auto: Dumdum Cantonment Station (Subhash Nagar) - Dudh Pukur",
+    "origin": "Dumdum Cantonment Station (Subhash Nagar)",
+    "dest": "Dudh Pukur",
+    "vias": [
+      "Subhash Nagar"
+    ],
+    "stops": [
+      "Dumdum Cantonment Station (Subhash Nagar)",
+      "Subhash Nagar",
+      "Dudh Pukur"
+    ]
+  },
+  {
+    "code": "Auto: Nawabgani - Wireless Gate",
+    "origin": "Nawabgani",
+    "dest": "Wireless Gate",
+    "vias": [
+      "PN Das College"
+    ],
+    "stops": [
+      "Nawabgani",
+      "PN Das College",
+      "Wireless Gate"
+    ]
+  },
+  {
+    "code": "Auto: Birati Station - Bankra",
+    "origin": "Birati Station",
+    "dest": "Bankra",
+    "vias": [
+      "Tukitaki More",
+      "Anian_garh",
+      "Amrakoion",
+      "AIT Colonv"
+    ],
+    "stops": [
+      "Birati Station",
+      "Tukitaki More",
+      "Anian_garh",
+      "Amrakoion",
+      "AIT Colonv",
+      "Bankra"
+    ]
+  },
+  {
+    "code": "Auto: Nager Bazar - Dumdum Cantonment",
+    "origin": "Nager Bazar",
+    "dest": "Dumdum Cantonment",
+    "vias": [
+      "Central Jail"
+    ],
+    "stops": [
+      "Nager Bazar",
+      "Central Jail",
+      "Dumdum Cantonment"
+    ]
+  },
+  {
+    "code": "Auto: Naihati Hospital - Paltapara More",
+    "origin": "Naihati Hospital",
+    "dest": "Paltapara More",
+    "vias": [
+      "Saheb Colony Panour"
+    ],
+    "stops": [
+      "Naihati Hospital",
+      "Saheb Colony Panour",
+      "Paltapara More"
+    ]
+  },
+  {
+    "code": "Auto: Dumdum Station - Patipukur",
+    "origin": "Dumdum Station",
+    "dest": "Patipukur",
+    "vias": [
+      "Milk Colony"
+    ],
+    "stops": [
+      "Dumdum Station",
+      "Milk Colony",
+      "Patipukur"
+    ]
+  },
+  {
+    "code": "Auto: Sodepur - Ramthakur Mandir",
+    "origin": "Sodepur",
+    "dest": "Ramthakur Mandir",
+    "vias": [
+      "Amrabati National Model School Azadhind Nagar"
+    ],
+    "stops": [
+      "Sodepur",
+      "Amrabati National Model School Azadhind Nagar",
+      "Ramthakur Mandir"
+    ]
+  },
+  {
+    "code": "Auto: Muragacha - Talbagan Bus Stand",
+    "origin": "Muragacha",
+    "dest": "Talbagan Bus Stand",
+    "vias": [
+      "Fatullapur Milangarh Prataoe:arh"
+    ],
+    "stops": [
+      "Muragacha",
+      "Fatullapur Milangarh Prataoe:arh",
+      "Talbagan Bus Stand"
+    ]
+  },
+  {
+    "code": "Auto: Niranjan Sen Nagar - Dunlop",
+    "origin": "Niranjan Sen Nagar",
+    "dest": "Dunlop",
+    "vias": [
+      "Coffee House",
+      "Sonali Cinema Hall"
+    ],
+    "stops": [
+      "Niranjan Sen Nagar",
+      "Coffee House",
+      "Sonali Cinema Hall",
+      "Dunlop"
+    ]
+  },
+  {
+    "code": "Auto: Mohanpur - Muragacha",
+    "origin": "Mohanpur",
+    "dest": "Muragacha",
+    "vias": [
+      "Bandipur More",
+      "Lalitkhola",
+      "Kundubari"
+    ],
+    "stops": [
+      "Mohanpur",
+      "Bandipur More",
+      "Lalitkhola",
+      "Kundubari",
+      "Muragacha"
+    ]
+  },
+  {
+    "code": "Auto: Babu Ghat - Shyamnagar Chowrangee",
+    "origin": "Babu Ghat",
+    "dest": "Shyamnagar Chowrangee",
+    "vias": [
+      "Garulia Municioalitv towards Pinkie More Muragacha to Birati via Suraj Nagar"
+    ],
+    "stops": [
+      "Babu Ghat",
+      "Garulia Municioalitv towards Pinkie More Muragacha to Birati via Suraj Nagar",
+      "Shyamnagar Chowrangee"
+    ]
+  },
+  {
+    "code": "Auto: lchapore - Paltapara",
+    "origin": "lchapore",
+    "dest": "Paltapara",
+    "vias": [
+      "Kantadhar More"
+    ],
+    "stops": [
+      "lchapore",
+      "Kantadhar More",
+      "Paltapara"
+    ]
+  },
+  {
+    "code": "Auto: Rajarhat - New Town Patharghata",
+    "origin": "Rajarhat",
+    "dest": "New Town Patharghata",
+    "vias": [
+      "Alia University"
+    ],
+    "stops": [
+      "Rajarhat",
+      "Alia University",
+      "New Town Patharghata"
+    ]
+  },
+  {
+    "code": "Auto: Jatragachi Metro Station - Eden Court via.-Alia University, Water Tank",
+    "origin": "Jatragachi Metro Station",
+    "dest": "Eden Court via.-Alia University, Water Tank",
+    "vias": [],
+    "stops": [
+      "Jatragachi Metro Station",
+      "Eden Court via.-Alia University, Water Tank"
+    ]
+  },
+  {
+    "code": "Auto: Jagardanga - ECO Space",
+    "origin": "Jagardanga",
+    "dest": "ECO Space",
+    "vias": [
+      "Moon Beam",
+      "Akankha More",
+      "ECO Park Alia University"
+    ],
+    "stops": [
+      "Jagardanga",
+      "Moon Beam",
+      "Akankha More",
+      "ECO Park Alia University",
+      "ECO Space"
+    ]
+  },
+  {
+    "code": "Auto: Jatragachi Metro Station - Rabindra Bharati University",
+    "origin": "Jatragachi Metro Station",
+    "dest": "Rabindra Bharati University",
+    "vias": [
+      "Alia University",
+      "Amity University Reckjoani under Rajarhat to Nababpur ECO"
+    ],
+    "stops": [
+      "Jatragachi Metro Station",
+      "Alia University",
+      "Amity University Reckjoani under Rajarhat to Nababpur ECO",
+      "Rabindra Bharati University"
+    ]
+  },
+  {
+    "code": "Auto: Novotel - NICCO Park",
+    "origin": "Novotel",
+    "dest": "NICCO Park",
+    "vias": [
+      "Thakdari Road",
+      "Lohapool",
+      "Mahisbathan"
+    ],
+    "stops": [
+      "Novotel",
+      "Thakdari Road",
+      "Lohapool",
+      "Mahisbathan",
+      "NICCO Park"
+    ]
+  },
+  {
+    "code": "Auto: Hatgacha - Krishnapur Mission Bazar",
+    "origin": "Hatgacha",
+    "dest": "Krishnapur Mission Bazar",
+    "vias": [
+      "New Town Bridge"
+    ],
+    "stops": [
+      "Hatgacha",
+      "New Town Bridge",
+      "Krishnapur Mission Bazar"
+    ]
+  },
+  {
+    "code": "Auto: ECO Park No. l, No.2, No.3 - Atghara",
+    "origin": "ECO Park No. l, No.2, No.3",
+    "dest": "Atghara",
+    "vias": [
+      "Shrachi",
+      "Rammandir Ghuni"
+    ],
+    "stops": [
+      "ECO Park No. l, No.2, No.3",
+      "Shrachi",
+      "Rammandir Ghuni",
+      "Atghara"
+    ]
+  },
+  {
+    "code": "Auto: Karunamoyee Housing Gate No. - Ultadanga",
+    "origin": "Karunamoyee Housing Gate No.",
+    "dest": "Ultadanga",
+    "vias": [
+      "City Centre-1",
+      "Tank No. 3"
+    ],
+    "stops": [
+      "Karunamoyee Housing Gate No.",
+      "City Centre-1",
+      "Tank No. 3",
+      "Ultadanga"
+    ]
+  },
+  {
+    "code": "Auto: Kanmamoyec (Anandalok) - Sector -IV & V",
+    "origin": "Kanmamoyec (Anandalok)",
+    "dest": "Sector -IV & V",
+    "vias": [
+      "SDF Bulding Karunamo yee (Derozio Shaban) to Ultadanga"
+    ],
+    "stops": [
+      "Kanmamoyec (Anandalok)",
+      "SDF Bulding Karunamo yee (Derozio Shaban) to Ultadanga",
+      "Sector -IV & V"
+    ]
+  },
+  {
+    "code": "Auto: Technopolis - Ultadanga",
+    "origin": "Technopolis",
+    "dest": "Ultadanga",
+    "vias": [
+      "Switch Gate",
+      "Bus Stand",
+      "Baisakhi Tank No."
+    ],
+    "stops": [
+      "Technopolis",
+      "Switch Gate",
+      "Bus Stand",
+      "Baisakhi Tank No.",
+      "Ultadanga"
+    ]
+  },
+  {
+    "code": "Auto: V.I.P. Nazrulpark - Ecopark Gate No.",
+    "origin": "V.I.P. Nazrulpark",
+    "dest": "Ecopark Gate No.",
+    "vias": [
+      "Jagatpur",
+      "Gaurongonagar",
+      "Jatragachi"
+    ],
+    "stops": [
+      "V.I.P. Nazrulpark",
+      "Jagatpur",
+      "Gaurongonagar",
+      "Jatragachi",
+      "Ecopark Gate No."
+    ]
+  },
+  {
+    "code": "Auto: Jatragachi - Jhaligachi",
+    "origin": "Jatragachi",
+    "dest": "Jhaligachi",
+    "vias": [
+      "Kalakhetera",
+      "AMITY"
+    ],
+    "stops": [
+      "Jatragachi",
+      "Kalakhetera",
+      "AMITY",
+      "Jhaligachi"
+    ]
+  },
+  {
+    "code": "Auto: Kanchrapara - Dunlop Ghat",
+    "origin": "Kanchrapara",
+    "dest": "Dunlop Ghat",
+    "vias": [
+      "Bagmore"
+    ],
+    "stops": [
+      "Kanchrapara",
+      "Bagmore",
+      "Dunlop Ghat"
+    ]
+  },
+  {
+    "code": "Auto: Chiriamore State Garage - Kolkata Station",
+    "origin": "Chiriamore State Garage",
+    "dest": "Kolkata Station",
+    "vias": [
+      "Oum Dum Road",
+      "Northern Avenue",
+      "Milk Colony",
+      "Belgachia T.H.K Jain College to Kolkata Station via"
+    ],
+    "stops": [
+      "Chiriamore State Garage",
+      "Oum Dum Road",
+      "Northern Avenue",
+      "Milk Colony",
+      "Belgachia T.H.K Jain College to Kolkata Station via",
+      "Kolkata Station"
+    ]
+  },
+  {
+    "code": "Auto: Chitpur Road Sethpukur Road, P.Nath Mukherjee Road, P.K.Mukherjee Road, R.G.Kar Road Sakher Bazar Metro Station - Vidyasagar Pally",
+    "origin": "Chitpur Road Sethpukur Road, P.Nath Mukherjee Road, P.K.Mukherjee Road, R.G.Kar Road Sakher Bazar Metro Station",
+    "dest": "Vidyasagar Pally",
+    "vias": [],
+    "stops": [
+      "Chitpur Road Sethpukur Road, P.Nath Mukherjee Road, P.K.Mukherjee Road, R.G.Kar Road Sakher Bazar Metro Station",
+      "Vidyasagar Pally"
+    ]
+  },
+  {
+    "code": "Auto: via Kadamtala, James Long Sarani, Purbapara, Netajipall v, Vidvasagar Pally Thakurpukur Metro Station - Pragati Pally via",
+    "origin": "via Kadamtala, James Long Sarani, Purbapara, Netajipall v, Vidvasagar Pally Thakurpukur Metro Station",
+    "dest": "Pragati Pally via",
+    "vias": [],
+    "stops": [
+      "via Kadamtala, James Long Sarani, Purbapara, Netajipall v, Vidvasagar Pally Thakurpukur Metro Station",
+      "Pragati Pally via"
+    ]
+  },
+  {
+    "code": "Auto: Gournagar, Jyotirmoynagar, Purbasan, M.G.Road, Pragati pally Ruby Fish Market - Jalpath",
+    "origin": "Gournagar, Jyotirmoynagar, Purbasan, M.G.Road, Pragati pally Ruby Fish Market",
+    "dest": "Jalpath",
+    "vias": [
+      "Bishnu Bijoli"
+    ],
+    "stops": [
+      "Gournagar, Jyotirmoynagar, Purbasan, M.G.Road, Pragati pally Ruby Fish Market",
+      "Bishnu Bijoli",
+      "Jalpath"
+    ]
+  },
+  {
+    "code": "Auto: Garden, Derozio Childrens Academy, Kheyadah High School (HS) Garia - Kharki",
+    "origin": "Garden, Derozio Childrens Academy, Kheyadah High School (HS) Garia",
+    "dest": "Kharki",
+    "vias": [
+      "Sreenagar",
+      "Eden Sky"
+    ],
+    "stops": [
+      "Garden, Derozio Childrens Academy, Kheyadah High School (HS) Garia",
+      "Sreenagar",
+      "Eden Sky",
+      "Kharki"
+    ]
+  },
+  {
+    "code": "Auto: Terraces, Daspara Khudirabad Playground, Uiial Sangha Club. Dharapara Sadhur Mondir - Sakher Bazar",
+    "origin": "Terraces, Daspara Khudirabad Playground, Uiial Sangha Club. Dharapara Sadhur Mondir",
+    "dest": "Sakher Bazar",
+    "vias": [],
+    "stops": [
+      "Terraces, Daspara Khudirabad Playground, Uiial Sangha Club. Dharapara Sadhur Mondir",
+      "Sakher Bazar"
+    ]
+  },
+  {
+    "code": "Auto: Metro St via Dharapara, Ishan Ghosh Road, Heard Metal, Motilal Gupta Road. Sarsuna Bus Stand - Sakher Bazar Metro",
+    "origin": "Metro St via Dharapara, Ishan Ghosh Road, Heard Metal, Motilal Gupta Road. Sarsuna Bus Stand",
+    "dest": "Sakher Bazar Metro",
+    "vias": [],
+    "stops": [
+      "Metro St via Dharapara, Ishan Ghosh Road, Heard Metal, Motilal Gupta Road. Sarsuna Bus Stand",
+      "Sakher Bazar Metro"
+    ]
+  }
+]

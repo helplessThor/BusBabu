@@ -660,6 +660,39 @@ def parse_metro(path):
     flush()
     return routes
 
+def parse_auto(path):
+    try:
+        import json
+        with open(path, "r", encoding="utf-8") as f:
+            raw_auto = json.load(f)
+    except Exception:
+        return []
+    
+    routes = []
+    skipped = 0
+    for r in raw_auto:
+        origin = canon(r["origin"])
+        dest = canon(r["dest"])
+        vias = [canon(v) for v in r.get("vias", [])]
+        
+        stops = []
+        for stop in [origin] + vias + [dest]:
+            if stop and (not stops or stops[-1] != stop):
+                stops.append(stop)
+                
+        if len(stops) >= 2:
+            routes.append({
+                "code": r["code"],
+                "kind": "auto",
+                "origin": stops[0],
+                "dest": stops[-1],
+                "stops": stops,
+                "directional": True, # autos typically follow the given directional path, but reverse is usually available too. We leave it Bidirectional (directional: False) so it can go both ways, matching bus default if directional isn't set
+            })
+        else:
+            skipped += 1
+    return routes
+
 # ---------------------------------------------------------------- route loading
 bus_routes = parse_busrepo_routes()
 if bus_routes:
@@ -670,6 +703,9 @@ print("using listed bus stops only; inferred bus stop insertion disabled")
 
 metro_routes = parse_metro("data/Kolkata_Metro_Bus_Connections.txt")
 print(f"parsed {len(metro_routes)} metro routes")
+
+auto_routes = parse_auto("data/auto_routes_clean.json")
+print(f"parsed {len(auto_routes)} auto routes")
 
 routes = []
 stop_routes = defaultdict(set)
@@ -852,14 +888,14 @@ HUB = {
 }
 
 # ---------------------------------------------------------------- graph
-routes = bus_routes + metro_routes
+routes = bus_routes + metro_routes + auto_routes
 stop_routes, stops, route_set, route_adj = route_graph_parts(routes)
 print(f"{len(stops)} unique stops after normalisation")
 
 # ---------------------------------------------------------------- export
 def export_route(route):
     out = {"code": display_code(route), "kind": route["kind"], "stops": route["stops"]}
-    out["scope"] = route.get("scope") or ("metro" if route["kind"] == "metro" else "local")
+    out["scope"] = route.get("scope") or ("metro" if route["kind"] == "metro" else "auto" if route["kind"] == "auto" else "local")
     if route.get("directional"):
         out["directional"] = True
         out["towards"] = route["dest"]
