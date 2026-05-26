@@ -247,9 +247,18 @@ function renderResults(res) {
       
     items.forEach((j, idx) => {
       const legs = j.legs;
-      const buses = legs.map((l, i) => 
-        `<span class="bus-badge leg-${i} ${l.kind==='government'?'gov':''}">${esc(l.route)}</span>`
-      ).join(' <span class="arrow">&rsaquo;</span> ');
+      const buses = legs.map((l, i) => {
+        let extraClasses = l.kind === 'government' ? ' gov' : '';
+        if (l.kind === 'metro') {
+          extraClasses += ' metro';
+          if (l.route.includes('Blue')) extraClasses += ' metro-blue';
+          else if (l.route.includes('Green')) extraClasses += ' metro-green';
+          else if (l.route.includes('Orange')) extraClasses += ' metro-orange';
+          else if (l.route.includes('Yellow')) extraClasses += ' metro-yellow';
+          else if (l.route.includes('Purple')) extraClasses += ' metro-purple';
+        }
+        return `<span class="bus-badge leg-${i}${extraClasses}">🚇 ${esc(l.route)}</span>`
+      }).join(' <span class="arrow">&rsaquo;</span> ');
       
       const changes = legs.slice(0, -1).map(l => `<b>${esc(l.to)}</b>`);
       const changeTxt = changes.length ? `Change at ${changes.join(' &amp; ')}` : 'Direct';
@@ -260,12 +269,21 @@ function renderResults(res) {
           ? `<button class="stop-toggle" onclick="event.stopPropagation();this.nextElementSibling.classList.toggle('show')">${mid.length} stops in between &#9662;</button>
              <div class="stop-list">${l.stops.map(s => `<span>${esc(s)}</span>`).join(' &middot; ')}</div>`
           : '';
+        let dotClass = '';
+        if (l.kind === 'metro') {
+          if (l.route.includes('Blue')) dotClass = 'dot-metro-blue';
+          else if (l.route.includes('Green')) dotClass = 'dot-metro-green';
+          else if (l.route.includes('Orange')) dotClass = 'dot-metro-orange';
+          else if (l.route.includes('Yellow')) dotClass = 'dot-metro-yellow';
+          else if (l.route.includes('Purple')) dotClass = 'dot-metro-purple';
+        }
+        
         return `
-          <div class="leg-step leg-${i}">
+          <div class="leg-step leg-${i} ${dotClass}">
             <div class="leg-dot"></div>
             <div class="leg-content">
               <div class="leg-title">${esc(l.from)} &rarr; ${esc(l.to)}</div>
-              <div class="leg-meta">Via ${esc(l.route)} (${l.kind})</div>
+              <div class="leg-meta">Via ${esc(l.route)} (${l.kind === 'metro' ? 'Metro' : l.kind})</div>
               ${sl}
             </div>
           </div>
