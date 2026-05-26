@@ -50,7 +50,7 @@ BLUE LINE (Line 1) — Dakshineswar to Kavi Subhash
 Metro Station                | Nearest Bus Stop
 ------------------------------|---------------------------------
 Dakshineswar                  | Dakshineswar
-Baranagar                     | Dunlop
+Baranagar Metro                    | Dunlop
 Noapara                       | Noapara (Tobin Road)
 Dum Dum                       | Dum Dum Station (Dumdum Chiria More)
 Belgachhia                    | Belgachia Metro
