@@ -714,6 +714,15 @@ html[data-theme="taxi"][data-mode="light"] .primary-btn {
 .bus-badge.metro.metro-yellow { background: linear-gradient(135deg, #a16207, #eab308) !important; text-shadow: 0 1px 2px rgba(0,0,0,0.3); }
 .bus-badge.metro.metro-purple { background: linear-gradient(135deg, #6d28d9, #8b5cf6) !important; }
 
+/* Auto Styles */
+.bus-badge.auto {
+  background: linear-gradient(135deg, #166534, #eab308) !important;
+  color: #fff !important;
+  border: none;
+  font-weight: 800;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
 .arrow {
   color: var(--text-muted);
   font-weight: 800;
@@ -770,6 +779,8 @@ html[data-theme="taxi"][data-mode="light"] .primary-btn {
 .leg-step.dot-metro-yellow .leg-dot { background: #eab308 !important; border-color: #a16207 !important; }
 .leg-step.dot-metro-purple .leg-dot { background: #8b5cf6 !important; border-color: #6d28d9 !important; }
 
+/* Auto Leg Dots */
+.leg-step.dot-auto .leg-dot { background: #eab308 !important; border-color: #166534 !important; }
 .leg-content {
   display: flex;
   flex-direction: column;

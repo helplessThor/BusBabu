@@ -249,15 +249,20 @@ function renderResults(res) {
       const legs = j.legs;
       const buses = legs.map((l, i) => {
         let extraClasses = l.kind === 'government' ? ' gov' : '';
+        let emoji = '🚌';
         if (l.kind === 'metro') {
+          emoji = '🚇';
           extraClasses += ' metro';
           if (l.route.includes('Blue')) extraClasses += ' metro-blue';
           else if (l.route.includes('Green')) extraClasses += ' metro-green';
           else if (l.route.includes('Orange')) extraClasses += ' metro-orange';
           else if (l.route.includes('Yellow')) extraClasses += ' metro-yellow';
           else if (l.route.includes('Purple')) extraClasses += ' metro-purple';
+        } else if (l.kind === 'auto') {
+          emoji = '🛺';
+          extraClasses += ' auto';
         }
-        return `<span class="bus-badge leg-${i}${extraClasses}">🚇 ${esc(l.route)}</span>`
+        return `<span class="bus-badge leg-${i}${extraClasses}">${emoji} ${esc(l.route)}</span>`
       }).join(' <span class="arrow">&rsaquo;</span> ');
       
       const changes = legs.slice(0, -1).map(l => `<b>${esc(l.to)}</b>`);
@@ -276,6 +281,8 @@ function renderResults(res) {
           else if (l.route.includes('Orange')) dotClass = 'dot-metro-orange';
           else if (l.route.includes('Yellow')) dotClass = 'dot-metro-yellow';
           else if (l.route.includes('Purple')) dotClass = 'dot-metro-purple';
+        } else if (l.kind === 'auto') {
+          dotClass = 'dot-auto';
         }
         
         return `
@@ -283,7 +290,7 @@ function renderResults(res) {
             <div class="leg-dot"></div>
             <div class="leg-content">
               <div class="leg-title">${esc(l.from)} &rarr; ${esc(l.to)}</div>
-              <div class="leg-meta">Via ${esc(l.route)} (${l.kind === 'metro' ? 'Metro' : l.kind})</div>
+              <div class="leg-meta">Via ${esc(l.route)} (${l.kind === 'metro' ? 'Metro' : l.kind === 'auto' ? 'Auto Rickshaw' : l.kind})</div>
               ${sl}
             </div>
           </div>
