@@ -207,7 +207,7 @@ ALIASES = {
     "belgachia metro": "belgachia",
     "sovabazar metro": "sovabazar", "sovabazar sutanuti": "sovabazar",
     "mahatma gandhi road": "mg road", "mg road metro": "mg road",
-    "baranagar": "dunlop",
+    "baranagar metro": "dunlop",
     "mahanayak uttam kumar": "tollygunge metro",
     "netaji": "kudghat",
     "masterda surya sen": "bansdroni",
