@@ -101,7 +101,12 @@ export class BusRouter {
 
     // direct
     start.filter(r => end.has(r))
-         .sort((a, b) => Math.abs(this.idx(a, o) - this.idx(a, d)) - Math.abs(this.idx(b, o) - this.idx(b, d)))
+         .sort((a, b) => {
+           const aMetro = this.routes[a].kind === 'metro' ? -1 : 0;
+           const bMetro = this.routes[b].kind === 'metro' ? -1 : 0;
+           if (aMetro !== bMetro) return aMetro - bMetro;
+           return Math.abs(this.idx(a, o) - this.idx(a, d)) - Math.abs(this.idx(b, o) - this.idx(b, d));
+         })
          .forEach(r => res.direct.push({
            legs: [this.leg(r, o, d)], 
            cost: Math.abs(this.idx(r, o) - this.idx(r, d))
@@ -121,7 +126,12 @@ export class BusRouter {
       });
     });
     
-    c1.sort((a, b) => a.cost - b.cost).slice(0, 10).forEach(x => {
+    c1.sort((a, b) => {
+      const aMetro = (this.routes[a.r1].kind === 'metro' || this.routes[a.r2].kind === 'metro') ? -1 : 0;
+      const bMetro = (this.routes[b.r1].kind === 'metro' || this.routes[b.r2].kind === 'metro') ? -1 : 0;
+      if (aMetro !== bMetro) return aMetro - bMetro;
+      return a.cost - b.cost;
+    }).slice(0, 10).forEach(x => {
       res.one.push({ 
         legs: [this.leg(x.r1, o, x.t), this.leg(x.r2, x.t, d)], 
         cost: x.cost 
@@ -157,7 +167,12 @@ export class BusRouter {
         });
       });
       
-      c2.sort((a, b) => a.cost - b.cost).slice(0, 6).forEach(x => {
+      c2.sort((a, b) => {
+        const aMetro = (this.routes[a.r1].kind === 'metro' || this.routes[a.r2].kind === 'metro' || this.routes[a.r3].kind === 'metro') ? -1 : 0;
+        const bMetro = (this.routes[b.r1].kind === 'metro' || this.routes[b.r2].kind === 'metro' || this.routes[b.r3].kind === 'metro') ? -1 : 0;
+        if (aMetro !== bMetro) return aMetro - bMetro;
+        return a.cost - b.cost;
+      }).slice(0, 6).forEach(x => {
         res.two.push({ 
           legs: [this.leg(x.r1, o, x.a), this.leg(x.r2, x.a, x.b), this.leg(x.r3, x.b, d)], 
           cost: x.cost 
