@@ -698,7 +698,7 @@ def parse_auto(path):
                 "origin": seq[0],
                 "dest": seq[-1],
                 "stops": seq,
-                "directional": True, # autos typically follow the given directional path
+                # Auto routes are bidirectional
             })
         else:
             skipped += 1
