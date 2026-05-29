@@ -661,33 +661,44 @@ def parse_metro(path):
     return routes
 
 def parse_auto(path):
-    try:
-        import json
-        with open(path, "r", encoding="utf-8") as f:
-            raw_auto = json.load(f)
-    except Exception:
-        return []
-    
     routes = []
     skipped = 0
-    for r in raw_auto:
-        origin = canon(r["origin"])
-        dest = canon(r["dest"])
-        vias = [canon(v) for v in r.get("vias", [])]
+    for raw in open(path, encoding="utf-8"):
+        line = raw.strip()
+        if not line or line.startswith("#"):
+            continue
         
-        stops = []
-        for stop in [origin] + vias + [dest]:
-            if stop and (not stops or stops[-1] != stop):
-                stops.append(stop)
+        m = re.search(r"\bvia\b", line, re.I)
+        head, via = (line[:m.start()], line[m.end():]) if m else (line, "")
+        
+        low = head.lower()
+        if " to " in low:
+            i = low.find(" to ")
+            origin, dest = head[:i], head[i+4:]
+        else:
+            skipped += 1
+            continue
+            
+        origin = terminal_name(origin.strip())
+        dest = terminal_name(dest.strip())
+        code = f"Auto: {origin} - {dest}"
+        
+        via = via.strip().strip(" []()").rstrip(").]").strip()
+        parts = [origin] + re.split(r"[,/]", via) + [dest]
+        
+        seq = []
+        for p in parts:
+            if p.strip():
+                add_stop(seq, p)
                 
-        if len(stops) >= 2:
+        if len(seq) >= 2:
             routes.append({
-                "code": r["code"],
+                "code": code,
                 "kind": "auto",
-                "origin": stops[0],
-                "dest": stops[-1],
-                "stops": stops,
-                "directional": True, # autos typically follow the given directional path, but reverse is usually available too. We leave it Bidirectional (directional: False) so it can go both ways, matching bus default if directional isn't set
+                "origin": seq[0],
+                "dest": seq[-1],
+                "stops": seq,
+                "directional": True, # autos typically follow the given directional path
             })
         else:
             skipped += 1
@@ -704,7 +715,7 @@ print("using listed bus stops only; inferred bus stop insertion disabled")
 metro_routes = parse_metro("data/Kolkata_Metro_Bus_Connections.txt")
 print(f"parsed {len(metro_routes)} metro routes")
 
-auto_routes = parse_auto("data/auto_routes_clean.json")
+auto_routes = parse_auto("data/cleaned_auto_routes.txt")
 print(f"parsed {len(auto_routes)} auto routes")
 
 routes = []
