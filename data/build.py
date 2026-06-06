@@ -948,7 +948,6 @@ HUB = {
 # ---------------------------------------------------------------- graph
 routes = bus_routes + metro_routes + auto_routes
 enrich_short_gaps(routes)
-enrich_geocoded_segments(routes, HUB)
 stop_routes, stops, route_set, route_adj = route_graph_parts(routes)
 print(f"{len(stops)} unique stops after normalisation")
 
