@@ -441,6 +441,51 @@ def parse_busrepo_file(path):
         print(f"  ({skipped} non-route lines skipped in {path})")
     return routes
 
+def route_match_key(code):
+    code = re.sub(r"\(.*?\)", "", code).strip()
+    return re.sub(r"[^A-Za-z0-9]", "", code).upper()
+
+def apply_intermediate_hints(routes, path):
+    try:
+        import json
+        raw_hints = json.load(open(path, encoding="utf-8"))
+    except FileNotFoundError:
+        print("no route intermediate hints file found")
+        return
+
+    hints_by_code = defaultdict(list)
+    for hint in raw_hints:
+        a, c = hint.get("from"), hint.get("to")
+        mids = hint.get("stops") or []
+        if a and c and mids:
+            hints_by_code[route_match_key(hint.get("code", ""))].append((a, c, mids))
+
+    added = 0
+    touched = 0
+    for route in routes:
+        hints = hints_by_code.get(route_match_key(route["code"]))
+        if not hints:
+            continue
+        by_edge = {(a, c): mids for a, c, mids in hints}
+        current_stops = set(route["stops"])
+        expanded = []
+        changed = False
+        for a, c in zip(route["stops"], route["stops"][1:]):
+            expanded.append(a)
+            mids = by_edge.get((a, c), [])
+            for stop in mids:
+                if stop in current_stops or stop in expanded or stop in (a, c):
+                    continue
+                expanded.append(stop)
+                current_stops.add(stop)
+                added += 1
+                changed = True
+        expanded.append(route["stops"][-1])
+        if changed:
+            route["stops"] = expanded
+            touched += 1
+    print(f"restored {added} bounded intermediate stops on {touched} current routes")
+
 def parse_busrepo_routes():
     if not all(os.path.exists(path) for path in BUSREPO_FILES):
         return []
@@ -711,6 +756,7 @@ if bus_routes:
 else:
     raise SystemExit("Missing Bus Repository route sources. Expected raw_busrepo_routes1.js through raw_busrepo_routes4.js.")
 print("using listed bus stops only; inferred bus stop insertion disabled")
+apply_intermediate_hints(bus_routes, "data/route_intermediate_hints.json")
 
 metro_routes = parse_metro("data/Kolkata_Metro_Bus_Connections.txt")
 print(f"parsed {len(metro_routes)} metro routes")
@@ -719,6 +765,7 @@ auto_routes = parse_auto("data/cleaned_auto_routes.txt")
 print(f"parsed {len(auto_routes)} auto routes")
 
 routes = []
+
 stop_routes = defaultdict(set)
 stops = []
 route_set = []
@@ -900,6 +947,8 @@ HUB = {
 
 # ---------------------------------------------------------------- graph
 routes = bus_routes + metro_routes + auto_routes
+enrich_short_gaps(routes)
+enrich_geocoded_segments(routes, HUB)
 stop_routes, stops, route_set, route_adj = route_graph_parts(routes)
 print(f"{len(stops)} unique stops after normalisation")
 
