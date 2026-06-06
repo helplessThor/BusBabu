@@ -70,7 +70,7 @@ export class BusMap {
             fillColor: '#fff',
             fillOpacity: 1,
             weight: 2
-          }).addTo(this.layerGroup).bindTooltip(stopName, { direction: 'top', className: 'pin' });
+          }).addTo(this.layerGroup).bindTooltip(stopName, { permanent: true, direction: 'top', className: 'pin' });
         } else {
           missing++;
         }
@@ -106,7 +106,7 @@ export class BusMap {
           iconSize: [isBig ? 28 : 20, isBig ? 28 : 20],
           iconAnchor: [isBig ? 14 : 10, isBig ? 14 : 10]
         })
-      }).addTo(this.layerGroup).bindTooltip(m.s, { direction: 'top', className: 'pin' });
+      }).addTo(this.layerGroup).bindTooltip(m.s, { permanent: true, direction: 'top', className: 'pin' });
     });
 
     if (hasValidPoints) {
