@@ -19,7 +19,7 @@ export class BusMap {
     L.control.zoom({ position: 'bottomright' }).addTo(this.map);
 
     // Using CartoDB Positron for a clean look matching our aesthetics
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?api_key=cb1_2kri_1_28a2782e56eff9b9ea76ac22', {
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=cb1_2kri_1_28a2782e56eff9b9ea76ac22', {
       attribution: '&copy; OpenStreetMap &copy; CARTO',
       maxZoom: 19
     }).addTo(this.map);
