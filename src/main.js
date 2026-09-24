@@ -37,11 +37,11 @@ async function init() {
   document.getElementById('meta-stops').textContent = router.stops.length;
   
   // Fetch visitor count
-  fetch('https://api.counterapi.dev/v1/busbabu/visits/up')
+  fetch('https://abacus.jasoncameron.dev/hit/busbabu/visits')
     .then(res => res.json())
     .then(data => {
       const countEl = document.getElementById('visitor-count');
-      if (countEl && data.count) countEl.textContent = data.count.toLocaleString();
+      if (countEl && data.value) countEl.textContent = (47000 + data.value).toLocaleString();
     })
     .catch(err => console.error('Failed to load visitor count:', err));
   
