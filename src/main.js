@@ -1,6 +1,7 @@
 import './style.css';
 import { BusRouter } from './routing.js';
 import { BusMap } from './map.js';
+import { inject } from '@vercel/analytics';
 
 const router = new BusRouter();
 const map = new BusMap('map-container');
@@ -23,6 +24,9 @@ const btnThemeToggle = document.getElementById('theme-toggle');
 
 /* --- Initialization --- */
 async function init() {
+  // Initialize Vercel Analytics
+  inject();
+  
   const loaded = await router.loadData();
   if (!loaded) {
     elResults.innerHTML = `<div class="empty-state"><h3>Error loading data</h3><p>Please check your connection and refresh.</p></div>`;
