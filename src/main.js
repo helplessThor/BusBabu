@@ -57,6 +57,9 @@ async function init() {
   const savedMode = localStorage.getItem('busbabu-mode') || 'light';
   setMode(savedMode);
 
+  // Initialize the map early so it acts as a nice background placeholder
+  map.init();
+
   // Hide splash screen after a small delay to ensure smooth transition
   setTimeout(() => {
     const splash = document.getElementById('splash-screen');

@@ -384,6 +384,7 @@ BUSREPO_FILES = (
     "data/raw_busrepo_routes2.js",
     "data/raw_busrepo_routes3.js",
     "data/raw_busrepo_routes4.js",
+    "data/raw_busrepo_routes_kolbusopedia.js",
 )
 BUSREPO_ROUTE_RE = re.compile(
     r"^\s*(.*?)\s*:\s*(.*?)\s*\[\s*via\s*:?\s*(.*?)\s*\]\s*:",

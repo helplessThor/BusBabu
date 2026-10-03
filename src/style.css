@@ -22,9 +22,11 @@
 
 /* --- THEME 1: BUS (Blue & Yellow Kolkata Bus) --- */
 html[data-theme="bus"][data-mode="light"] {
-  --primary: #005A9C; /* Blue */
+  --primary: #005A9C;
+  /* Blue */
   --primary-hover: #00407a;
-  --secondary: #FDE047; /* Yellow */
+  --secondary: #FDE047;
+  /* Yellow */
   --background: #f0f4f8;
   --surface: #ffffff;
   --text: #16211a;
@@ -59,9 +61,11 @@ html[data-theme="bus"][data-mode="dark"] {
 
 /* --- THEME 2: TAXI (Classic Yellow Taxi) --- */
 html[data-theme="taxi"][data-mode="light"] {
-  --primary: #f0b90b; /* Ambassador Yellow */
+  --primary: #f0b90b;
+  /* Ambassador Yellow */
   --primary-hover: #dca300;
-  --secondary: #1a1a1a; /* Black roof */
+  --secondary: #1a1a1a;
+  /* Black roof */
   --background: #f8f6f0;
   --surface: #ffffff;
   --text: #1a1a1a;
@@ -77,7 +81,7 @@ html[data-theme="taxi"][data-mode="light"] {
 }
 
 html[data-theme="taxi"][data-mode="dark"] {
-  --primary: #fcd34d; 
+  --primary: #fcd34d;
   --primary-hover: #fbbf24;
   --secondary: #ffffff;
   --background: #121212;
@@ -138,13 +142,27 @@ html[data-theme="taxi"][data-mode="dark"] {
 }
 
 @keyframes rotation {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes pulse {
-  0%, 100% { opacity: 1; transform: scale(1); }
-  50% { opacity: 0.8; transform: scale(0.95); }
+
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  50% {
+    opacity: 0.8;
+    transform: scale(0.95);
+  }
 }
 
 /* Reset and Base Styles */
@@ -177,7 +195,9 @@ input {
 }
 
 /* Typography */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   line-height: 1.2;
 }
 
@@ -241,7 +261,8 @@ h1 {
 }
 
 .tagline {
-  display: none; /* Hide old tagline to keep it clean */
+  display: none;
+  /* Hide old tagline to keep it clean */
 }
 
 .header-desc {
@@ -335,6 +356,7 @@ h1 {
   color: #fff;
   /* Taxi theme dark mode primary is bright yellow, keep text dark for contrast */
 }
+
 html[data-theme="taxi"][data-mode="dark"] .theme-chip.active,
 html[data-theme="taxi"][data-mode="light"] .theme-chip.active {
   color: #000;
@@ -483,6 +505,7 @@ html[data-theme="taxi"][data-mode="light"] .primary-btn {
   transform: translateY(2px);
   box-shadow: 0 2px 0 var(--primary-hover);
 }
+
 .primary-btn:active {
   transform: translateY(4px);
   box-shadow: none;
@@ -522,7 +545,8 @@ html[data-theme="taxi"][data-mode="light"] .primary-btn {
   border-bottom: none;
 }
 
-.ac-item:hover, .ac-item.highlight {
+.ac-item:hover,
+.ac-item.highlight {
   background: var(--route-direct);
 }
 
@@ -593,6 +617,10 @@ html[data-theme="taxi"][data-mode="light"] .primary-btn {
   border: 2px dashed var(--border);
   border-radius: var(--radius-md);
   color: var(--text-muted);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 238px;
 }
 
 .empty-icon {
@@ -613,7 +641,7 @@ html[data-theme="taxi"][data-mode="light"] .primary-btn {
 }
 
 #map-container {
-  height: 400px;
+  height: 285px;
   background: var(--border);
   border-radius: var(--radius-md);
   border: 2px solid var(--border);
@@ -622,7 +650,7 @@ html[data-theme="taxi"][data-mode="light"] .primary-btn {
 
 @media (min-width: 900px) {
   #map-container {
-    height: calc(100vh - 200px);
+    height: 285px; /* Match the search box height exactly */
   }
 }
 
@@ -650,9 +678,17 @@ html[data-theme="taxi"][data-mode="light"] .primary-btn {
   color: var(--text);
 }
 
-.group-title.direct { background: var(--route-direct); }
-.group-title.one-change { background: var(--route-one); }
-.group-title.two-changes { background: var(--route-two); }
+.group-title.direct {
+  background: var(--route-direct);
+}
+
+.group-title.one-change {
+  background: var(--route-one);
+}
+
+.group-title.two-changes {
+  background: var(--route-two);
+}
 
 .journey-card {
   background: var(--surface);
@@ -682,7 +718,7 @@ html[data-theme="taxi"][data-mode="light"] .primary-btn {
   gap: 8px;
   padding: 12px 16px;
   border-bottom: 1px solid var(--border);
-  background: rgba(0,0,0,0.02);
+  background: rgba(0, 0, 0, 0.02);
 }
 
 .bus-badge {
@@ -694,25 +730,52 @@ html[data-theme="taxi"][data-mode="light"] .primary-btn {
   color: #fff;
 }
 
-.bus-badge.gov { opacity: 0.9; border: 1px dotted rgba(255,255,255,0.6); }
+.bus-badge.gov {
+  opacity: 0.9;
+  border: 1px dotted rgba(255, 255, 255, 0.6);
+}
 
-.bus-badge.leg-0 { background: var(--leg-1); }
-.bus-badge.leg-1 { background: var(--leg-2); }
-.bus-badge.leg-2 { background: var(--leg-3); }
+.bus-badge.leg-0 {
+  background: var(--leg-1);
+}
+
+.bus-badge.leg-1 {
+  background: var(--leg-2);
+}
+
+.bus-badge.leg-2 {
+  background: var(--leg-3);
+}
 
 /* Metro Styles */
 .bus-badge.metro {
   color: #fff !important;
   border: none;
   font-weight: 800;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
-.bus-badge.metro.metro-blue { background: linear-gradient(135deg, #1d4ed8, #3b82f6) !important; }
-.bus-badge.metro.metro-green { background: linear-gradient(135deg, #15803d, #22c55e) !important; }
-.bus-badge.metro.metro-orange { background: linear-gradient(135deg, #c2410c, #f97316) !important; }
-.bus-badge.metro.metro-yellow { background: linear-gradient(135deg, #a16207, #eab308) !important; text-shadow: 0 1px 2px rgba(0,0,0,0.3); }
-.bus-badge.metro.metro-purple { background: linear-gradient(135deg, #6d28d9, #8b5cf6) !important; }
+
+.bus-badge.metro.metro-blue {
+  background: linear-gradient(135deg, #1d4ed8, #3b82f6) !important;
+}
+
+.bus-badge.metro.metro-green {
+  background: linear-gradient(135deg, #15803d, #22c55e) !important;
+}
+
+.bus-badge.metro.metro-orange {
+  background: linear-gradient(135deg, #c2410c, #f97316) !important;
+}
+
+.bus-badge.metro.metro-yellow {
+  background: linear-gradient(135deg, #a16207, #eab308) !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.bus-badge.metro.metro-purple {
+  background: linear-gradient(135deg, #6d28d9, #8b5cf6) !important;
+}
 
 /* Auto Styles */
 .bus-badge.auto {
@@ -720,9 +783,10 @@ html[data-theme="taxi"][data-mode="light"] .primary-btn {
   color: #fff !important;
   border: none;
   font-weight: 800;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-  text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
+
 .arrow {
   color: var(--text-muted);
   font-weight: 800;
@@ -768,19 +832,50 @@ html[data-theme="taxi"][data-mode="light"] .primary-btn {
   border: 2px solid var(--surface);
 }
 
-.leg-step.leg-0 .leg-dot { background: var(--leg-1); }
-.leg-step.leg-1 .leg-dot { background: var(--leg-2); }
-.leg-step.leg-2 .leg-dot { background: var(--leg-3); }
+.leg-step.leg-0 .leg-dot {
+  background: var(--leg-1);
+}
+
+.leg-step.leg-1 .leg-dot {
+  background: var(--leg-2);
+}
+
+.leg-step.leg-2 .leg-dot {
+  background: var(--leg-3);
+}
 
 /* Metro Leg Dots */
-.leg-step.dot-metro-blue .leg-dot { background: #3b82f6 !important; border-color: #1d4ed8 !important; }
-.leg-step.dot-metro-green .leg-dot { background: #22c55e !important; border-color: #15803d !important; }
-.leg-step.dot-metro-orange .leg-dot { background: #f97316 !important; border-color: #c2410c !important; }
-.leg-step.dot-metro-yellow .leg-dot { background: #eab308 !important; border-color: #a16207 !important; }
-.leg-step.dot-metro-purple .leg-dot { background: #8b5cf6 !important; border-color: #6d28d9 !important; }
+.leg-step.dot-metro-blue .leg-dot {
+  background: #3b82f6 !important;
+  border-color: #1d4ed8 !important;
+}
+
+.leg-step.dot-metro-green .leg-dot {
+  background: #22c55e !important;
+  border-color: #15803d !important;
+}
+
+.leg-step.dot-metro-orange .leg-dot {
+  background: #f97316 !important;
+  border-color: #c2410c !important;
+}
+
+.leg-step.dot-metro-yellow .leg-dot {
+  background: #eab308 !important;
+  border-color: #a16207 !important;
+}
+
+.leg-step.dot-metro-purple .leg-dot {
+  background: #8b5cf6 !important;
+  border-color: #6d28d9 !important;
+}
 
 /* Auto Leg Dots */
-.leg-step.dot-auto .leg-dot { background: #eab308 !important; border-color: #166534 !important; }
+.leg-step.dot-auto .leg-dot {
+  background: #eab308 !important;
+  border-color: #166534 !important;
+}
+
 .leg-content {
   display: flex;
   flex-direction: column;
@@ -850,4 +945,97 @@ html[data-theme="taxi"][data-mode="light"] .primary-btn {
 
 .stop-list.show {
   display: block;
+}
+
+/* Awards Marquee Section */
+.awards-marquee-section {
+  margin: 40px auto 20px;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  padding: 16px 0;
+}
+
+.awards-title {
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--primary);
+  margin-top: 0;
+  margin-bottom: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.awards-marquee {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.awards-track {
+  display: flex;
+  width: calc(200px * 10);
+  /* 5 items * 2 sets */
+  animation: scrollMarquee 20s linear infinite;
+  align-items: center;
+}
+
+.awards-track:hover {
+  animation-play-state: paused;
+}
+
+.award-item {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 0 20px;
+}
+
+.award-item img {
+  max-width: 100%;
+  max-height: 60px;
+  object-fit: contain;
+  filter: grayscale(100%) opacity(0.8);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.award-item img:hover {
+  filter: grayscale(0%) opacity(1);
+  transform: scale(1.05);
+}
+
+
+@keyframes scrollMarquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-200px * 5));
+  }
+}
+
+@media (max-width: 600px) {
+  .awards-track {
+    width: calc(150px * 10);
+  }
+
+  .award-item {
+    width: 150px;
+    padding: 0 10px;
+  }
+
+  @keyframes scrollMarquee {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(calc(-150px * 5));
+    }
+  }
 }
