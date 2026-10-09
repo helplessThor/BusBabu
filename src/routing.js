@@ -95,6 +95,14 @@ export class BusRouter {
     };
   }
 
+  canRide(r, o, d) {
+    const idxO = this.idx(r, o);
+    const idxD = this.idx(r, d);
+    if (idxO === -1 || idxD === -1) return false;
+    if (this.routes[r].directional && idxO > idxD) return false;
+    return true;
+  }
+
   find(o, d) {
     const res = { origin: o, dest: d, direct: [], one: [], two: [] };
     if (!this.stopRoutes[o] || !this.stopRoutes[d]) { 
@@ -106,17 +114,24 @@ export class BusRouter {
     const end = new Set(this.stopRoutes[d]);
 
     // direct
-    start.filter(r => end.has(r))
+    const seenDirect = new Set();
+    start.filter(r => end.has(r) && this.canRide(r, o, d))
          .sort((a, b) => {
            const pA = this.routePriority(a);
            const pB = this.routePriority(b);
            if (pA !== pB) return pA - pB;
            return Math.abs(this.idx(a, o) - this.idx(a, d)) - Math.abs(this.idx(b, o) - this.idx(b, d));
          })
-         .forEach(r => res.direct.push({
-           legs: [this.leg(r, o, d)], 
-           cost: Math.abs(this.idx(r, o) - this.idx(r, d))
-         }));
+         .forEach(r => {
+           const code = this.routes[r].code;
+           if (!seenDirect.has(code)) {
+             seenDirect.add(code);
+             res.direct.push({
+               legs: [this.leg(r, o, d)], 
+               cost: Math.abs(this.idx(r, o) - this.idx(r, d))
+             });
+           }
+         });
 
     // one transfer
     const seen = new Set(), c1 = [];
@@ -127,6 +142,7 @@ export class BusRouter {
         if (seen.has(key)) return;
         const [t, cost] = this.bestTransfer(r1, r2, o, d);
         if (t == null || t === o || t === d) return;
+        if (!this.canRide(r1, o, t) || !this.canRide(r2, t, d)) return;
         seen.add(key); 
         c1.push({ cost, r1, r2, t });
       });
@@ -161,6 +177,7 @@ export class BusRouter {
             let bt = null, bc = 1e9;
             s12.forEach(a => s23.forEach(b => {
               if (new Set([o, a, b, d]).size < 4) return;
+              if (!this.canRide(r1, o, a) || !this.canRide(r2, a, b) || !this.canRide(r3, b, d)) return;
               const cc = Math.abs(this.idx(r1, o) - this.idx(r1, a)) 
                        + Math.abs(this.idx(r2, a) - this.idx(r2, b))
                        + Math.abs(this.idx(r3, b) - this.idx(r3, d));
