@@ -438,6 +438,23 @@ def parse_busrepo_file(path):
             "scope": scope,
             "source": source,
         })
+        
+        # Kolbusopedia only provides one direction. We explicitly generate the reverse direction 
+        # so that our directional routing engine can still find return trips, and to maintain 
+        # parity with the BusRepo dataset format which explicitly lists Up and Down trips.
+        if source == "kolbusopedia":
+            rev_seq = list(reversed(seq))
+            routes.append({
+                "code": code,
+                "kind": busrepo_kind(code, head),
+                "origin": rev_seq[0],
+                "dest": rev_seq[-1],
+                "stops": rev_seq,
+                "directional": True,
+                "scope": scope,
+                "source": source,
+            })
+            
     print(f"parsed {len(routes)} directional routes from {path}")
     if skipped:
         print(f"  ({skipped} non-route lines skipped in {path})")
