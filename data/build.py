@@ -415,6 +415,7 @@ def iter_js_route_strings(path):
 def parse_busrepo_file(path):
     routes, skipped = [], 0
     scope = "local" if path.endswith("routes1.js") else "regional"
+    source = "kolbusopedia" if "kolbusopedia" in path else "busrepo"
     for raw_route in iter_js_route_strings(path):
         m = BUSREPO_ROUTE_RE.match(raw_route)
         if not m:
@@ -435,7 +436,7 @@ def parse_busrepo_file(path):
             "stops": seq,
             "directional": True,
             "scope": scope,
-            "source": "busrepo",
+            "source": source,
         })
     print(f"parsed {len(routes)} directional routes from {path}")
     if skipped:
@@ -490,7 +491,20 @@ def apply_intermediate_hints(routes, path):
 def parse_busrepo_routes():
     if not all(os.path.exists(path) for path in BUSREPO_FILES):
         return []
-    return list(itertools.chain.from_iterable(parse_busrepo_file(path) for path in BUSREPO_FILES))
+    
+    all_routes = list(itertools.chain.from_iterable(parse_busrepo_file(path) for path in BUSREPO_FILES))
+    
+    # Identify which codes have Kolbusopedia updates
+    kolb_codes = {r["code"].lower().strip() for r in all_routes if r.get("source") == "kolbusopedia"}
+    
+    filtered = []
+    for r in all_routes:
+        code_low = r["code"].lower().strip()
+        if r.get("source") == "busrepo" and code_low in kolb_codes:
+            continue
+        filtered.append(r)
+        
+    return filtered
 
 PRIVATE_MINI_CODE = re.compile(r"^(S-\d|M-\d|MM\d|MN\d)", re.I)
 MINI_PUBLIC_NAMES = {
