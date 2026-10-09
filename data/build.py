@@ -195,6 +195,7 @@ ALIASES = {
     # genuine two-names-for-one-spot synonyms only
     "dalhousie": "bbd bag", "b b d bag": "bbd bag",
     "esplanade l20": "esplanade",
+    "dharmatala": "esplanade",
     "howrah stn": "howrah station",
     "sealdah station": "sealdah", "sealdah stn": "sealdah",
     "central metro": "central",
