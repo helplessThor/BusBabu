@@ -581,7 +581,7 @@ html[data-theme="taxi"][data-mode="light"] .primary-btn {
 }
 
 #results-container {
-  max-height: 600px;
+  max-height: 260px;
   overflow-y: auto;
   padding-right: 8px;
 }
