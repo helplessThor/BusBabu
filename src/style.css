@@ -580,6 +580,30 @@ html[data-theme="taxi"][data-mode="light"] .primary-btn {
   }
 }
 
+#results-container {
+  max-height: 600px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+/* Custom scrollbar for results container */
+#results-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+#results-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#results-container::-webkit-scrollbar-thumb {
+  background-color: var(--border);
+  border-radius: 4px;
+}
+
+#results-container::-webkit-scrollbar-thumb:hover {
+  background-color: var(--text-muted);
+}
+
 .panel-header {
   display: flex;
   justify-content: space-between;
